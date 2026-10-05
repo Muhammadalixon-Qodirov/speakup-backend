@@ -88,3 +88,19 @@ berilmaydi, faqat o'qish.
 
 `speakup-coturn` host tarmog'ida ishlaydi va `turnserver.conf` ga bog'liq —
 uni deploy o'zgartirmaydi.
+
+## Loyiha tarkibi — qaysi repo nima
+
+SpeakUp ikki qismdan iborat va ular **alohida** repolarda:
+
+| Qism | Repo | Texnologiya |
+|---|---|---|
+| Backend (bu repo) | `Muhammadxon2oo7/speakup-backend` | Go 1.26, Docker |
+| Frontend | `Muhammadxon2oo7/speak-up` | Next.js 14 + React 18 |
+
+`FRONTEND.md` ikkala repoda ham bor va bir xil — frontend bilan backend
+o'rtasidagi API shartnomasi shu faylda. **O'zgartirsangiz ikkalasida ham
+yangilang**, aks holda ular bir-biridan uzilib qoladi.
+
+Diqqat: `Muhammadxon2oo7/backend` — 2025-yilning eski mock serveri
+(`db.json`, `server.js`). Bu loyihaga aloqasi yo'q, chalkashtirmang.
