@@ -12,6 +12,9 @@ BRANCH=main
 
 cd "$APP_DIR"
 
+# Papka egasi ubuntu, biz root — gitni to'xtatmaslik uchun
+git config --global --get-all safe.directory 2>/dev/null | grep -qx "$APP_DIR" || git config --global --add safe.directory "$APP_DIR"
+
 # --- Oldindan tekshirish: sirlar joyidami? -------------------------
 [ -f .env ] || { echo "XATO: $APP_DIR/.env topilmadi. Deploy to'xtatildi."; exit 1; }
 grep -q '^POSTGRES_PASSWORD=' .env || {

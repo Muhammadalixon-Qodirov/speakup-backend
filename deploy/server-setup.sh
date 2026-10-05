@@ -74,6 +74,16 @@ echo
 echo "#####################################################################"
 echo "#  4-qadam: $APP_DIR ni git repoga aylantirish"
 echo "#####################################################################"
+# Papka 'ubuntu' foydalanuvchisiga tegishli, biz esa root sifatida
+# ishlayapmiz. Git bunday holatda "dubious ownership" deb to'xtaydi.
+# Shu papkani ishonchli deb belgilaymiz (faqat shuni, hammasini emas).
+if git config --global --get-all safe.directory 2>/dev/null | grep -qx "$APP_DIR"; then
+  echo "  safe.directory allaqachon sozlangan"
+else
+  git config --global --add safe.directory "$APP_DIR"
+  echo "  safe.directory qo'shildi ($APP_DIR)"
+fi
+
 if [ -d .git ]; then
   echo "  allaqachon git repo"
   git remote set-url origin "$REPO_SSH" 2>/dev/null || git remote add origin "$REPO_SSH"
