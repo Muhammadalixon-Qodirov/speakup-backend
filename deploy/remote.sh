@@ -43,15 +43,53 @@ if [ "$OLD" = "$NEW" ]; then
   echo "==> O'zgarish yo'q, lekin qayta qurib chiqaman."
 fi
 
+# --- Orqaga qaytarish funksiyasi ----------------------------------
+# Alohida funksiya, chunki ikki xil nosozlikda kerak bo'ladi: qurish
+# yiqilganda va health check o'tmaganda.
+orqaga_qaytar() {
+  if [ -z "$OLD" ] || [ "$OLD" = "$NEW" ]; then
+    echo "DIQQAT: qaytariladigan oldingi commit yo'q. Qo'lda aralashish kerak!"
+    return
+  fi
+  echo "==> ORQAGA QAYTARAMAN -> $(git rev-parse --short "$OLD")"
+  git reset --hard "$OLD"
+  if ! docker compose up -d --build; then
+    echo "DIQQAT: orqaga qaytarishda ham qurish yiqildi. Qo'lda aralashish kerak!"
+    return
+  fi
+  for i in $(seq 1 20); do
+    if curl -fsS --max-time 5 "$HEALTH_URL" 2>/dev/null | grep -q '"status":"ok"'; then
+      echo "==> Orqaga qaytarildi, server sog'lom. Yangi kod DEPLOY QILINMADI."
+      return
+    fi
+    sleep 3
+  done
+  echo "DIQQAT: orqaga qaytarishdan keyin ham sog'lom emas. Qo'lda aralashish kerak!"
+}
+
 # --- Qurish va ko'tarish ------------------------------------------
+# set -e ni ataylab chetlab o'tamiz: qurish yiqilsa skript shu yerda
+# to'xtab qolsa, git allaqachon yangi commit'ga o'tgan, konteynerlar esa
+# eski bo'lib qoladi - ya'ni server nomuvofiq holatda qoladi va orqaga
+# qaytarish bajarilmaydi. Shuning uchun natijani o'zimiz tekshiramiz.
 echo "==> docker compose up -d --build"
-docker compose up -d --build
+if ! docker compose up -d --build; then
+  echo "XATO: qurish yoki ko'tarish yiqildi."
+  orqaga_qaytar
+  exit 1
+fi
 
 # --- Sog'liqni tekshirish -----------------------------------------
 echo "==> Health check ($HEALTH_URL)"
 for i in $(seq 1 30); do
   if curl -fsS --max-time 5 "$HEALTH_URL" 2>/dev/null | grep -q '"status":"ok"'; then
     echo "==> SOG'LOM. Deploy muvaffaqiyatli: $(git rev-parse --short HEAD)"
+    # Sidecar holati deploy natijasiga ta'sir qilmaydi: u birinchi marta
+    # ~1.5 GB model yuklaydi va bir necha daqiqa "loading" bo'lib turadi.
+    # Talaffuz endpointlari shu orada "ishlamayapti" deb javob beradi,
+    # qolgan API esa normal ishlaydi.
+    echo "--- sidecar holati (ma'lumot uchun) ---"
+    docker compose ps talaffuz 2>/dev/null || true
     docker image prune -f >/dev/null 2>&1 || true
     exit 0
   fi
@@ -61,18 +99,5 @@ done
 # --- Muvaffaqiyatsiz: orqaga qaytarish ----------------------------
 echo "XATO: health check 90 sekundda o'tmadi. Loglar:"
 docker logs --tail 60 speakup-api 2>&1 || true
-
-if [ -n "$OLD" ] && [ "$OLD" != "$NEW" ]; then
-  echo "==> ORQAGA QAYTARAMAN -> $(git rev-parse --short "$OLD")"
-  git reset --hard "$OLD"
-  docker compose up -d --build
-  for i in $(seq 1 20); do
-    if curl -fsS --max-time 5 "$HEALTH_URL" 2>/dev/null | grep -q '"status":"ok"'; then
-      echo "==> Orqaga qaytarildi, server sog'lom. Yangi kod DEPLOY QILINMADI."
-      exit 1
-    fi
-    sleep 3
-  done
-  echo "DIQQAT: orqaga qaytarishdan keyin ham sog'lom emas. Qo'lda aralashish kerak!"
-fi
+orqaga_qaytar
 exit 1

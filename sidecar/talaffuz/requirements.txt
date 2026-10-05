@@ -1,13 +1,23 @@
-# Pinned so a rebuild on the server cannot pull a new major version that
-# changes model output or breaks the ONNX graph.
-fastapi==0.120.4
-uvicorn==0.38.0
-anyio==4.11.0
-numpy==2.3.4
-soundfile==0.13.1
-librosa==0.11.0
+# Pinned to the versions this sidecar was actually tested with, on Python 3.13.
+# Earlier pins here were written from memory and did not match anything that had
+# been run - a deploy would have installed an untested combination.
+#
+# Verified locally end to end: ZIPA loads, 3.7 s of real learner audio scored in
+# 0.28 s, structured substitutions returned, Go client parsed them.
+fastapi==0.142.2
+uvicorn==0.54.0
+anyio==4.15.1
+numpy==2.5.3
+soundfile==0.14.0
+librosa==1.0.0
 onnxruntime==1.30.0
-kaldi-native-fbank==1.21.2
-huggingface_hub==0.36.0
+kaldi-native-fbank==1.22.3
+huggingface_hub==2.1.1
 g2p_en==2.1.0
-kokoro-onnx==0.4.9
+
+# NOT verified locally: kokoro-onnx needs espeak-ng, a system package that
+# needs root to install, so the TTS path was exercised only through a stub.
+# Left unpinned deliberately - pinning a version nothing has run would be the
+# same mistake as above. Verify on the first deploy: GET /api/tts should return
+# a WAV, and the hourly render cron should start filling audio_path.
+kokoro-onnx
