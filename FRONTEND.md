@@ -11,6 +11,22 @@ mini-o'yinlar, AI test — hammasi avvalgidek. Faqat qo'shimchalar bor.
 
 ---
 
+## 🆕 2026-10-05: Talaffuz mashqi (o'qib berish)
+
+Yangi bo'lim qo'shildi — foydalanuvchi matnni ovoz chiqarib o'qiydi, so'zma-so'z
+talaffuz natijasini oladi. **Alohida hujjatda:**
+
+### → [`docs/FRONTEND_TALAFFUZ.md`](docs/FRONTEND_TALAFFUZ.md)
+
+Ikki narsa boshidan bilinishi kerak:
+
+1. **Audio 16 kHz mono WAV bo'lishi shart.** `MediaRecorder` beradigan WebM
+   qabul qilinmaydi. Tayyor konvertatsiya kodi hujjatda bor.
+2. **Natija "hukm" emas, "maslahat".** Ball, foiz, qizil ❌ ishlatilmaydi —
+   sababi hujjatda raqamlar bilan tushuntirilgan.
+
+---
+
 ---
 
 ## 0. Umumiy qoidalar (avval shuni o'qing)
