@@ -24,8 +24,14 @@ grep -q '^POSTGRES_PASSWORD=' .env || {
   exit 1
 }
 
-OLD=$(git rev-parse HEAD)
-echo "==> Hozirgi commit : $(git rev-parse --short HEAD)"
+# Birinchi deployda serverda hali commit yo'q (unborn HEAD) — rev-parse
+# xato beradi va set -e skriptni to'xtatadi. Shuning uchun bo'sh qoldiramiz.
+OLD=$(git rev-parse HEAD 2>/dev/null || true)
+if [ -n "$OLD" ]; then
+  echo "==> Hozirgi commit : $(git rev-parse --short HEAD)"
+else
+  echo "==> Hozirgi commit : yo'q — bu birinchi deploy"
+fi
 
 # --- Kodni yangilash ----------------------------------------------
 git fetch --prune origin
@@ -56,7 +62,7 @@ done
 echo "XATO: health check 90 sekundda o'tmadi. Loglar:"
 docker logs --tail 60 speakup-api 2>&1 || true
 
-if [ "$OLD" != "$NEW" ]; then
+if [ -n "$OLD" ] && [ "$OLD" != "$NEW" ]; then
   echo "==> ORQAGA QAYTARAMAN -> $(git rev-parse --short "$OLD")"
   git reset --hard "$OLD"
   docker compose up -d --build
