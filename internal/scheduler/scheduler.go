@@ -92,6 +92,14 @@ func Start() {
 		safego.Run("cron/replenishDictation", services.ReplenishDictation)
 	})
 
+	// Daily at 03:30 UTC - top up the read-aloud pronunciation pool. Half an
+	// hour after the dictation job so the two never hammer the LLM keys at the
+	// same time, and in the same quiet window, since a filling run makes
+	// dozens of generation calls.
+	c.AddFunc("30 3 * * *", func() {
+		safego.Run("cron/replenishPronunciation", services.ReplenishPronunciation)
+	})
+
 	// Every minute - scheduled speaking appointments. A minute is the
 	// smallest unit a user can pick, so anything coarser would send the
 	// "starting now" ping after the window had already begun.

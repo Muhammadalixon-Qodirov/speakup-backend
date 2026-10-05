@@ -79,6 +79,9 @@ func main() {
 		&models.Friendship{},
 		&models.PremiumSettings{},
 		&models.PremiumCampaign{},
+		&models.PronunciationPassage{},
+		&models.UserPassageSeen{},
+		&models.UserPronunciationWord{},
 	)
 
 	// 4a. Encrypt any Groq API keys still sitting in the DB as plaintext.
