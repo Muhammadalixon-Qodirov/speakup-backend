@@ -95,7 +95,7 @@ SpeakUp ikki qismdan iborat va ular **alohida** repolarda:
 
 | Qism | Repo | Texnologiya |
 |---|---|---|
-| Backend (bu repo) | `Muhammadxon2oo7/speakup-backend` | Go 1.26, Docker |
+| Backend (bu repo) | `Muhammadalixon-Qodirov/speakup-backend` | Go 1.26, Docker |
 | Frontend | `Muhammadxon2oo7/speak-up` | Next.js 14 + React 18 |
 
 `FRONTEND.md` ikkala repoda ham bor va bir xil — frontend bilan backend
@@ -104,3 +104,26 @@ yangilang**, aks holda ular bir-biridan uzilib qoladi.
 
 Diqqat: `Muhammadxon2oo7/backend` — 2025-yilning eski mock serveri
 (`db.json`, `server.js`). Bu loyihaga aloqasi yo'q, chalkashtirmang.
+
+## Ikki GitHub hisobi — remote nega `github-qodirov`?
+
+Bu kompyuterda ikkita GitHub hisobi ishlatiladi va GitHub bitta SSH kalitni
+ikki hisobga ulashga ruxsat bermaydi. Shuning uchun har biriga alohida kalit:
+
+| Hisob | Kalit | SSH host nomi |
+|---|---|---|
+| `Muhammadxon2oo7` (frontend) | `~/.ssh/id_ed25519` | `github.com` |
+| `Muhammadalixon-Qodirov` (bu repo) | `~/.ssh/id_ed25519_qodirov` | `github-qodirov` |
+
+Sozlama `~/.ssh/config` da. Shu sababli bu reponing remote manzili:
+
+```
+git@github-qodirov:Muhammadalixon-Qodirov/speakup-backend.git
+```
+
+`github-qodirov` — bu haqiqiy domen emas, `~/.ssh/config` dagi taxallus.
+U `github.com` ga ulanadi, lekin boshqa kalit bilan. Yangi repo klon
+qilsangiz ham shu taxallusni ishlatasiz.
+
+Serverda bu muammo yo'q — u o'zining alohida deploy kalitidan foydalanadi
+va to'g'ridan-to'g'ri `github.com` ga ulanadi.

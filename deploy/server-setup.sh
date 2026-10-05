@@ -8,7 +8,7 @@
 set -euo pipefail
 
 APP_DIR=/root/speakup
-GH_USER=Muhammadxon2oo7
+GH_USER=Muhammadalixon-Qodirov
 REPO_SSH="git@github.com:${GH_USER}/speakup-backend.git"
 BRANCH=main
 
