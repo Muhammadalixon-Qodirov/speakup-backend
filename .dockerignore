@@ -1,0 +1,16 @@
+# Build konteksti kichik va toza bo'lsin. `COPY . .` bo'lmasa, bularning
+# hammasi builder qatlamiga tushardi — jumladan 93 MB backup va .env.
+backups/
+.env
+.env.*
+!.env.example
+*.dump
+*.rdb
+*.bak
+*.bak_*
+*.before_*
+*.old_ip_bak
+*.md
+migrations/
+.git/
+.gitignore

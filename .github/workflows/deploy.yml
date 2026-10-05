@@ -1,0 +1,66 @@
+name: Deploy
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:      # Actions sahifasidan qo'lda ham bosib ishga tushirish
+
+concurrency:
+  group: deploy-production
+  cancel-in-progress: false   # Deploy yarim yo'lda uzilib qolmasin
+
+jobs:
+  # ------------------------------------------------------------------
+  #  1. Tekshirish — buzuq kod prodga chiqmasligi uchun darvoza
+  # ------------------------------------------------------------------
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version-file: go.mod
+          cache: true
+
+      - name: go build
+        run: go build ./...
+
+      - name: go vet
+        run: go vet ./...
+
+      - name: go test
+        run: go test ./...
+
+  # ------------------------------------------------------------------
+  #  2. Deploy — faqat tekshiruv o'tsa
+  # ------------------------------------------------------------------
+  deploy:
+    needs: check
+    runs-on: ubuntu-latest
+    environment: production
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: SSH kalitini tayyorlash
+        run: |
+          mkdir -p ~/.ssh
+          printf '%s\n' "${{ secrets.DEPLOY_SSH_KEY }}" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          printf '%s\n' "${{ secrets.DEPLOY_KNOWN_HOSTS }}" > ~/.ssh/known_hosts
+          chmod 644 ~/.ssh/known_hosts
+
+      - name: Serverda deploy
+        run: |
+          ssh -i ~/.ssh/id_ed25519 \
+              -o StrictHostKeyChecking=yes \
+              -o ConnectTimeout=20 \
+              "${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }}" \
+              'bash -s' < deploy/remote.sh
+
+      - name: Tashqaridan tekshirish
+        run: |
+          code=$(curl -s -o /tmp/h.json -w '%{http_code}' --max-time 15 https://api.speak-up.uz/health)
+          echo "HTTP $code"; cat /tmp/h.json; echo
+          test "$code" = "200"
+          grep -q '"status":"ok"' /tmp/h.json

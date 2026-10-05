@@ -1,0 +1,192 @@
+package bot
+
+import (
+	"context"
+	"errors"
+	"os"
+	"strings"
+	"time"
+
+	"github.com/rs/zerolog/log"
+	"github.com/speak-up/backend/internal/database"
+	tele "gopkg.in/telebot.v3"
+)
+
+// BroadcastPauseKey is a Redis flag that, while present, mutes every
+// outbound notification routed through SendWithRetry. Set with a TTL by
+// the broadcast tool right after a one-off promotional fan-out so the
+// scheduler-driven reminders don't pile on top of the ad. /start replies
+// and other user-initiated responses use Bot.Send directly (via telebot
+// context) and are unaffected — they're answers to actions the user just
+// took and must remain delivered.
+const BroadcastPauseKey = "bot:broadcast_pause"
+
+// broadcastPaused reports whether the pause flag is currently set. Any
+// Redis hiccup falls open (returns false) so a Redis outage never silently
+// drops notifications.
+func broadcastPaused() bool {
+	if database.Redis == nil {
+		return false
+	}
+	n, err := database.Redis.Exists(context.Background(), BroadcastPauseKey).Result()
+	if err != nil {
+		return false
+	}
+	return n > 0
+}
+
+// SendWithRetry wraps Bot.Send with a small retry/backoff loop so a
+// transient network blip or a Telegram 429 (too many requests) doesn't
+// silently drop a notification. Telegram returns the suggested wait via
+// the FloodError type - we honor that, otherwise exponential backoff.
+//
+// Total retry budget is short (max ~3 seconds) so we never block the
+// caller goroutine for long. For high-volume notifications, callers
+// should already be running this inside safego.Go().
+func SendWithRetry(recipient tele.Recipient, payload interface{}, opts ...interface{}) (*tele.Message, error) {
+	if Bot == nil {
+		return nil, errors.New("bot not initialised")
+	}
+
+	if broadcastPaused() {
+		return nil, nil
+	}
+
+	var lastErr error
+	delays := []time.Duration{
+		0,
+		300 * time.Millisecond,
+		1 * time.Second,
+	}
+
+	for attempt, delay := range delays {
+		if delay > 0 {
+			time.Sleep(delay)
+		}
+
+		msg, err := Bot.Send(recipient, payload, opts...)
+		if err == nil {
+			return msg, nil
+		}
+		lastErr = err
+
+		// Telegram FloodError carries a RetryAfter - respect it (cap at
+		// 5 seconds so we don't park goroutines forever).
+		var fe tele.FloodError
+		if errors.As(err, &fe) {
+			wait := time.Duration(fe.RetryAfter) * time.Second
+			if wait > 5*time.Second {
+				wait = 5 * time.Second
+			}
+			if wait > 0 {
+				time.Sleep(wait)
+			}
+			continue
+		}
+
+		// Permanent errors: don't waste retries on them.
+		if isPermanentTelegramError(err) {
+			// If the permanent error is "blocked by the user", mirror
+			// that into users.bot_blocked so auth can refuse a subsequent
+			// login attempt with a friendly "unblock the bot" screen.
+			// The my_chat_member webhook handles this too, but the flag
+			// is a second line of defence for events Telegram didn't
+			// deliver.
+			if isBlockedByUserError(err) {
+				if u, ok := recipient.(interface{ Recipient() string }); ok {
+					// telebot's tele.User.Recipient() returns "id" as string.
+					if tgID := parseInt64(u.Recipient()); tgID != 0 {
+						MarkBotBlocked(tgID)
+					}
+				}
+			}
+			return nil, err
+		}
+
+		log.Debug().
+			Err(err).
+			Int("attempt", attempt+1).
+			Msg("bot.SendWithRetry: transient failure")
+	}
+
+	return nil, lastErr
+}
+
+// isPermanentTelegramError returns true for errors that retrying won't
+// fix: blocked by user, chat not found, message too long, etc.
+//
+// The previous implementation treated ANY "bad request" as permanent,
+// which incorrectly caught rate-limit and timeout errors that contain
+// "bad request" in the message. Now we match specific Telegram error
+// patterns so transient failures get a fair retry.
+func isPermanentTelegramError(err error) bool {
+	if err == nil {
+		return false
+	}
+	msg := strings.ToLower(err.Error())
+
+	// Permanent: no amount of retrying will fix these.
+	permanentPatterns := []string{
+		"blocked by the user",
+		"user is deactivated",
+		"chat not found",
+		"chat was not found",
+		"bot was kicked",
+		"bot can't initiate conversation",
+		"bot is not a member",
+		"peer_id_invalid",
+		"message is too long",
+		"message is not modified",
+		"message to forward not found",
+	}
+	for _, p := range permanentPatterns {
+		if strings.Contains(msg, p) {
+			return true
+		}
+	}
+
+	// Explicitly NOT permanent (retry these):
+	//   "too many requests", "timeout", "temporarily unavailable",
+	//   "bad gateway", "connection reset", "i/o timeout"
+	return false
+}
+
+// readHostname is split out so alerts.go (which lives in the same
+// package) can call it without importing os everywhere.
+func readHostname() (string, error) {
+	h, err := os.Hostname()
+	if err != nil {
+		return "unknown", err
+	}
+	return h, nil
+}
+
+// isBlockedByUserError returns true when the Telegram error means "this
+// user has blocked the bot" (as opposed to any other permanent error like
+// chat-not-found or message-too-long).
+func isBlockedByUserError(err error) bool {
+	if err == nil {
+		return false
+	}
+	m := strings.ToLower(err.Error())
+	return strings.Contains(m, "blocked by the user") ||
+		strings.Contains(m, "bot was blocked")
+}
+
+// parseInt64 is a small helper for reading numeric Telegram IDs that
+// telebot gives us back as strings via Recipient().
+func parseInt64(s string) int64 {
+	var n int64
+	for _, ch := range s {
+		if ch < '0' || ch > '9' {
+			// Allow a leading minus for group chats; we only expect
+			// private-chat TG user IDs here though.
+			if ch == '-' && n == 0 {
+				continue
+			}
+			return 0
+		}
+		n = n*10 + int64(ch-'0')
+	}
+	return n
+}

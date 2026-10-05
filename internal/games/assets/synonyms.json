@@ -1,0 +1,9897 @@
+[
+ {
+  "word": "happy",
+  "type": "synonym",
+  "answers": [
+   "glad",
+   "joyful",
+   "cheerful",
+   "content",
+   "delighted",
+   "pleased",
+   "merry",
+   "bright",
+   "expansive",
+   "joyous",
+   "prosperous",
+   "blissful",
+   "blessed",
+   "golden",
+   "fortunate"
+  ]
+ },
+ {
+  "word": "happy",
+  "type": "antonym",
+  "answers": [
+   "sad",
+   "unhappy",
+   "miserable",
+   "sorrowful",
+   "gloomy",
+   "depressed",
+   "distressed"
+  ]
+ },
+ {
+  "word": "sad",
+  "type": "synonym",
+  "answers": [
+   "melancholy",
+   "yearning",
+   "wretched",
+   "deplorable",
+   "gloomy",
+   "pitiful",
+   "sorry",
+   "bad",
+   "bittersweet",
+   "miserable",
+   "suffering"
+  ]
+ },
+ {
+  "word": "sad",
+  "type": "antonym",
+  "answers": [
+   "happy",
+   "glad",
+   "joy"
+  ]
+ },
+ {
+  "word": "big",
+  "type": "synonym",
+  "answers": [
+   "large",
+   "huge",
+   "enormous",
+   "giant",
+   "massive",
+   "vast",
+   "gigantic",
+   "conspicuous",
+   "intense",
+   "ample",
+   "important",
+   "prominent",
+   "heavy",
+   "broad",
+   "great",
+   "extensive",
+   "colossal",
+   "high",
+   "obvious"
+  ]
+ },
+ {
+  "word": "big",
+  "type": "antonym",
+  "answers": [
+   "small",
+   "tiny",
+   "little",
+   "minute",
+   "miniature"
+  ]
+ },
+ {
+  "word": "small",
+  "type": "synonym",
+  "answers": [
+   "mean",
+   "diminutive",
+   "modest",
+   "soft",
+   "moderate",
+   "fine",
+   "slender",
+   "insignificant",
+   "inferior",
+   "petty",
+   "low",
+   "diminished"
+  ]
+ },
+ {
+  "word": "small",
+  "type": "antonym",
+  "answers": [
+   "large",
+   "big",
+   "reverse",
+   "reversal",
+   "turnaround"
+  ]
+ },
+ {
+  "word": "large",
+  "type": "synonym",
+  "answers": [
+   "conspicuous",
+   "significant",
+   "comprehensive",
+   "ample",
+   "important",
+   "prominent",
+   "heavy",
+   "broad",
+   "great",
+   "extensive",
+   "tremendous",
+   "vast"
+  ]
+ },
+ {
+  "word": "large",
+  "type": "antonym",
+  "answers": [
+   "little",
+   "small",
+   "microscopic"
+  ]
+ },
+ {
+  "word": "fast",
+  "type": "synonym",
+  "answers": [
+   "quick",
+   "rapid",
+   "swift",
+   "speedy",
+   "brisk",
+   "prompt",
+   "hot",
+   "degenerate",
+   "true",
+   "immoral",
+   "firm",
+   "tight",
+   "smooth",
+   "barred",
+   "dissipated"
+  ]
+ },
+ {
+  "word": "fast",
+  "type": "antonym",
+  "answers": [
+   "slow",
+   "sluggish",
+   "leisurely"
+  ]
+ },
+ {
+  "word": "slow",
+  "type": "synonym",
+  "answers": [
+   "dull",
+   "obtuse",
+   "slack",
+   "dim",
+   "tedious",
+   "dense",
+   "stupid",
+   "easy",
+   "sluggish",
+   "retard",
+   "dumb",
+   "inactive"
+  ]
+ },
+ {
+  "word": "slow",
+  "type": "antonym",
+  "answers": [
+   "fast",
+   "accelerate",
+   "rapidly",
+   "quickly",
+   "speed",
+   "quicken"
+  ]
+ },
+ {
+  "word": "good",
+  "type": "synonym",
+  "answers": [
+   "benevolent",
+   "keen",
+   "adept",
+   "virtuous",
+   "proficient",
+   "gracious",
+   "ample",
+   "cool",
+   "close",
+   "beneficial",
+   "great",
+   "kind"
+  ]
+ },
+ {
+  "word": "good",
+  "type": "antonym",
+  "answers": [
+   "malevolent",
+   "evil",
+   "wicked",
+   "malicious",
+   "bad",
+   "ill",
+   "badly",
+   "poorly"
+  ]
+ },
+ {
+  "word": "bad",
+  "type": "synonym",
+  "answers": [
+   "intense",
+   "atrocious",
+   "deplorable",
+   "evil",
+   "wicked",
+   "severe",
+   "pitiful",
+   "dreadful",
+   "hard",
+   "sad",
+   "fine",
+   "sorry"
+  ]
+ },
+ {
+  "word": "bad",
+  "type": "antonym",
+  "answers": [
+   "good",
+   "goodness"
+  ]
+ },
+ {
+  "word": "beautiful",
+  "type": "synonym",
+  "answers": [
+   "pretty",
+   "gorgeous",
+   "lovely",
+   "attractive",
+   "stunning",
+   "handsome",
+   "exquisite",
+   "glorious",
+   "fine",
+   "fair",
+   "pleasant",
+   "picturesque",
+   "aesthetic",
+   "splendid"
+  ]
+ },
+ {
+  "word": "beautiful",
+  "type": "antonym",
+  "answers": [
+   "ugly",
+   "hideous",
+   "unattractive",
+   "plain"
+  ]
+ },
+ {
+  "word": "ugly",
+  "type": "synonym",
+  "answers": [
+   "atrocious",
+   "grotesque",
+   "evil",
+   "wicked",
+   "sinister",
+   "ominous",
+   "alarming",
+   "vile",
+   "forbidding",
+   "menacing",
+   "despicable",
+   "hideous"
+  ]
+ },
+ {
+  "word": "rich",
+  "type": "synonym",
+  "answers": [
+   "wealthy",
+   "affluent",
+   "prosperous",
+   "loaded",
+   "robust",
+   "ample",
+   "lush",
+   "gilded",
+   "flush",
+   "lavish",
+   "copious",
+   "fancy",
+   "abundant",
+   "valuable",
+   "deep"
+  ]
+ },
+ {
+  "word": "rich",
+  "type": "antonym",
+  "answers": [
+   "poor",
+   "broke",
+   "impoverished",
+   "needy",
+   "lean"
+  ]
+ },
+ {
+  "word": "poor",
+  "type": "synonym",
+  "answers": [
+   "mean",
+   "wretched",
+   "destitute",
+   "pitiful",
+   "inadequate",
+   "deficient",
+   "short",
+   "bad",
+   "inferior",
+   "pathetic",
+   "low",
+   "impoverished"
+  ]
+ },
+ {
+  "word": "strong",
+  "type": "synonym",
+  "answers": [
+   "powerful",
+   "mighty",
+   "sturdy",
+   "robust",
+   "tough",
+   "substantial",
+   "potent",
+   "intense",
+   "heavy",
+   "severe",
+   "warm",
+   "secure",
+   "stiff",
+   "hard",
+   "sound"
+  ]
+ },
+ {
+  "word": "strong",
+  "type": "antonym",
+  "answers": [
+   "weak",
+   "feeble",
+   "frail",
+   "fragile",
+   "impotent"
+  ]
+ },
+ {
+  "word": "weak",
+  "type": "synonym",
+  "answers": [
+   "light",
+   "soft",
+   "tenuous",
+   "feeble",
+   "impotent",
+   "inundated",
+   "slack",
+   "frail",
+   "faint",
+   "flimsy",
+   "incapacitated",
+   "shoddy"
+  ]
+ },
+ {
+  "word": "weak",
+  "type": "antonym",
+  "answers": [
+   "powerful",
+   "strong",
+   "forceful"
+  ]
+ },
+ {
+  "word": "easy",
+  "type": "synonym",
+  "answers": [
+   "simple",
+   "effortless",
+   "straightforward",
+   "painless",
+   "light",
+   "soft",
+   "abundant",
+   "rich",
+   "lenient",
+   "leisurely",
+   "casual",
+   "comfortable",
+   "prosperous",
+   "smooth",
+   "pleasing"
+  ]
+ },
+ {
+  "word": "easy",
+  "type": "antonym",
+  "answers": [
+   "hard",
+   "difficult",
+   "tough",
+   "challenging",
+   "complicated",
+   "uneasy",
+   "rapidly",
+   "quickly"
+  ]
+ },
+ {
+  "word": "hard",
+  "type": "synonym",
+  "answers": [
+   "arduous",
+   "shrewd",
+   "delicate",
+   "heavy",
+   "severe",
+   "set",
+   "strong",
+   "serious",
+   "challenging",
+   "stiff",
+   "ambitious",
+   "rough"
+  ]
+ },
+ {
+  "word": "hard",
+  "type": "antonym",
+  "answers": [
+   "soft",
+   "easy",
+   "lightly"
+  ]
+ },
+ {
+  "word": "hot",
+  "type": "synonym",
+  "answers": [
+   "warm",
+   "boiling",
+   "scorching",
+   "burning",
+   "heated",
+   "fervent",
+   "good",
+   "sexy",
+   "close",
+   "sensual",
+   "skilled",
+   "active",
+   "fresh",
+   "fiery",
+   "unpleasant"
+  ]
+ },
+ {
+  "word": "hot",
+  "type": "antonym",
+  "answers": [
+   "cold",
+   "cool",
+   "chilly",
+   "freezing",
+   "icy"
+  ]
+ },
+ {
+  "word": "cold",
+  "type": "synonym",
+  "answers": [
+   "bleak",
+   "intense",
+   "cool",
+   "crisp",
+   "dead",
+   "raw",
+   "stale",
+   "old",
+   "unconscious",
+   "perfect",
+   "polar",
+   "inhuman"
+  ]
+ },
+ {
+  "word": "cold",
+  "type": "antonym",
+  "answers": [
+   "hot",
+   "heat"
+  ]
+ },
+ {
+  "word": "new",
+  "type": "synonym",
+  "answers": [
+   "radical",
+   "novel",
+   "hot",
+   "raw",
+   "original",
+   "fresh",
+   "unprecedented",
+   "newfound",
+   "modern",
+   "inexperienced",
+   "virgin",
+   "rising"
+  ]
+ },
+ {
+  "word": "old",
+  "type": "synonym",
+  "answers": [
+   "ancient",
+   "aged",
+   "elderly",
+   "antique",
+   "vintage",
+   "cold",
+   "archaic",
+   "antiquated",
+   "stale",
+   "experienced",
+   "emeritus",
+   "gaga",
+   "previous",
+   "grey",
+   "past"
+  ]
+ },
+ {
+  "word": "old",
+  "type": "antonym",
+  "answers": [
+   "new",
+   "young",
+   "modern",
+   "fresh",
+   "recent",
+   "immature"
+  ]
+ },
+ {
+  "word": "young",
+  "type": "synonym",
+  "answers": [
+   "tender",
+   "vulnerable",
+   "little",
+   "teen",
+   "immature",
+   "small",
+   "adolescent",
+   "new",
+   "formative",
+   "baby",
+   "offspring",
+   "youth"
+  ]
+ },
+ {
+  "word": "young",
+  "type": "antonym",
+  "answers": [
+   "old",
+   "aged"
+  ]
+ },
+ {
+  "word": "brave",
+  "type": "synonym",
+  "answers": [
+   "courageous",
+   "bold",
+   "fearless",
+   "valiant",
+   "daring",
+   "heroic",
+   "intrepid",
+   "spirited",
+   "endure",
+   "gay",
+   "desperate",
+   "venture",
+   "gritty",
+   "game"
+  ]
+ },
+ {
+  "word": "brave",
+  "type": "antonym",
+  "answers": [
+   "cowardly",
+   "timid",
+   "fearful",
+   "afraid",
+   "cautious"
+  ]
+ },
+ {
+  "word": "smart",
+  "type": "synonym",
+  "answers": [
+   "clever",
+   "intelligent",
+   "bright",
+   "brilliant",
+   "sharp",
+   "wise",
+   "shrewd",
+   "astute",
+   "hurt",
+   "ache",
+   "fresh",
+   "forward",
+   "stylish",
+   "dashing"
+  ]
+ },
+ {
+  "word": "smart",
+  "type": "antonym",
+  "answers": [
+   "stupid",
+   "dumb",
+   "foolish",
+   "silly",
+   "dull"
+  ]
+ },
+ {
+  "word": "clever",
+  "type": "synonym",
+  "answers": [
+   "cunning",
+   "intelligent",
+   "ingenious",
+   "smart",
+   "apt"
+  ]
+ },
+ {
+  "word": "kind",
+  "type": "synonym",
+  "answers": [
+   "benevolent",
+   "gracious",
+   "good",
+   "benign",
+   "sympathetic",
+   "thoughtful",
+   "form",
+   "charitable",
+   "considerate",
+   "variety",
+   "generous",
+   "tolerant"
+  ]
+ },
+ {
+  "word": "cruel",
+  "type": "synonym",
+  "answers": [
+   "hard",
+   "rigorous",
+   "vicious",
+   "brutal",
+   "harsh",
+   "heartless",
+   "inhumane",
+   "fell",
+   "savage"
+  ]
+ },
+ {
+  "word": "calm",
+  "type": "synonym",
+  "answers": [
+   "peaceful",
+   "relaxed",
+   "tranquil",
+   "serene",
+   "quiet",
+   "lull",
+   "composed",
+   "composure",
+   "steady",
+   "settled"
+  ]
+ },
+ {
+  "word": "calm",
+  "type": "antonym",
+  "answers": [
+   "nervous",
+   "anxious",
+   "agitated",
+   "restless",
+   "tense",
+   "charge",
+   "stimulate",
+   "rouse",
+   "arouse",
+   "brace",
+   "excite",
+   "stormy"
+  ]
+ },
+ {
+  "word": "angry",
+  "type": "synonym",
+  "answers": [
+   "mad",
+   "furious",
+   "irritated",
+   "annoyed",
+   "enraged",
+   "cross",
+   "wild",
+   "aggravated",
+   "black",
+   "sore",
+   "provoked",
+   "unhealthy"
+  ]
+ },
+ {
+  "word": "angry",
+  "type": "antonym",
+  "answers": [
+   "calm",
+   "happy",
+   "pleased",
+   "content"
+  ]
+ },
+ {
+  "word": "quiet",
+  "type": "synonym",
+  "answers": [
+   "subdued",
+   "tranquil",
+   "soft",
+   "lull",
+   "tranquility",
+   "restrained",
+   "muted",
+   "calm",
+   "dreamy",
+   "hush"
+  ]
+ },
+ {
+  "word": "quiet",
+  "type": "antonym",
+  "answers": [
+   "charge",
+   "rouse",
+   "sound",
+   "active",
+   "noisy",
+   "excite"
+  ]
+ },
+ {
+  "word": "loud",
+  "type": "synonym",
+  "answers": [
+   "big",
+   "flashy",
+   "yelled",
+   "shouted",
+   "tacky",
+   "tasteless",
+   "roaring",
+   "cheap",
+   "trashy"
+  ]
+ },
+ {
+  "word": "loud",
+  "type": "antonym",
+  "answers": [
+   "soft",
+   "softly",
+   "quietly",
+   "piano"
+  ]
+ },
+ {
+  "word": "clean",
+  "type": "synonym",
+  "answers": [
+   "spotless",
+   "tidy",
+   "neat",
+   "immaculate",
+   "pure",
+   "light",
+   "clear",
+   "just",
+   "complete",
+   "fair",
+   "fresh",
+   "moral",
+   "pristine",
+   "perfect",
+   "white"
+  ]
+ },
+ {
+  "word": "clean",
+  "type": "antonym",
+  "answers": [
+   "dirty",
+   "filthy",
+   "messy",
+   "grimy",
+   "soil",
+   "soiled",
+   "impure",
+   "unclean",
+   "unfairly",
+   "grime"
+  ]
+ },
+ {
+  "word": "dirty",
+  "type": "synonym",
+  "answers": [
+   "obscene",
+   "blue",
+   "lewd",
+   "black",
+   "foul",
+   "awful",
+   "corrupt",
+   "nasty",
+   "hostile",
+   "soil"
+  ]
+ },
+ {
+  "word": "bright",
+  "type": "synonym",
+  "answers": [
+   "ardent",
+   "light",
+   "auspicious",
+   "glorious",
+   "clear",
+   "luminous",
+   "vivid",
+   "intelligent",
+   "dazzling",
+   "brilliant",
+   "radiant"
+  ]
+ },
+ {
+  "word": "bright",
+  "type": "antonym",
+  "answers": [
+   "dull",
+   "dim"
+  ]
+ },
+ {
+  "word": "dark",
+  "type": "synonym",
+  "answers": [
+   "dim",
+   "gloomy",
+   "murky",
+   "shadowy",
+   "black",
+   "obscure",
+   "grim",
+   "subdued",
+   "dismal",
+   "evil",
+   "wicked",
+   "sinister",
+   "blue",
+   "incomprehensible"
+  ]
+ },
+ {
+  "word": "dark",
+  "type": "antonym",
+  "answers": [
+   "bright",
+   "light",
+   "luminous",
+   "sunny",
+   "daylight",
+   "day",
+   "daytime",
+   "lighting"
+  ]
+ },
+ {
+  "word": "soft",
+  "type": "synonym",
+  "answers": [
+   "tender",
+   "delicate",
+   "mellow",
+   "subdued",
+   "light",
+   "dull",
+   "compliant",
+   "indulgent",
+   "lenient",
+   "muted",
+   "weak",
+   "easy"
+  ]
+ },
+ {
+  "word": "soft",
+  "type": "antonym",
+  "answers": [
+   "hard",
+   "loud",
+   "alcoholic",
+   "forte"
+  ]
+ },
+ {
+  "word": "sharp",
+  "type": "synonym",
+  "answers": [
+   "shrewd",
+   "keen",
+   "astute",
+   "intense",
+   "distinct",
+   "acute",
+   "crisp",
+   "tart",
+   "intelligent",
+   "high",
+   "unpleasant",
+   "abrupt"
+  ]
+ },
+ {
+  "word": "sharp",
+  "type": "antonym",
+  "answers": [
+   "dull",
+   "flat",
+   "natural"
+  ]
+ },
+ {
+  "word": "dull",
+  "type": "synonym",
+  "answers": [
+   "soft",
+   "obtuse",
+   "drab",
+   "heavy",
+   "blunt",
+   "dim",
+   "tedious",
+   "muted",
+   "dense",
+   "arid",
+   "stupid",
+   "flat"
+  ]
+ },
+ {
+  "word": "dull",
+  "type": "antonym",
+  "answers": [
+   "sharp",
+   "bright",
+   "sharpen",
+   "lively"
+  ]
+ },
+ {
+  "word": "full",
+  "type": "synonym",
+  "answers": [
+   "ample",
+   "good",
+   "heavy",
+   "broad",
+   "inundated",
+   "rich",
+   "complete",
+   "round",
+   "pregnant",
+   "loaded",
+   "laden",
+   "total"
+  ]
+ },
+ {
+  "word": "full",
+  "type": "antonym",
+  "answers": [
+   "wane",
+   "thin",
+   "empty"
+  ]
+ },
+ {
+  "word": "empty",
+  "type": "synonym",
+  "answers": [
+   "vacant",
+   "bare",
+   "hollow",
+   "void",
+   "unfilled",
+   "discharge",
+   "open",
+   "white",
+   "clean",
+   "eliminate",
+   "abandon",
+   "drained",
+   "meaningless"
+  ]
+ },
+ {
+  "word": "empty",
+  "type": "antonym",
+  "answers": [
+   "full",
+   "filled",
+   "packed",
+   "crowded",
+   "fill"
+  ]
+ },
+ {
+  "word": "heavy",
+  "type": "synonym",
+  "answers": [
+   "arduous",
+   "profound",
+   "grievous",
+   "dull",
+   "important",
+   "wicked",
+   "broad",
+   "great",
+   "strong",
+   "hard",
+   "thick",
+   "high"
+  ]
+ },
+ {
+  "word": "light",
+  "type": "synonym",
+  "answers": [
+   "frivolous",
+   "clear",
+   "bright",
+   "deficient",
+   "short",
+   "casual",
+   "scant",
+   "insignificant",
+   "pure",
+   "faint",
+   "shallow",
+   "fluorescent"
+  ]
+ },
+ {
+  "word": "light",
+  "type": "antonym",
+  "answers": [
+   "heavy",
+   "dark",
+   "extinguish",
+   "darkness"
+  ]
+ },
+ {
+  "word": "high",
+  "type": "synonym",
+  "answers": [
+   "eminent",
+   "mellow",
+   "sharp",
+   "heavy",
+   "great",
+   "lofty",
+   "exalted",
+   "big",
+   "favorable",
+   "peak",
+   "utmost",
+   "intoxicated"
+  ]
+ },
+ {
+  "word": "high",
+  "type": "antonym",
+  "answers": [
+   "low",
+   "middle"
+  ]
+ },
+ {
+  "word": "low",
+  "type": "synonym",
+  "answers": [
+   "modest",
+   "soft",
+   "abject",
+   "blue",
+   "deficient",
+   "deep",
+   "inferior",
+   "miserable",
+   "forward",
+   "humble",
+   "lowly",
+   "small"
+  ]
+ },
+ {
+  "word": "deep",
+  "type": "synonym",
+  "answers": [
+   "esoteric",
+   "profound",
+   "intense",
+   "cryptic",
+   "heavy",
+   "broad",
+   "rich",
+   "thick",
+   "incomprehensible",
+   "inexplicable",
+   "low",
+   "large"
+  ]
+ },
+ {
+  "word": "wide",
+  "type": "synonym",
+  "answers": [
+   "comprehensive",
+   "ample",
+   "heavy",
+   "broad",
+   "extensive",
+   "thick",
+   "open",
+   "considerable",
+   "deep",
+   "full",
+   "large",
+   "comfortable"
+  ]
+ },
+ {
+  "word": "narrow",
+  "type": "synonym",
+  "answers": [
+   "slender",
+   "petty",
+   "contract",
+   "marginal",
+   "little",
+   "thin",
+   "small",
+   "careful",
+   "minute",
+   "specify",
+   "intolerant",
+   "limited"
+  ]
+ },
+ {
+  "word": "narrow",
+  "type": "antonym",
+  "answers": [
+   "broad",
+   "wide",
+   "widen",
+   "diversify",
+   "broaden"
+  ]
+ },
+ {
+  "word": "thick",
+  "type": "synonym",
+  "answers": [
+   "intense",
+   "heavy",
+   "broad",
+   "abundant",
+   "dense",
+   "deep",
+   "compact",
+   "stupid",
+   "concentrated",
+   "fat",
+   "midst",
+   "impenetrable"
+  ]
+ },
+ {
+  "word": "thick",
+  "type": "antonym",
+  "answers": [
+   "thin",
+   "thinly"
+  ]
+ },
+ {
+  "word": "thin",
+  "type": "synonym",
+  "answers": [
+   "light",
+   "tenuous",
+   "lean",
+   "fine",
+   "slender",
+   "sleazy",
+   "weak",
+   "sparse",
+   "flimsy",
+   "flat",
+   "reduce",
+   "trim"
+  ]
+ },
+ {
+  "word": "thin",
+  "type": "antonym",
+  "answers": [
+   "thick",
+   "full",
+   "fat",
+   "gain"
+  ]
+ },
+ {
+  "word": "wet",
+  "type": "synonym",
+  "answers": [
+   "stiff",
+   "fresh",
+   "saturated",
+   "plastered",
+   "intoxicated",
+   "tight",
+   "damp",
+   "loaded",
+   "tacky",
+   "potty",
+   "soaked"
+  ]
+ },
+ {
+  "word": "dry",
+  "type": "synonym",
+  "answers": [
+   "plain",
+   "arid",
+   "solid",
+   "scorched",
+   "humorous",
+   "ironic",
+   "thirsty",
+   "unproductive"
+  ]
+ },
+ {
+  "word": "dry",
+  "type": "antonym",
+  "answers": [
+   "sweet",
+   "wet"
+  ]
+ },
+ {
+  "word": "sweet",
+  "type": "synonym",
+  "answers": [
+   "gratifying",
+   "fresh",
+   "pleasing",
+   "fragrant",
+   "lovable",
+   "tasteful",
+   "melodic"
+  ]
+ },
+ {
+  "word": "sweet",
+  "type": "antonym",
+  "answers": [
+   "sour",
+   "dry"
+  ]
+ },
+ {
+  "word": "bitter",
+  "type": "synonym",
+  "answers": [
+   "venomous",
+   "unpleasant",
+   "hostile",
+   "intolerable",
+   "painful",
+   "tasteful",
+   "bitterness",
+   "acid"
+  ]
+ },
+ {
+  "word": "fresh",
+  "type": "synonym",
+  "answers": [
+   "good",
+   "sweet",
+   "crisp",
+   "brisk",
+   "warm",
+   "strong",
+   "novel",
+   "hot",
+   "wet",
+   "pure",
+   "original",
+   "firm"
+  ]
+ },
+ {
+  "word": "fresh",
+  "type": "antonym",
+  "answers": [
+   "stale",
+   "preserved",
+   "salt"
+  ]
+ },
+ {
+  "word": "safe",
+  "type": "synonym",
+  "answers": [
+   "good",
+   "innocuous",
+   "secure",
+   "sound",
+   "dependable",
+   "safety",
+   "harmless",
+   "rubber",
+   "condom"
+  ]
+ },
+ {
+  "word": "safe",
+  "type": "antonym",
+  "answers": [
+   "dangerous",
+   "unsafe"
+  ]
+ },
+ {
+  "word": "dangerous",
+  "type": "synonym",
+  "answers": [
+   "insidious",
+   "grievous",
+   "critical",
+   "precarious",
+   "perilous",
+   "severe",
+   "serious",
+   "desperate",
+   "treacherous",
+   "harmful",
+   "hazardous",
+   "dodgy"
+  ]
+ },
+ {
+  "word": "cheap",
+  "type": "synonym",
+  "answers": [
+   "inexpensive",
+   "affordable",
+   "economical",
+   "low-cost",
+   "sleazy",
+   "inferior",
+   "bum",
+   "punk",
+   "bargain",
+   "flashy",
+   "tacky",
+   "stingy",
+   "tasteless",
+   "loud",
+   "cheesy"
+  ]
+ },
+ {
+  "word": "cheap",
+  "type": "antonym",
+  "answers": [
+   "expensive",
+   "costly",
+   "pricey",
+   "dear"
+  ]
+ },
+ {
+  "word": "expensive",
+  "type": "synonym",
+  "answers": [
+   "costly",
+   "overpriced",
+   "pricey"
+  ]
+ },
+ {
+  "word": "expensive",
+  "type": "antonym",
+  "answers": [
+   "cheap",
+   "inexpensive"
+  ]
+ },
+ {
+  "word": "simple",
+  "type": "synonym",
+  "answers": [
+   "modest",
+   "naive",
+   "obtuse",
+   "common",
+   "elegant",
+   "plain",
+   "bare",
+   "primitive",
+   "ordinary",
+   "pure",
+   "easy",
+   "original"
+  ]
+ },
+ {
+  "word": "simple",
+  "type": "antonym",
+  "answers": [
+   "complex",
+   "compound",
+   "derived"
+  ]
+ },
+ {
+  "word": "complex",
+  "type": "synonym",
+  "answers": [
+   "byzantine",
+   "intricate",
+   "convoluted",
+   "compound",
+   "composite",
+   "tangled",
+   "involved",
+   "complicated"
+  ]
+ },
+ {
+  "word": "common",
+  "type": "synonym",
+  "answers": [
+   "vernacular",
+   "standard",
+   "vulgar",
+   "familiar",
+   "coarse",
+   "ordinary",
+   "general",
+   "inferior",
+   "simple",
+   "mutual",
+   "communal",
+   "frequent"
+  ]
+ },
+ {
+  "word": "common",
+  "type": "antonym",
+  "answers": [
+   "individual",
+   "uncommon"
+  ]
+ },
+ {
+  "word": "rare",
+  "type": "synonym",
+  "answers": [
+   "extraordinary",
+   "raw",
+   "thin",
+   "uncommon",
+   "scarce"
+  ]
+ },
+ {
+  "word": "true",
+  "type": "synonym",
+  "answers": [
+   "reliable",
+   "harmonious",
+   "constant",
+   "even",
+   "typical",
+   "fast",
+   "genuine",
+   "sure",
+   "dependable",
+   "honest",
+   "actual",
+   "real"
+  ]
+ },
+ {
+  "word": "false",
+  "type": "synonym",
+  "answers": [
+   "hollow",
+   "faux",
+   "sham",
+   "counterfeit",
+   "fictitious",
+   "sour",
+   "unreal",
+   "artificial",
+   "fake",
+   "invalid",
+   "assumed",
+   "wrong"
+  ]
+ },
+ {
+  "word": "real",
+  "type": "synonym",
+  "answers": [
+   "substantial",
+   "tangible",
+   "serious",
+   "true",
+   "concrete",
+   "genuine",
+   "rattling",
+   "existent",
+   "realistic",
+   "material",
+   "actual",
+   "really"
+  ]
+ },
+ {
+  "word": "real",
+  "type": "antonym",
+  "answers": [
+   "nominal",
+   "unreal"
+  ]
+ },
+ {
+  "word": "fake",
+  "type": "synonym",
+  "answers": [
+   "faux",
+   "sham",
+   "counterfeit",
+   "fraud",
+   "forge",
+   "phony",
+   "unreal",
+   "artificial",
+   "bogus",
+   "manipulate",
+   "false",
+   "pseudo"
+  ]
+ },
+ {
+  "word": "polite",
+  "type": "synonym",
+  "answers": [
+   "courteous",
+   "respectful",
+   "civil",
+   "gracious",
+   "mannerly",
+   "refined",
+   "nice",
+   "cultivated",
+   "civilized",
+   "cultured"
+  ]
+ },
+ {
+  "word": "polite",
+  "type": "antonym",
+  "answers": [
+   "rude",
+   "impolite",
+   "disrespectful",
+   "insolent"
+  ]
+ },
+ {
+  "word": "rude",
+  "type": "synonym",
+  "answers": [
+   "crude",
+   "primitive",
+   "raw",
+   "natural",
+   "early"
+  ]
+ },
+ {
+  "word": "rude",
+  "type": "antonym",
+  "answers": [
+   "civil",
+   "polite"
+  ]
+ },
+ {
+  "word": "honest",
+  "type": "synonym",
+  "answers": [
+   "truthful",
+   "sincere",
+   "frank",
+   "genuine",
+   "trustworthy",
+   "open",
+   "reliable",
+   "true",
+   "square",
+   "dependable",
+   "straight",
+   "trusty",
+   "downright",
+   "honorable"
+  ]
+ },
+ {
+  "word": "honest",
+  "type": "antonym",
+  "answers": [
+   "dishonest",
+   "deceitful",
+   "lying",
+   "fake"
+  ]
+ },
+ {
+  "word": "generous",
+  "type": "synonym",
+  "answers": [
+   "giving",
+   "kind",
+   "charitable",
+   "unselfish",
+   "liberal",
+   "benevolent",
+   "ample",
+   "lavish",
+   "large",
+   "big",
+   "handsome"
+  ]
+ },
+ {
+  "word": "generous",
+  "type": "antonym",
+  "answers": [
+   "selfish",
+   "stingy",
+   "greedy",
+   "mean"
+  ]
+ },
+ {
+  "word": "selfish",
+  "type": "synonym",
+  "answers": [
+   "narcissistic",
+   "envious",
+   "stingy"
+  ]
+ },
+ {
+  "word": "busy",
+  "type": "synonym",
+  "answers": [
+   "fancy",
+   "active",
+   "engaged",
+   "intrusive",
+   "occupied",
+   "occupy",
+   "interfering",
+   "meddling",
+   "fussy"
+  ]
+ },
+ {
+  "word": "funny",
+  "type": "synonym",
+  "answers": [
+   "amusing",
+   "hilarious",
+   "comical",
+   "humorous",
+   "witty",
+   "peculiar",
+   "strange",
+   "unusual",
+   "curious",
+   "queer",
+   "sick",
+   "singular",
+   "ill",
+   "suspicious"
+  ]
+ },
+ {
+  "word": "funny",
+  "type": "antonym",
+  "answers": [
+   "serious",
+   "boring",
+   "dull",
+   "sad"
+  ]
+ },
+ {
+  "word": "serious",
+  "type": "synonym",
+  "answers": [
+   "solemn",
+   "earnest",
+   "grievous",
+   "critical",
+   "good",
+   "sensible",
+   "important",
+   "severe",
+   "hard",
+   "difficult",
+   "thoughtful",
+   "dangerous"
+  ]
+ },
+ {
+  "word": "serious",
+  "type": "antonym",
+  "answers": [
+   "frivolous",
+   "playful"
+  ]
+ },
+ {
+  "word": "famous",
+  "type": "synonym",
+  "answers": [
+   "illustrious",
+   "notable",
+   "renowned",
+   "noted",
+   "celebrated",
+   "known",
+   "famed"
+  ]
+ },
+ {
+  "word": "important",
+  "type": "synonym",
+  "answers": [
+   "significant",
+   "crucial",
+   "vital",
+   "essential",
+   "key",
+   "major",
+   "eminent",
+   "profound",
+   "cardinal",
+   "grievous",
+   "critical",
+   "remarkable",
+   "fundamental",
+   "pivotal",
+   "heavy"
+  ]
+ },
+ {
+  "word": "important",
+  "type": "antonym",
+  "answers": [
+   "trivial",
+   "unimportant",
+   "minor",
+   "insignificant"
+  ]
+ },
+ {
+  "word": "modern",
+  "type": "synonym",
+  "answers": [
+   "contemporary",
+   "innovative",
+   "stylish",
+   "new",
+   "last",
+   "advanced",
+   "neo",
+   "fashionable",
+   "latest",
+   "late",
+   "mod",
+   "newest"
+  ]
+ },
+ {
+  "word": "healthy",
+  "type": "synonym",
+  "answers": [
+   "good",
+   "sensible",
+   "hearty",
+   "intelligent",
+   "fit",
+   "ruddy",
+   "sound",
+   "firm",
+   "reasonable",
+   "flourishing",
+   "blooming",
+   "thriving"
+  ]
+ },
+ {
+  "word": "healthy",
+  "type": "antonym",
+  "answers": [
+   "unhealthy",
+   "unfit"
+  ]
+ },
+ {
+  "word": "sick",
+  "type": "synonym",
+  "answers": [
+   "light",
+   "giddy",
+   "cast",
+   "faint",
+   "cat",
+   "stricken",
+   "mad",
+   "upset",
+   "unhinged",
+   "disturbed",
+   "ailing",
+   "ill"
+  ]
+ },
+ {
+  "word": "wise",
+  "type": "synonym",
+  "answers": [
+   "prudent",
+   "sensible",
+   "diplomatic",
+   "considered",
+   "knowing",
+   "method",
+   "advised",
+   "sage"
+  ]
+ },
+ {
+  "word": "foolish",
+  "type": "synonym",
+  "answers": [
+   "ludicrous",
+   "fond",
+   "silly",
+   "stupid",
+   "absurd",
+   "preposterous",
+   "mad",
+   "fool",
+   "ridiculous",
+   "goofy",
+   "mindless"
+  ]
+ },
+ {
+  "word": "proud",
+  "type": "synonym",
+  "answers": [
+   "arrogant",
+   "gratifying",
+   "glorious",
+   "illustrious",
+   "impressive",
+   "lofty",
+   "pleased",
+   "big",
+   "dignified",
+   "beaming",
+   "majestic"
+  ]
+ },
+ {
+  "word": "humble",
+  "type": "synonym",
+  "answers": [
+   "base",
+   "modest",
+   "mild",
+   "inferior",
+   "low",
+   "lowly",
+   "small",
+   "humiliated",
+   "broken",
+   "humbled",
+   "unskilled",
+   "crushed"
+  ]
+ },
+ {
+  "word": "gentle",
+  "type": "synonym",
+  "answers": [
+   "light",
+   "soft",
+   "blue",
+   "kind",
+   "noble",
+   "appease",
+   "mild",
+   "easy",
+   "gradual",
+   "aristocratic"
+  ]
+ },
+ {
+  "word": "huge",
+  "type": "synonym",
+  "answers": [
+   "vast",
+   "immense",
+   "large",
+   "big"
+  ]
+ },
+ {
+  "word": "tiny",
+  "type": "synonym",
+  "answers": [
+   "diminutive",
+   "little",
+   "small",
+   "midget",
+   "petite"
+  ]
+ },
+ {
+  "word": "brief",
+  "type": "synonym",
+  "answers": [
+   "concise",
+   "short",
+   "little",
+   "abbreviated"
+  ]
+ },
+ {
+  "word": "eager",
+  "type": "synonym",
+  "answers": [
+   "avid",
+   "great",
+   "enthusiastic",
+   "hot",
+   "bore"
+  ]
+ },
+ {
+  "word": "nice",
+  "type": "synonym",
+  "answers": [
+   "gracious",
+   "good",
+   "courteous",
+   "dainty",
+   "pleasant",
+   "precise",
+   "decent",
+   "respectable",
+   "skillful",
+   "discriminating",
+   "discriminate",
+   "polite"
+  ]
+ },
+ {
+  "word": "nice",
+  "type": "antonym",
+  "answers": [
+   "awful",
+   "nasty"
+  ]
+ },
+ {
+  "word": "mean",
+  "type": "synonym",
+  "answers": [
+   "base",
+   "skilled",
+   "entail",
+   "awful",
+   "nasty",
+   "little",
+   "tight",
+   "small",
+   "think",
+   "average",
+   "poor",
+   "signify"
+  ]
+ },
+ {
+  "word": "friendly",
+  "type": "synonym",
+  "answers": [
+   "cordial",
+   "intimate",
+   "favorable",
+   "informal",
+   "social",
+   "cozy"
+  ]
+ },
+ {
+  "word": "friendly",
+  "type": "antonym",
+  "answers": [
+   "hostile",
+   "unfriendly"
+  ]
+ },
+ {
+  "word": "begin",
+  "type": "synonym",
+  "answers": [
+   "start",
+   "commence",
+   "initiate",
+   "launch",
+   "open",
+   "get"
+  ]
+ },
+ {
+  "word": "begin",
+  "type": "antonym",
+  "answers": [
+   "end",
+   "finish",
+   "stop",
+   "conclude",
+   "cease",
+   "terminate"
+  ]
+ },
+ {
+  "word": "end",
+  "type": "synonym",
+  "answers": [
+   "close",
+   "terminate",
+   "death",
+   "conclusion",
+   "cease",
+   "goal",
+   "last",
+   "remnant",
+   "destruction",
+   "finish",
+   "closing",
+   "remainder"
+  ]
+ },
+ {
+  "word": "end",
+  "type": "antonym",
+  "answers": [
+   "offset",
+   "commence",
+   "start",
+   "commencement",
+   "get",
+   "begin",
+   "first",
+   "beginning",
+   "outset",
+   "kickoff",
+   "middle"
+  ]
+ },
+ {
+  "word": "start",
+  "type": "synonym",
+  "answers": [
+   "offset",
+   "initiate",
+   "part",
+   "jump",
+   "commence",
+   "commencement",
+   "get",
+   "depart",
+   "begin",
+   "first",
+   "beginning",
+   "outset"
+  ]
+ },
+ {
+  "word": "start",
+  "type": "antonym",
+  "answers": [
+   "terminate",
+   "cease",
+   "end",
+   "stop",
+   "finish",
+   "middle",
+   "ending",
+   "finishing",
+   "halt"
+  ]
+ },
+ {
+  "word": "finish",
+  "type": "synonym",
+  "answers": [
+   "close",
+   "complete",
+   "terminus",
+   "terminate",
+   "conclusion",
+   "cease",
+   "last",
+   "end",
+   "finale",
+   "coating",
+   "finishing"
+  ]
+ },
+ {
+  "word": "finish",
+  "type": "antonym",
+  "answers": [
+   "start",
+   "commencement",
+   "begin",
+   "beginning"
+  ]
+ },
+ {
+  "word": "increase",
+  "type": "synonym",
+  "answers": [
+   "rise",
+   "grow",
+   "expand",
+   "boost",
+   "raise",
+   "climb",
+   "growth",
+   "addition",
+   "gain"
+  ]
+ },
+ {
+  "word": "increase",
+  "type": "antonym",
+  "answers": [
+   "decrease",
+   "reduce",
+   "drop",
+   "decline",
+   "fall",
+   "shrink",
+   "diminish",
+   "reduction",
+   "lessen"
+  ]
+ },
+ {
+  "word": "decrease",
+  "type": "synonym",
+  "answers": [
+   "diminish",
+   "fall",
+   "reduction",
+   "lessen"
+  ]
+ },
+ {
+  "word": "decrease",
+  "type": "antonym",
+  "answers": [
+   "growth",
+   "increment",
+   "increase"
+  ]
+ },
+ {
+  "word": "build",
+  "type": "synonym",
+  "answers": [
+   "soma",
+   "establish",
+   "construct",
+   "shape",
+   "form",
+   "physique",
+   "frame",
+   "figure",
+   "flesh",
+   "make",
+   "chassis",
+   "anatomy"
+  ]
+ },
+ {
+  "word": "accept",
+  "type": "synonym",
+  "answers": [
+   "have",
+   "take",
+   "admit",
+   "consent",
+   "assume",
+   "swallow",
+   "bear"
+  ]
+ },
+ {
+  "word": "accept",
+  "type": "antonym",
+  "answers": [
+   "decline",
+   "reject",
+   "refuse"
+  ]
+ },
+ {
+  "word": "reject",
+  "type": "synonym",
+  "answers": [
+   "disdain",
+   "scorn",
+   "decline",
+   "refuse",
+   "eliminate",
+   "disapprove"
+  ]
+ },
+ {
+  "word": "reject",
+  "type": "antonym",
+  "answers": [
+   "sanction",
+   "have",
+   "take",
+   "admit",
+   "accept",
+   "okay",
+   "approve"
+  ]
+ },
+ {
+  "word": "allow",
+  "type": "synonym",
+  "answers": [
+   "appropriate",
+   "admit",
+   "permit",
+   "leave",
+   "let",
+   "grant",
+   "reserve"
+  ]
+ },
+ {
+  "word": "allow",
+  "type": "antonym",
+  "answers": [
+   "refuse",
+   "keep",
+   "prevent",
+   "deny",
+   "forbid",
+   "prohibit",
+   "veto"
+  ]
+ },
+ {
+  "word": "gather",
+  "type": "synonym",
+  "answers": [
+   "infer",
+   "understand",
+   "conglomerate",
+   "assemble",
+   "meet",
+   "gathering",
+   "collect",
+   "accumulate",
+   "tuck",
+   "garner"
+  ]
+ },
+ {
+  "word": "gather",
+  "type": "antonym",
+  "answers": [
+   "distribute",
+   "spread"
+  ]
+ },
+ {
+  "word": "help",
+  "type": "synonym",
+  "answers": [
+   "facilitate",
+   "avail",
+   "assist",
+   "assistance",
+   "serve",
+   "supporter",
+   "assistant",
+   "helping",
+   "aid",
+   "helper",
+   "service"
+  ]
+ },
+ {
+  "word": "love",
+  "type": "synonym",
+  "answers": [
+   "passion",
+   "beloved",
+   "enjoy",
+   "honey",
+   "dearest",
+   "dear"
+  ]
+ },
+ {
+  "word": "love",
+  "type": "antonym",
+  "answers": [
+   "detest",
+   "hatred",
+   "hate"
+  ]
+ },
+ {
+  "word": "win",
+  "type": "synonym",
+  "answers": [
+   "advance",
+   "profits",
+   "winnings",
+   "gain"
+  ]
+ },
+ {
+  "word": "win",
+  "type": "antonym",
+  "answers": [
+   "lose",
+   "losses"
+  ]
+ },
+ {
+  "word": "lose",
+  "type": "antonym",
+  "answers": [
+   "advance",
+   "keep",
+   "find",
+   "win",
+   "regain",
+   "gain",
+   "profit"
+  ]
+ },
+ {
+  "word": "buy",
+  "type": "synonym",
+  "answers": [
+   "corrupt",
+   "bargain",
+   "purchase",
+   "steal",
+   "bribe"
+  ]
+ },
+ {
+  "word": "sell",
+  "type": "synonym",
+  "answers": [
+   "deal",
+   "betray",
+   "trade"
+  ]
+ },
+ {
+  "word": "sell",
+  "type": "antonym",
+  "answers": [
+   "purchase",
+   "buy"
+  ]
+ },
+ {
+  "word": "give",
+  "type": "synonym",
+  "answers": [
+   "yield",
+   "render",
+   "impart",
+   "present",
+   "break",
+   "establish",
+   "hold",
+   "open",
+   "spring",
+   "pass",
+   "reach",
+   "apply"
+  ]
+ },
+ {
+  "word": "give",
+  "type": "antonym",
+  "answers": [
+   "take",
+   "starve"
+  ]
+ },
+ {
+  "word": "take",
+  "type": "synonym",
+  "answers": [
+   "yield",
+   "convey",
+   "issue",
+   "conduct",
+   "engage",
+   "lead",
+   "consider",
+   "direct",
+   "hold",
+   "demand",
+   "acquire",
+   "carry"
+  ]
+ },
+ {
+  "word": "take",
+  "type": "antonym",
+  "answers": [
+   "decline",
+   "give",
+   "reject",
+   "refuse",
+   "refrain",
+   "abstain",
+   "eliminate",
+   "desist",
+   "musical"
+  ]
+ },
+ {
+  "word": "open",
+  "type": "synonym",
+  "answers": [
+   "conspicuous",
+   "candid",
+   "free",
+   "clear",
+   "overt",
+   "coarse",
+   "blatant",
+   "give",
+   "obvious",
+   "raw",
+   "blazing",
+   "active"
+  ]
+ },
+ {
+  "word": "open",
+  "type": "antonym",
+  "answers": [
+   "close",
+   "fold",
+   "shut",
+   "closed",
+   "stopped",
+   "covert"
+  ]
+ },
+ {
+  "word": "close",
+  "type": "synonym",
+  "answers": [
+   "good",
+   "intimate",
+   "warm",
+   "familiar",
+   "imminent",
+   "restrained",
+   "hot",
+   "confined",
+   "fine",
+   "ambient",
+   "adjacent",
+   "short"
+  ]
+ },
+ {
+  "word": "close",
+  "type": "antonym",
+  "answers": [
+   "open",
+   "distant",
+   "far"
+  ]
+ },
+ {
+  "word": "push",
+  "type": "synonym",
+  "answers": [
+   "thrust",
+   "promote",
+   "drive",
+   "energy",
+   "press",
+   "fight",
+   "campaign",
+   "button",
+   "crowd",
+   "tug",
+   "labor",
+   "pushing"
+  ]
+ },
+ {
+  "word": "push",
+  "type": "antonym",
+  "answers": [
+   "draw",
+   "pull",
+   "force"
+  ]
+ },
+ {
+  "word": "pull",
+  "type": "synonym",
+  "answers": [
+   "puff",
+   "draw",
+   "drive",
+   "drag",
+   "twist",
+   "fetch",
+   "rip",
+   "tear",
+   "commit",
+   "pluck",
+   "attract"
+  ]
+ },
+ {
+  "word": "pull",
+  "type": "antonym",
+  "answers": [
+   "drive",
+   "push",
+   "repel",
+   "force"
+  ]
+ },
+ {
+  "word": "rise",
+  "type": "synonym",
+  "answers": [
+   "advance",
+   "develop",
+   "raise",
+   "boost",
+   "arise",
+   "mount",
+   "lift",
+   "prove",
+   "jump",
+   "upgrade",
+   "rebel",
+   "rear"
+  ]
+ },
+ {
+  "word": "rise",
+  "type": "antonym",
+  "answers": [
+   "set",
+   "decline",
+   "lie",
+   "drop",
+   "fall",
+   "wane",
+   "descent",
+   "descend",
+   "downfall",
+   "sink",
+   "retire",
+   "sit"
+  ]
+ },
+ {
+  "word": "fall",
+  "type": "synonym",
+  "answers": [
+   "light",
+   "diminish",
+   "strike",
+   "twilight",
+   "dusk",
+   "decline",
+   "flow",
+   "pass",
+   "return",
+   "surrender",
+   "drop",
+   "tumble"
+  ]
+ },
+ {
+  "word": "fall",
+  "type": "antonym",
+  "answers": [
+   "rise",
+   "raise",
+   "arise",
+   "lift",
+   "upgrade",
+   "ascend",
+   "rising",
+   "ascent",
+   "climb",
+   "ascension",
+   "increase"
+  ]
+ },
+ {
+  "word": "depart",
+  "type": "synonym",
+  "answers": [
+   "part",
+   "deviate",
+   "start",
+   "stray",
+   "quit",
+   "leave",
+   "vary"
+  ]
+ },
+ {
+  "word": "depart",
+  "type": "antonym",
+  "answers": [
+   "conform",
+   "come",
+   "stay"
+  ]
+ },
+ {
+  "word": "remember",
+  "type": "synonym",
+  "answers": [
+   "commend",
+   "recall",
+   "think",
+   "reward",
+   "retrieve",
+   "commemorate",
+   "remind"
+  ]
+ },
+ {
+  "word": "remember",
+  "type": "antonym",
+  "answers": [
+   "block",
+   "bury",
+   "forget"
+  ]
+ },
+ {
+  "word": "forget",
+  "type": "synonym",
+  "answers": [
+   "block",
+   "bury",
+   "leave"
+  ]
+ },
+ {
+  "word": "forget",
+  "type": "antonym",
+  "answers": [
+   "mind",
+   "recall",
+   "think",
+   "retrieve",
+   "remember",
+   "remind"
+  ]
+ },
+ {
+  "word": "hide",
+  "type": "synonym",
+  "answers": [
+   "obscure",
+   "shroud",
+   "cover",
+   "conceal",
+   "skin",
+   "fell"
+  ]
+ },
+ {
+  "word": "reveal",
+  "type": "synonym",
+  "answers": [
+   "impart",
+   "display",
+   "break",
+   "show",
+   "declare",
+   "unveil",
+   "expose",
+   "disclose",
+   "uncover",
+   "discover"
+  ]
+ },
+ {
+  "word": "expand",
+  "type": "synonym",
+  "answers": [
+   "flourish",
+   "amplify",
+   "elaborate",
+   "extend",
+   "boom",
+   "thrive",
+   "enlarge",
+   "inflate",
+   "prosper"
+  ]
+ },
+ {
+  "word": "improve",
+  "type": "antonym",
+  "answers": [
+   "decline",
+   "exacerbate",
+   "aggravate",
+   "worsen"
+  ]
+ },
+ {
+  "word": "connect",
+  "type": "synonym",
+  "answers": [
+   "link",
+   "relate",
+   "unite",
+   "tie",
+   "join",
+   "associate"
+  ]
+ },
+ {
+  "word": "connect",
+  "type": "antonym",
+  "answers": [
+   "disconnect",
+   "unplug"
+  ]
+ },
+ {
+  "word": "separate",
+  "type": "synonym",
+  "answers": [
+   "distinct",
+   "break",
+   "detached",
+   "individual",
+   "tell",
+   "part",
+   "split",
+   "class",
+   "isolated",
+   "distinguish",
+   "single",
+   "sort"
+  ]
+ },
+ {
+  "word": "separate",
+  "type": "antonym",
+  "answers": [
+   "joint",
+   "unite",
+   "unify"
+  ]
+ },
+ {
+  "word": "save",
+  "type": "synonym",
+  "answers": [
+   "preserve",
+   "salvage",
+   "deliver",
+   "keep",
+   "relieve",
+   "spare",
+   "conserve",
+   "redeem"
+  ]
+ },
+ {
+  "word": "waste",
+  "type": "synonym",
+  "answers": [
+   "desolate",
+   "wild",
+   "barren",
+   "desert",
+   "discarded",
+   "ware",
+   "useless",
+   "wasteland",
+   "consume",
+   "rot"
+  ]
+ },
+ {
+  "word": "waste",
+  "type": "antonym",
+  "answers": [
+   "conserve",
+   "husband"
+  ]
+ },
+ {
+  "word": "praise",
+  "type": "antonym",
+  "answers": [
+   "criticize",
+   "criticise"
+  ]
+ },
+ {
+  "word": "defend",
+  "type": "synonym",
+  "answers": [
+   "support",
+   "champion",
+   "hold",
+   "represent",
+   "fight",
+   "oppose",
+   "maintain",
+   "guard"
+  ]
+ },
+ {
+  "word": "defend",
+  "type": "antonym",
+  "answers": [
+   "attack",
+   "prosecute"
+  ]
+ },
+ {
+  "word": "attack",
+  "type": "synonym",
+  "answers": [
+   "approach",
+   "onslaught",
+   "assault",
+   "blast",
+   "snipe",
+   "onset",
+   "round",
+   "fire",
+   "attempt",
+   "flak"
+  ]
+ },
+ {
+  "word": "repair",
+  "type": "synonym",
+  "answers": [
+   "mend",
+   "resort",
+   "restore",
+   "fix",
+   "doctor",
+   "fixing",
+   "hangout",
+   "haunt"
+  ]
+ },
+ {
+  "word": "repair",
+  "type": "antonym",
+  "answers": [
+   "break",
+   "bust"
+  ]
+ },
+ {
+  "word": "break",
+  "type": "synonym",
+  "answers": [
+   "impart",
+   "respite",
+   "crack",
+   "give",
+   "develop",
+   "reveal",
+   "declare",
+   "breach",
+   "check",
+   "die",
+   "burst",
+   "rift"
+  ]
+ },
+ {
+  "word": "break",
+  "type": "antonym",
+  "answers": [
+   "advance",
+   "promote",
+   "comply",
+   "elevate",
+   "raise",
+   "make",
+   "mend",
+   "repair",
+   "upgrade",
+   "restore",
+   "fix",
+   "doctor"
+  ]
+ },
+ {
+  "word": "enter",
+  "type": "synonym",
+  "answers": [
+   "figure",
+   "introduce",
+   "enroll",
+   "participate",
+   "embark",
+   "recruit",
+   "insert",
+   "record"
+  ]
+ },
+ {
+  "word": "enter",
+  "type": "antonym",
+  "answers": [
+   "exit",
+   "quit",
+   "leave"
+  ]
+ },
+ {
+  "word": "exit",
+  "type": "synonym",
+  "answers": [
+   "issue",
+   "die",
+   "release",
+   "departure",
+   "expire",
+   "passing",
+   "expiration",
+   "loss",
+   "leave",
+   "outlet",
+   "perish",
+   "going"
+  ]
+ },
+ {
+  "word": "answer",
+  "type": "synonym",
+  "answers": [
+   "resolve",
+   "resolution",
+   "solution",
+   "result",
+   "respond",
+   "reply",
+   "response",
+   "suffice"
+  ]
+ },
+ {
+  "word": "answer",
+  "type": "antonym",
+  "answers": [
+   "inquiry",
+   "enquiry",
+   "question",
+   "query"
+  ]
+ },
+ {
+  "word": "ask",
+  "type": "synonym",
+  "answers": [
+   "inquire",
+   "demand",
+   "pose",
+   "need",
+   "take",
+   "involve",
+   "require",
+   "expect"
+  ]
+ },
+ {
+  "word": "learn",
+  "type": "synonym",
+  "answers": [
+   "ascertain",
+   "see",
+   "check",
+   "determine",
+   "take",
+   "study",
+   "watch",
+   "read",
+   "con",
+   "instruct",
+   "hear",
+   "teach"
+  ]
+ },
+ {
+  "word": "joy",
+  "type": "synonym",
+  "answers": [
+   "delight",
+   "pleasure",
+   "rejoice"
+  ]
+ },
+ {
+  "word": "joy",
+  "type": "antonym",
+  "answers": [
+   "sad",
+   "sorrow"
+  ]
+ },
+ {
+  "word": "sorrow",
+  "type": "synonym",
+  "answers": [
+   "grief",
+   "regret",
+   "sadness",
+   "grieve"
+  ]
+ },
+ {
+  "word": "friend",
+  "type": "synonym",
+  "answers": [
+   "champion",
+   "acquaintance",
+   "ally",
+   "supporter",
+   "protagonist",
+   "quaker",
+   "booster",
+   "admirer",
+   "confederate"
+  ]
+ },
+ {
+  "word": "friend",
+  "type": "antonym",
+  "answers": [
+   "enemy",
+   "foe"
+  ]
+ },
+ {
+  "word": "enemy",
+  "type": "synonym",
+  "answers": [
+   "opposition",
+   "opponent",
+   "foe"
+  ]
+ },
+ {
+  "word": "enemy",
+  "type": "antonym",
+  "answers": [
+   "ally",
+   "friend",
+   "confederate"
+  ]
+ },
+ {
+  "word": "success",
+  "type": "antonym",
+  "answers": [
+   "failure",
+   "loser"
+  ]
+ },
+ {
+  "word": "failure",
+  "type": "antonym",
+  "answers": [
+   "winner",
+   "success"
+  ]
+ },
+ {
+  "word": "beginning",
+  "type": "synonym",
+  "answers": [
+   "offset",
+   "source",
+   "basal",
+   "basic",
+   "novice",
+   "root",
+   "primary",
+   "start",
+   "commencement",
+   "first",
+   "outset",
+   "kickoff"
+  ]
+ },
+ {
+  "word": "beginning",
+  "type": "antonym",
+  "answers": [
+   "conclusion",
+   "end",
+   "finish",
+   "middle",
+   "ending",
+   "finishing"
+  ]
+ },
+ {
+  "word": "fear",
+  "type": "synonym",
+  "answers": [
+   "reverence",
+   "dread",
+   "concern",
+   "fright",
+   "care",
+   "revere"
+  ]
+ },
+ {
+  "word": "victory",
+  "type": "antonym",
+  "answers": [
+   "defeat",
+   "licking"
+  ]
+ },
+ {
+  "word": "defeat",
+  "type": "synonym",
+  "answers": [
+   "frustration",
+   "overcome",
+   "kill",
+   "licking"
+  ]
+ },
+ {
+  "word": "defeat",
+  "type": "antonym",
+  "answers": [
+   "victory",
+   "triumph"
+  ]
+ },
+ {
+  "word": "idea",
+  "type": "synonym",
+  "answers": [
+   "mind",
+   "theme",
+   "thought",
+   "estimate",
+   "approximation",
+   "estimation"
+  ]
+ },
+ {
+  "word": "anger",
+  "type": "synonym",
+  "answers": [
+   "wrath",
+   "ira",
+   "ire"
+  ]
+ },
+ {
+  "word": "amazing",
+  "type": "synonym",
+  "answers": [
+   "impressive",
+   "awful",
+   "awesome",
+   "astonishing",
+   "surprising"
+  ]
+ },
+ {
+  "word": "awful",
+  "type": "synonym",
+  "answers": [
+   "mean",
+   "dread",
+   "atrocious",
+   "dreadful",
+   "impressive",
+   "dirty",
+   "alarming",
+   "bad",
+   "nasty",
+   "unpleasant",
+   "awesome",
+   "fearsome"
+  ]
+ },
+ {
+  "word": "terrible",
+  "type": "synonym",
+  "answers": [
+   "intense",
+   "dread",
+   "atrocious",
+   "wicked",
+   "severe",
+   "dreadful",
+   "alarming",
+   "bad",
+   "awful",
+   "fearsome",
+   "fearful",
+   "painful"
+  ]
+ },
+ {
+  "word": "wonderful",
+  "type": "synonym",
+  "answers": [
+   "extraordinary",
+   "tremendous",
+   "marvelous",
+   "wondrous",
+   "fantastic",
+   "rattling",
+   "terrific",
+   "howling"
+  ]
+ },
+ {
+  "word": "perfect",
+  "type": "synonym",
+  "answers": [
+   "stark",
+   "cold",
+   "clear",
+   "idyllic",
+   "consummate",
+   "complete",
+   "pure",
+   "everlasting",
+   "impeccable",
+   "immaculate",
+   "clean",
+   "down"
+  ]
+ },
+ {
+  "word": "horrible",
+  "type": "synonym",
+  "answers": [
+   "atrocious",
+   "alarming",
+   "ugly",
+   "horrifying"
+  ]
+ },
+ {
+  "word": "difficult",
+  "type": "synonym",
+  "answers": [
+   "arduous",
+   "delicate",
+   "serious",
+   "challenging",
+   "ambitious",
+   "hard",
+   "rough",
+   "rugged",
+   "tough",
+   "stubborn",
+   "nasty",
+   "problematic"
+  ]
+ },
+ {
+  "word": "possible",
+  "type": "synonym",
+  "answers": [
+   "contingent",
+   "feasible",
+   "latent",
+   "viable",
+   "potential",
+   "mathematical",
+   "workable",
+   "achievable",
+   "conceivable",
+   "attainable",
+   "doable",
+   "imaginable"
+  ]
+ },
+ {
+  "word": "possible",
+  "type": "antonym",
+  "answers": [
+   "impossible",
+   "existent",
+   "actual"
+  ]
+ },
+ {
+  "word": "necessary",
+  "type": "synonym",
+  "answers": [
+   "essential",
+   "indispensable",
+   "requisite",
+   "obligatory",
+   "necessity",
+   "required",
+   "requirement",
+   "needed",
+   "inevitable"
+  ]
+ },
+ {
+  "word": "enough",
+  "type": "synonym",
+  "answers": [
+   "adequate",
+   "sufficient",
+   "decent",
+   "plenty",
+   "sufficiency"
+  ]
+ },
+ {
+  "word": "quick",
+  "type": "synonym",
+  "answers": [
+   "prompt",
+   "warm",
+   "intelligent",
+   "promptly",
+   "nimble",
+   "active",
+   "fast",
+   "immediate",
+   "ready",
+   "speedy",
+   "hurried",
+   "quickly"
+  ]
+ },
+ {
+  "word": "enormous",
+  "type": "synonym",
+  "answers": [
+   "huge",
+   "gigantic",
+   "massive",
+   "immense",
+   "vast",
+   "colossal",
+   "tremendous",
+   "large",
+   "big"
+  ]
+ },
+ {
+  "word": "gigantic",
+  "type": "synonym",
+  "answers": [
+   "large",
+   "big",
+   "mammoth"
+  ]
+ },
+ {
+  "word": "tired",
+  "type": "synonym",
+  "answers": [
+   "exhausted",
+   "weary",
+   "sleepy",
+   "fatigued",
+   "drained",
+   "stock",
+   "ragged",
+   "drawn",
+   "commonplace"
+  ]
+ },
+ {
+  "word": "tired",
+  "type": "antonym",
+  "answers": [
+   "energetic",
+   "fresh",
+   "lively",
+   "rested"
+  ]
+ },
+ {
+  "word": "glad",
+  "type": "synonym",
+  "answers": [
+   "pleased",
+   "cheerful",
+   "happy",
+   "grateful",
+   "beaming",
+   "willing",
+   "thankful"
+  ]
+ },
+ {
+  "word": "ancient",
+  "type": "synonym",
+  "answers": [
+   "old",
+   "aged",
+   "antique",
+   "prehistoric",
+   "past"
+  ]
+ },
+ {
+  "word": "have",
+  "type": "synonym",
+  "answers": [
+   "induce",
+   "sustain",
+   "hold",
+   "experience",
+   "give",
+   "possess",
+   "stimulate",
+   "need",
+   "deliver",
+   "take",
+   "cause",
+   "throw"
+  ]
+ },
+ {
+  "word": "have",
+  "type": "antonym",
+  "answers": [
+   "decline",
+   "reject",
+   "miss",
+   "refuse",
+   "refrain",
+   "abstain",
+   "desist",
+   "lack"
+  ]
+ },
+ {
+  "word": "but",
+  "type": "synonym",
+  "answers": [
+   "just",
+   "merely",
+   "only",
+   "simply"
+  ]
+ },
+ {
+  "word": "all",
+  "type": "synonym",
+  "answers": [
+   "complete",
+   "wholly",
+   "totally",
+   "altogether",
+   "whole",
+   "entirely",
+   "completely"
+  ]
+ },
+ {
+  "word": "all",
+  "type": "antonym",
+  "answers": [
+   "part",
+   "partly",
+   "partially"
+  ]
+ },
+ {
+  "word": "one",
+  "type": "synonym",
+  "answers": [
+   "cardinal",
+   "ace",
+   "single",
+   "unmatched",
+   "combined",
+   "unitary",
+   "unity"
+  ]
+ },
+ {
+  "word": "can",
+  "type": "synonym",
+  "answers": [
+   "stern",
+   "butt",
+   "ass",
+   "dismiss",
+   "bum",
+   "privy",
+   "terminate",
+   "fire",
+   "bottom",
+   "tail",
+   "facility",
+   "get"
+  ]
+ },
+ {
+  "word": "can",
+  "type": "antonym",
+  "answers": [
+   "engage",
+   "employ",
+   "hire"
+  ]
+ },
+ {
+  "word": "will",
+  "type": "synonym",
+  "answers": [
+   "shall",
+   "testament",
+   "leave",
+   "wish"
+  ]
+ },
+ {
+  "word": "just",
+  "type": "synonym",
+  "answers": [
+   "virtuous",
+   "good",
+   "fair",
+   "scarcely",
+   "righteous",
+   "clean",
+   "equitable",
+   "meet",
+   "upright",
+   "merely",
+   "only",
+   "but"
+  ]
+ },
+ {
+  "word": "just",
+  "type": "antonym",
+  "answers": [
+   "unjust",
+   "unfair"
+  ]
+ },
+ {
+  "word": "like",
+  "type": "synonym",
+  "answers": [
+   "corresponding",
+   "equivalent",
+   "comparable",
+   "similar",
+   "same",
+   "alike",
+   "equal",
+   "care",
+   "wish"
+  ]
+ },
+ {
+  "word": "like",
+  "type": "antonym",
+  "answers": [
+   "different",
+   "dislike",
+   "dissimilar",
+   "unequal",
+   "unlike"
+  ]
+ },
+ {
+  "word": "about",
+  "type": "synonym",
+  "answers": [
+   "virtually",
+   "near",
+   "some",
+   "nearly",
+   "almost",
+   "roughly",
+   "most",
+   "around",
+   "approximately",
+   "nigh"
+  ]
+ },
+ {
+  "word": "out",
+  "type": "synonym",
+  "answers": [
+   "stunned",
+   "taboo",
+   "prohibited",
+   "extinguished",
+   "extinct",
+   "away",
+   "forbidden",
+   "retired"
+  ]
+ },
+ {
+  "word": "time",
+  "type": "synonym",
+  "answers": [
+   "clip",
+   "meter",
+   "clock",
+   "sentence"
+  ]
+ },
+ {
+  "word": "get",
+  "type": "synonym",
+  "answers": [
+   "convey",
+   "induce",
+   "sustain",
+   "draw",
+   "experience",
+   "produce",
+   "develop",
+   "drive",
+   "stimulate",
+   "acquire",
+   "obtain",
+   "have"
+  ]
+ },
+ {
+  "word": "get",
+  "type": "antonym",
+  "answers": [
+   "terminate",
+   "cease",
+   "end",
+   "leave"
+  ]
+ },
+ {
+  "word": "people",
+  "type": "synonym",
+  "answers": [
+   "dwell",
+   "mass",
+   "multitude",
+   "live",
+   "inhabit",
+   "shack",
+   "masses",
+   "reside"
+  ]
+ },
+ {
+  "word": "some",
+  "type": "synonym",
+  "answers": [
+   "extraordinary",
+   "about",
+   "roughly",
+   "around",
+   "approximately"
+  ]
+ },
+ {
+  "word": "also",
+  "type": "synonym",
+  "answers": [
+   "likewise",
+   "besides",
+   "too"
+  ]
+ },
+ {
+  "word": "now",
+  "type": "synonym",
+  "answers": [
+   "immediately",
+   "instantly",
+   "directly",
+   "nowadays",
+   "today"
+  ]
+ },
+ {
+  "word": "other",
+  "type": "synonym",
+  "answers": [
+   "strange",
+   "unusual",
+   "different",
+   "additional",
+   "extra",
+   "opposite",
+   "former",
+   "early",
+   "remaining",
+   "else"
+  ]
+ },
+ {
+  "word": "only",
+  "type": "synonym",
+  "answers": [
+   "solitary",
+   "just",
+   "exclusive",
+   "merely",
+   "solely",
+   "but",
+   "lone",
+   "simply",
+   "entirely",
+   "exclusively",
+   "alone",
+   "lonesome"
+  ]
+ },
+ {
+  "word": "after",
+  "type": "synonym",
+  "answers": [
+   "subsequently",
+   "afterwards",
+   "later",
+   "afterward"
+  ]
+ },
+ {
+  "word": "first",
+  "type": "synonym",
+  "answers": [
+   "initiative",
+   "offset",
+   "low",
+   "original",
+   "premier",
+   "maiden",
+   "basic",
+   "forward",
+   "top",
+   "start",
+   "opening",
+   "commencement"
+  ]
+ },
+ {
+  "word": "first",
+  "type": "antonym",
+  "answers": [
+   "intermediate",
+   "last",
+   "end",
+   "second",
+   "middle",
+   "ending"
+  ]
+ },
+ {
+  "word": "know",
+  "type": "synonym",
+  "answers": [
+   "bang",
+   "experience",
+   "recognize",
+   "acknowledge",
+   "love",
+   "live",
+   "hump",
+   "screw",
+   "bed",
+   "jazz"
+  ]
+ },
+ {
+  "word": "see",
+  "type": "synonym",
+  "answers": [
+   "ascertain",
+   "regard",
+   "control",
+   "assure",
+   "fancy",
+   "project",
+   "consider",
+   "look",
+   "understand",
+   "view",
+   "check",
+   "determine"
+  ]
+ },
+ {
+  "word": "make",
+  "type": "synonym",
+  "answers": [
+   "induce",
+   "clear",
+   "shuffle",
+   "constitute",
+   "attain",
+   "establish",
+   "construct",
+   "draw",
+   "hold",
+   "give",
+   "produce",
+   "form"
+  ]
+ },
+ {
+  "word": "make",
+  "type": "antonym",
+  "answers": [
+   "break",
+   "undo"
+  ]
+ },
+ {
+  "word": "over",
+  "type": "synonym",
+  "answers": [
+   "complete",
+   "concluded",
+   "terminated",
+   "across",
+   "ended"
+  ]
+ },
+ {
+  "word": "think",
+  "type": "synonym",
+  "answers": [
+   "mean",
+   "consider",
+   "conceive",
+   "reckon",
+   "recall",
+   "believe",
+   "suppose",
+   "intend",
+   "retrieve",
+   "remember",
+   "imagine",
+   "guess"
+  ]
+ },
+ {
+  "word": "think",
+  "type": "antonym",
+  "answers": [
+   "block",
+   "forget"
+  ]
+ },
+ {
+  "word": "back",
+  "type": "synonym",
+  "answers": [
+   "support",
+   "endorse",
+   "cover",
+   "spine",
+   "gage",
+   "game",
+   "punt",
+   "stake",
+   "rear",
+   "backbone",
+   "binding",
+   "second"
+  ]
+ },
+ {
+  "word": "back",
+  "type": "antonym",
+  "answers": [
+   "advance",
+   "look",
+   "front",
+   "face",
+   "forward",
+   "ahead",
+   "forwards"
+  ]
+ },
+ {
+  "word": "want",
+  "type": "synonym",
+  "answers": [
+   "desire",
+   "deficiency",
+   "need",
+   "deprivation",
+   "require",
+   "lack",
+   "wish",
+   "wishing"
+  ]
+ },
+ {
+  "word": "well",
+  "type": "synonym",
+  "answers": [
+   "good",
+   "fine",
+   "swell",
+   "substantially",
+   "considerably",
+   "easily",
+   "intimately",
+   "cured",
+   "comfortably",
+   "recovered",
+   "healed"
+  ]
+ },
+ {
+  "word": "well",
+  "type": "antonym",
+  "answers": [
+   "sick",
+   "ill",
+   "badly",
+   "poorly"
+  ]
+ },
+ {
+  "word": "way",
+  "type": "synonym",
+  "answers": [
+   "agency",
+   "path",
+   "style",
+   "room",
+   "mode",
+   "direction",
+   "fashion",
+   "ways",
+   "manner",
+   "means"
+  ]
+ },
+ {
+  "word": "most",
+  "type": "synonym",
+  "answers": [
+   "virtually",
+   "near",
+   "about",
+   "nearly",
+   "almost",
+   "nigh"
+  ]
+ },
+ {
+  "word": "very",
+  "type": "synonym",
+  "answers": [
+   "rattling",
+   "identical",
+   "real",
+   "really"
+  ]
+ },
+ {
+  "word": "even",
+  "type": "synonym",
+  "answers": [
+   "level",
+   "true",
+   "yet",
+   "flat",
+   "steady",
+   "regular",
+   "plane",
+   "straight",
+   "equal",
+   "symmetrical",
+   "tied",
+   "justified"
+  ]
+ },
+ {
+  "word": "even",
+  "type": "antonym",
+  "answers": [
+   "odd",
+   "uneven"
+  ]
+ },
+ {
+  "word": "should",
+  "type": "synonym",
+  "answers": [
+   "need",
+   "must",
+   "ought"
+  ]
+ },
+ {
+  "word": "may",
+  "type": "synonym",
+  "answers": [
+   "get",
+   "might",
+   "can"
+  ]
+ },
+ {
+  "word": "need",
+  "type": "synonym",
+  "answers": [
+   "demand",
+   "want",
+   "motivation",
+   "have",
+   "take",
+   "involve",
+   "require",
+   "motive",
+   "must",
+   "ask",
+   "ought",
+   "should"
+  ]
+ },
+ {
+  "word": "really",
+  "type": "synonym",
+  "answers": [
+   "rattling",
+   "actually",
+   "real",
+   "very",
+   "truly",
+   "genuinely"
+  ]
+ },
+ {
+  "word": "right",
+  "type": "synonym",
+  "answers": [
+   "good",
+   "powerful",
+   "proper",
+   "suitable",
+   "appropriate",
+   "moral",
+   "precise",
+   "decent",
+   "exact",
+   "satisfactory",
+   "flop",
+   "mighty"
+  ]
+ },
+ {
+  "word": "right",
+  "type": "antonym",
+  "answers": [
+   "port",
+   "wrong",
+   "left",
+   "incorrect",
+   "improperly",
+   "incorrectly",
+   "wrongly",
+   "center"
+  ]
+ },
+ {
+  "word": "work",
+  "type": "synonym",
+  "answers": [
+   "cultivate",
+   "address",
+   "process",
+   "function",
+   "run",
+   "cover",
+   "play",
+   "handle",
+   "act",
+   "study",
+   "operate",
+   "deal"
+  ]
+ },
+ {
+  "word": "work",
+  "type": "antonym",
+  "answers": [
+   "malfunction",
+   "idle"
+  ]
+ },
+ {
+  "word": "day",
+  "type": "antonym",
+  "answers": [
+   "dark",
+   "night",
+   "nighttime"
+  ]
+ },
+ {
+  "word": "too",
+  "type": "synonym",
+  "answers": [
+   "likewise",
+   "besides",
+   "excessively",
+   "also",
+   "overly"
+  ]
+ },
+ {
+  "word": "off",
+  "type": "synonym",
+  "answers": [
+   "sour",
+   "disconnected",
+   "unsatisfactory",
+   "away",
+   "turned",
+   "cancelled",
+   "forth"
+  ]
+ },
+ {
+  "word": "still",
+  "type": "synonym",
+  "answers": [
+   "nonetheless",
+   "nevertheless",
+   "tranquil",
+   "notwithstanding",
+   "lull",
+   "static",
+   "however",
+   "calm",
+   "ease",
+   "yet",
+   "even",
+   "hush"
+  ]
+ },
+ {
+  "word": "still",
+  "type": "antonym",
+  "answers": [
+   "charge",
+   "rouse",
+   "moving",
+   "excite",
+   "sparkling"
+  ]
+ },
+ {
+  "word": "never",
+  "type": "antonym",
+  "answers": [
+   "always",
+   "ever"
+  ]
+ },
+ {
+  "word": "life",
+  "type": "synonym",
+  "answers": [
+   "spirit",
+   "animation",
+   "living",
+   "lifetime",
+   "biography",
+   "lifespan"
+  ]
+ },
+ {
+  "word": "say",
+  "type": "synonym",
+  "answers": [
+   "articulate",
+   "state",
+   "order",
+   "tell",
+   "allege",
+   "suppose",
+   "pronounce",
+   "read"
+  ]
+ },
+ {
+  "word": "world",
+  "type": "synonym",
+  "answers": [
+   "existence",
+   "domain",
+   "populace",
+   "creation",
+   "cosmos",
+   "nature",
+   "man",
+   "earth",
+   "globe",
+   "humanity",
+   "humankind",
+   "global"
+  ]
+ },
+ {
+  "word": "down",
+  "type": "synonym",
+  "answers": [
+   "blue",
+   "low",
+   "land",
+   "perfect",
+   "devour",
+   "cut",
+   "kill",
+   "polish",
+   "trailing",
+   "consume",
+   "depressed",
+   "declining"
+  ]
+ },
+ {
+  "word": "down",
+  "type": "antonym",
+  "answers": [
+   "upwards",
+   "upward"
+  ]
+ },
+ {
+  "word": "great",
+  "type": "synonym",
+  "answers": [
+   "eminent",
+   "keen",
+   "avid",
+   "good",
+   "important",
+   "cool",
+   "extraordinary",
+   "heavy",
+   "enthusiastic",
+   "high",
+   "swell",
+   "distinguished"
+  ]
+ },
+ {
+  "word": "last",
+  "type": "synonym",
+  "answers": [
+   "close",
+   "endure",
+   "high",
+   "terminus",
+   "terminal",
+   "ultimate",
+   "utmost",
+   "death",
+   "conclusion",
+   "penultimate",
+   "live",
+   "net"
+  ]
+ },
+ {
+  "word": "last",
+  "type": "antonym",
+  "answers": [
+   "intermediate",
+   "first"
+  ]
+ },
+ {
+  "word": "best",
+  "type": "synonym",
+  "answers": [
+   "good",
+   "optimal",
+   "champion",
+   "better",
+   "optimum",
+   "trump",
+   "first",
+   "scoop",
+   "finest",
+   "greatest"
+  ]
+ },
+ {
+  "word": "man",
+  "type": "synonym",
+  "answers": [
+   "world",
+   "piece",
+   "valet",
+   "humanity",
+   "gentleman",
+   "homo",
+   "humankind",
+   "human",
+   "humans",
+   "mankind"
+  ]
+ },
+ {
+  "word": "man",
+  "type": "antonym",
+  "answers": [
+   "woman",
+   "civilian"
+  ]
+ },
+ {
+  "word": "home",
+  "type": "synonym",
+  "answers": [
+   "base",
+   "abode",
+   "dwelling",
+   "house",
+   "family",
+   "plate",
+   "internal",
+   "central",
+   "household",
+   "interior",
+   "national",
+   "place"
+  ]
+ },
+ {
+  "word": "long",
+  "type": "synonym",
+  "answers": [
+   "tenacious",
+   "perennial",
+   "abundant",
+   "prolonged",
+   "protracted",
+   "ache",
+   "eternal",
+   "extended",
+   "pine",
+   "elongated",
+   "lasting",
+   "durable"
+  ]
+ },
+ {
+  "word": "look",
+  "type": "synonym",
+  "answers": [
+   "aspect",
+   "spirit",
+   "see",
+   "front",
+   "expression",
+   "feeling",
+   "face",
+   "tone",
+   "attend",
+   "feel",
+   "looking",
+   "appear"
+  ]
+ },
+ {
+  "word": "use",
+  "type": "synonym",
+  "answers": [
+   "employ",
+   "function",
+   "purpose",
+   "apply",
+   "utilize",
+   "practice",
+   "habit",
+   "enjoyment",
+   "consumption",
+   "utilization",
+   "exercise",
+   "role"
+  ]
+ },
+ {
+  "word": "same",
+  "type": "synonym",
+  "answers": [
+   "corresponding",
+   "like",
+   "equivalent",
+   "comparable",
+   "self",
+   "duplicate",
+   "indistinguishable",
+   "identical",
+   "equal"
+  ]
+ },
+ {
+  "word": "same",
+  "type": "antonym",
+  "answers": [
+   "different",
+   "other",
+   "unequal",
+   "unlike"
+  ]
+ },
+ {
+  "word": "used",
+  "type": "synonym",
+  "answers": [
+   "utilized",
+   "old",
+   "victimized",
+   "secondhand",
+   "misused",
+   "exploited"
+  ]
+ },
+ {
+  "word": "come",
+  "type": "synonym",
+  "answers": [
+   "derive",
+   "fall",
+   "fare",
+   "get",
+   "follow",
+   "descend",
+   "occur",
+   "total",
+   "hail",
+   "amount",
+   "arrive",
+   "number"
+  ]
+ },
+ {
+  "word": "come",
+  "type": "antonym",
+  "answers": [
+   "depart",
+   "leave"
+  ]
+ },
+ {
+  "word": "part",
+  "type": "synonym",
+  "answers": [
+   "break",
+   "component",
+   "persona",
+   "function",
+   "character",
+   "piece",
+   "separate",
+   "split",
+   "office",
+   "start",
+   "region",
+   "section"
+  ]
+ },
+ {
+  "word": "part",
+  "type": "antonym",
+  "answers": [
+   "all",
+   "wholly",
+   "totally",
+   "altogether",
+   "whole",
+   "entirely",
+   "completely"
+  ]
+ },
+ {
+  "word": "state",
+  "type": "synonym",
+  "answers": [
+   "express",
+   "tell",
+   "land",
+   "submit",
+   "nation",
+   "say",
+   "country",
+   "public",
+   "commonwealth",
+   "province"
+  ]
+ },
+ {
+  "word": "three",
+  "type": "synonym",
+  "answers": [
+   "cardinal",
+   "leash",
+   "trio",
+   "trey",
+   "threesome",
+   "iii",
+   "triad",
+   "trinity"
+  ]
+ },
+ {
+  "word": "around",
+  "type": "synonym",
+  "answers": [
+   "round",
+   "about",
+   "some",
+   "roughly",
+   "approximately"
+  ]
+ },
+ {
+  "word": "better",
+  "type": "synonym",
+  "answers": [
+   "break",
+   "improve",
+   "improved",
+   "major",
+   "best",
+   "punter",
+   "amended",
+   "healthier",
+   "fitter",
+   "amend",
+   "finer"
+  ]
+ },
+ {
+  "word": "better",
+  "type": "antonym",
+  "answers": [
+   "decline",
+   "exacerbate",
+   "aggravate",
+   "worsened",
+   "worsen",
+   "worse"
+  ]
+ },
+ {
+  "word": "find",
+  "type": "synonym",
+  "answers": [
+   "ascertain",
+   "observe",
+   "see",
+   "determine",
+   "obtain",
+   "encounter",
+   "chance",
+   "incur",
+   "hit",
+   "feel",
+   "rule",
+   "detect"
+  ]
+ },
+ {
+  "word": "little",
+  "type": "synonym",
+  "answers": [
+   "mean",
+   "trivial",
+   "diminutive",
+   "soft",
+   "fine",
+   "short",
+   "slender",
+   "insignificant",
+   "petty",
+   "brief",
+   "tight",
+   "immature"
+  ]
+ },
+ {
+  "word": "little",
+  "type": "antonym",
+  "answers": [
+   "large",
+   "big"
+  ]
+ },
+ {
+  "word": "own",
+  "type": "synonym",
+  "answers": [
+   "possess",
+   "have",
+   "ain"
+  ]
+ },
+ {
+  "word": "game",
+  "type": "synonym",
+  "answers": [
+   "spirited",
+   "brave",
+   "back",
+   "gritty",
+   "gage",
+   "courageous",
+   "punt",
+   "stake",
+   "fearless",
+   "biz"
+  ]
+ },
+ {
+  "word": "house",
+  "type": "synonym",
+  "answers": [
+   "firm",
+   "home",
+   "sign",
+   "theater",
+   "family",
+   "mansion",
+   "theatre",
+   "household"
+  ]
+ },
+ {
+  "word": "place",
+  "type": "synonym",
+  "answers": [
+   "base",
+   "order",
+   "set",
+   "direct",
+   "point",
+   "range",
+   "position",
+   "pose",
+   "berth",
+   "space",
+   "identify",
+   "rank"
+  ]
+ },
+ {
+  "word": "school",
+  "type": "synonym",
+  "answers": [
+   "cultivate",
+   "train",
+   "educate",
+   "schooling"
+  ]
+ },
+ {
+  "word": "next",
+  "type": "synonym",
+  "answers": [
+   "close",
+   "adjacent",
+   "succeeding",
+   "future",
+   "following",
+   "incoming"
+  ]
+ },
+ {
+  "word": "found",
+  "type": "synonym",
+  "answers": [
+   "base",
+   "constitute",
+   "establish",
+   "ground",
+   "institute",
+   "launch",
+   "plant"
+  ]
+ },
+ {
+  "word": "found",
+  "type": "antonym",
+  "answers": [
+   "lost",
+   "abolish"
+  ]
+ },
+ {
+  "word": "must",
+  "type": "synonym",
+  "answers": [
+   "need",
+   "have",
+   "ought",
+   "should"
+  ]
+ },
+ {
+  "word": "show",
+  "type": "synonym",
+  "answers": [
+   "exhibit",
+   "display",
+   "present",
+   "demonstrate",
+   "depict",
+   "indicate",
+   "establish",
+   "point",
+   "reveal",
+   "express",
+   "register",
+   "evidence"
+  ]
+ },
+ {
+  "word": "show",
+  "type": "antonym",
+  "answers": [
+   "conceal",
+   "hide",
+   "disprove"
+  ]
+ },
+ {
+  "word": "feel",
+  "type": "synonym",
+  "answers": [
+   "spirit",
+   "look",
+   "experience",
+   "sense",
+   "feeling",
+   "tone",
+   "finger",
+   "find",
+   "flavor",
+   "smell"
+  ]
+ },
+ {
+  "word": "sure",
+  "type": "synonym",
+  "answers": [
+   "secure",
+   "reliable",
+   "true",
+   "steady",
+   "certainly",
+   "careful",
+   "dependable",
+   "doomed",
+   "surely",
+   "trustworthy",
+   "destined",
+   "trusty"
+  ]
+ },
+ {
+  "word": "sure",
+  "type": "antonym",
+  "answers": [
+   "uncertain",
+   "unsure"
+  ]
+ },
+ {
+  "word": "family",
+  "type": "synonym",
+  "answers": [
+   "fellowship",
+   "home",
+   "class",
+   "kin",
+   "house",
+   "category",
+   "folk",
+   "household",
+   "sept"
+  ]
+ },
+ {
+  "word": "keep",
+  "type": "synonym",
+  "answers": [
+   "sustain",
+   "support",
+   "observe",
+   "hold",
+   "retain",
+   "preserve",
+   "restrain",
+   "prevent",
+   "proceed",
+   "maintain",
+   "livelihood",
+   "dungeon"
+  ]
+ },
+ {
+  "word": "keep",
+  "type": "antonym",
+  "answers": [
+   "allow",
+   "permit",
+   "discontinue",
+   "let",
+   "lose"
+  ]
+ },
+ {
+  "word": "might",
+  "type": "synonym",
+  "answers": [
+   "power",
+   "could",
+   "can",
+   "may"
+  ]
+ },
+ {
+  "word": "put",
+  "type": "synonym",
+  "answers": [
+   "order",
+   "cast",
+   "set",
+   "position",
+   "pose",
+   "frame",
+   "assign",
+   "lay",
+   "commit",
+   "arrange",
+   "invest",
+   "couch"
+  ]
+ },
+ {
+  "word": "put",
+  "type": "antonym",
+  "answers": [
+   "call",
+   "divest"
+  ]
+ },
+ {
+  "word": "free",
+  "type": "synonym",
+  "answers": [
+   "clear",
+   "relinquish",
+   "discharge",
+   "detached",
+   "open",
+   "autonomous",
+   "original",
+   "exempt",
+   "release",
+   "independent",
+   "relieve",
+   "loose"
+  ]
+ },
+ {
+  "word": "free",
+  "type": "antonym",
+  "answers": [
+   "impede",
+   "apply",
+   "implement",
+   "enforce",
+   "obstruct",
+   "block",
+   "stick",
+   "jam",
+   "fault",
+   "wedge",
+   "freeze",
+   "confine"
+  ]
+ },
+ {
+  "word": "second",
+  "type": "synonym",
+  "answers": [
+   "endorse",
+   "bit",
+   "forward",
+   "irregular",
+   "back",
+   "minute",
+   "intermediate",
+   "endorsement",
+   "instant",
+   "sec",
+   "secondly",
+   "moment"
+  ]
+ },
+ {
+  "word": "someone",
+  "type": "synonym",
+  "answers": [
+   "soul",
+   "individual",
+   "mortal",
+   "somebody",
+   "human",
+   "person"
+  ]
+ },
+ {
+  "word": "away",
+  "type": "synonym",
+  "answers": [
+   "outside",
+   "out",
+   "aside",
+   "off",
+   "departed",
+   "inaccurate",
+   "gone",
+   "forth"
+  ]
+ },
+ {
+  "word": "left",
+  "type": "synonym",
+  "answers": [
+   "port",
+   "odd",
+   "remaining",
+   "leftover",
+   "leftist",
+   "liberal"
+  ]
+ },
+ {
+  "word": "left",
+  "type": "antonym",
+  "answers": [
+   "right",
+   "starboard",
+   "center"
+  ]
+ },
+ {
+  "word": "number",
+  "type": "synonym",
+  "answers": [
+   "issue",
+   "figure",
+   "bit",
+   "act",
+   "turn",
+   "routine",
+   "count",
+   "come",
+   "total",
+   "amount",
+   "list"
+  ]
+ },
+ {
+  "word": "lot",
+  "type": "synonym",
+  "answers": [
+   "slew",
+   "set",
+   "draw",
+   "band",
+   "mass",
+   "pile",
+   "deal",
+   "bunch",
+   "mint",
+   "circle",
+   "batch",
+   "peck"
+  ]
+ },
+ {
+  "word": "name",
+  "type": "synonym",
+  "answers": [
+   "constitute",
+   "call",
+   "key",
+   "identify",
+   "figure",
+   "make",
+   "describe",
+   "advert",
+   "distinguish",
+   "refer",
+   "appoint",
+   "cite"
+  ]
+ },
+ {
+  "word": "night",
+  "type": "antonym",
+  "answers": [
+   "daylight",
+   "day",
+   "daytime"
+  ]
+ },
+ {
+  "word": "play",
+  "type": "synonym",
+  "answers": [
+   "render",
+   "work",
+   "run",
+   "maneuver",
+   "encounter",
+   "represent",
+   "act",
+   "flirt",
+   "meet",
+   "turn",
+   "bid",
+   "toy"
+  ]
+ },
+ {
+  "word": "company",
+  "type": "synonym",
+  "answers": [
+   "fellowship",
+   "companion",
+   "society",
+   "party",
+   "accompany",
+   "companionship",
+   "troupe",
+   "caller"
+  ]
+ },
+ {
+  "word": "let",
+  "type": "synonym",
+  "answers": [
+   "have",
+   "allow",
+   "rent",
+   "get",
+   "permit",
+   "leave",
+   "lease"
+  ]
+ },
+ {
+  "word": "let",
+  "type": "antonym",
+  "answers": [
+   "keep",
+   "prevent",
+   "forbid",
+   "prohibit",
+   "veto"
+  ]
+ },
+ {
+  "word": "different",
+  "type": "synonym",
+  "answers": [
+   "distinct",
+   "disparate",
+   "contrary",
+   "diverse",
+   "unusual",
+   "various",
+   "contrasting",
+   "divergent",
+   "assorted",
+   "polar",
+   "opposite",
+   "other"
+  ]
+ },
+ {
+  "word": "different",
+  "type": "antonym",
+  "answers": [
+   "like",
+   "similar",
+   "same"
+  ]
+ },
+ {
+  "word": "set",
+  "type": "synonym",
+  "answers": [
+   "mark",
+   "rigid",
+   "hard",
+   "position",
+   "fit",
+   "pose",
+   "determined",
+   "determine",
+   "band",
+   "hardened",
+   "bent",
+   "circle"
+  ]
+ },
+ {
+  "word": "thought",
+  "type": "synonym",
+  "answers": [
+   "idea",
+   "sentiment",
+   "view",
+   "opinion",
+   "thinking",
+   "persuasion"
+  ]
+ },
+ {
+  "word": "done",
+  "type": "synonym",
+  "answers": [
+   "through",
+   "cooked",
+   "finished"
+  ]
+ },
+ {
+  "word": "however",
+  "type": "synonym",
+  "answers": [
+   "nonetheless",
+   "nevertheless",
+   "notwithstanding",
+   "yet",
+   "how",
+   "still"
+  ]
+ },
+ {
+  "word": "god",
+  "type": "synonym",
+  "answers": [
+   "deity",
+   "divinity",
+   "idol",
+   "immortal"
+  ]
+ },
+ {
+  "word": "government",
+  "type": "synonym",
+  "answers": [
+   "governance",
+   "regime",
+   "politics",
+   "authorities",
+   "governing"
+  ]
+ },
+ {
+  "word": "group",
+  "type": "synonym",
+  "answers": [
+   "radical",
+   "communal",
+   "grouping"
+  ]
+ },
+ {
+  "word": "public",
+  "type": "synonym",
+  "answers": [
+   "state",
+   "common",
+   "community",
+   "open",
+   "world",
+   "populace",
+   "unrestricted",
+   "national"
+  ]
+ },
+ {
+  "word": "top",
+  "type": "synonym",
+  "answers": [
+   "clear",
+   "crest",
+   "head",
+   "pass",
+   "cover",
+   "pinnacle",
+   "crown",
+   "transcend",
+   "peak",
+   "pinch",
+   "elevation",
+   "tip"
+  ]
+ },
+ {
+  "word": "business",
+  "type": "synonym",
+  "answers": [
+   "concern",
+   "line",
+   "patronage",
+   "mercantile",
+   "clientele",
+   "occupation"
+  ]
+ },
+ {
+  "word": "care",
+  "type": "synonym",
+  "answers": [
+   "charge",
+   "concern",
+   "manage",
+   "like",
+   "handle",
+   "worry",
+   "deal",
+   "tending",
+   "maintenance",
+   "attention",
+   "precaution",
+   "caution"
+  ]
+ },
+ {
+  "word": "system",
+  "type": "synonym",
+  "answers": [
+   "organization",
+   "unit",
+   "arrangement",
+   "organisation"
+  ]
+ },
+ {
+  "word": "case",
+  "type": "synonym",
+  "answers": [
+   "eccentric",
+   "subject",
+   "slip",
+   "character",
+   "showcase",
+   "cause",
+   "shell",
+   "instance",
+   "event",
+   "type",
+   "suit",
+   "sheath"
+  ]
+ },
+ {
+  "word": "nothing",
+  "type": "synonym",
+  "answers": [
+   "cipher",
+   "nix",
+   "nil",
+   "zero",
+   "nada",
+   "zip"
+  ]
+ },
+ {
+  "word": "person",
+  "type": "synonym",
+  "answers": [
+   "soul",
+   "individual",
+   "mortal",
+   "somebody",
+   "someone",
+   "human"
+  ]
+ },
+ {
+  "word": "change",
+  "type": "synonym",
+  "answers": [
+   "shift",
+   "alter",
+   "convert",
+   "variety",
+   "transfer",
+   "alteration",
+   "interchange",
+   "exchange",
+   "commute",
+   "switch",
+   "modification",
+   "deepen"
+  ]
+ },
+ {
+  "word": "change",
+  "type": "antonym",
+  "answers": [
+   "rest",
+   "remain",
+   "stay",
+   "leave"
+  ]
+ },
+ {
+  "word": "live",
+  "type": "synonym",
+  "answers": [
+   "endure",
+   "hot",
+   "experience",
+   "dwell",
+   "resilient",
+   "last",
+   "charged",
+   "loaded",
+   "elastic",
+   "inhabit",
+   "know",
+   "alive"
+  ]
+ },
+ {
+  "word": "live",
+  "type": "antonym",
+  "answers": [
+   "dead",
+   "recorded"
+  ]
+ },
+ {
+  "word": "point",
+  "type": "synonym",
+  "answers": [
+   "charge",
+   "indicate",
+   "show",
+   "direct",
+   "head",
+   "level",
+   "maneuver",
+   "stage",
+   "peak",
+   "steer",
+   "period",
+   "spot"
+  ]
+ },
+ {
+  "word": "read",
+  "type": "synonym",
+  "answers": [
+   "show",
+   "understand",
+   "take",
+   "study",
+   "interpret",
+   "register",
+   "translate",
+   "scan",
+   "say",
+   "learn",
+   "record"
+  ]
+ },
+ {
+  "word": "yet",
+  "type": "synonym",
+  "answers": [
+   "nonetheless",
+   "nevertheless",
+   "notwithstanding",
+   "however",
+   "hitherto",
+   "even",
+   "eventually",
+   "still"
+  ]
+ },
+ {
+  "word": "once",
+  "type": "synonym",
+  "answers": [
+   "former",
+   "when",
+   "formerly",
+   "sometime"
+  ]
+ },
+ {
+  "word": "support",
+  "type": "synonym",
+  "answers": [
+   "sustain",
+   "affirm",
+   "hold",
+   "bolster",
+   "endorse",
+   "patronage",
+   "keep",
+   "confirm",
+   "back",
+   "stand",
+   "livelihood",
+   "defend"
+  ]
+ },
+ {
+  "word": "support",
+  "type": "antonym",
+  "answers": [
+   "negate",
+   "contradict"
+  ]
+ },
+ {
+  "word": "tell",
+  "type": "synonym",
+  "answers": [
+   "ascertain",
+   "state",
+   "demonstrate",
+   "order",
+   "assure",
+   "separate",
+   "evidence",
+   "distinguish",
+   "recount",
+   "differentiate",
+   "recite",
+   "spin"
+  ]
+ },
+ {
+  "word": "power",
+  "type": "synonym",
+  "answers": [
+   "potency",
+   "magnate",
+   "office",
+   "index",
+   "mogul",
+   "baron",
+   "ability",
+   "might",
+   "king",
+   "superpower"
+  ]
+ },
+ {
+  "word": "power",
+  "type": "antonym",
+  "answers": [
+   "impotence",
+   "inability"
+  ]
+ },
+ {
+  "word": "stop",
+  "type": "synonym",
+  "answers": [
+   "break",
+   "point",
+   "check",
+   "terminate",
+   "hitch",
+   "arrest",
+   "block",
+   "cease",
+   "period",
+   "contain",
+   "closure",
+   "catch"
+  ]
+ },
+ {
+  "word": "stop",
+  "type": "antonym",
+  "answers": [
+   "preserve",
+   "start",
+   "continue",
+   "uphold"
+  ]
+ },
+ {
+  "word": "water",
+  "type": "synonym",
+  "answers": [
+   "sweat",
+   "urine",
+   "piss",
+   "pee"
+  ]
+ },
+ {
+  "word": "believe",
+  "type": "synonym",
+  "answers": [
+   "consider",
+   "conceive",
+   "trust",
+   "think"
+  ]
+ },
+ {
+  "word": "call",
+  "type": "synonym",
+  "answers": [
+   "ring",
+   "cry",
+   "anticipate",
+   "scream",
+   "shout",
+   "bid",
+   "name",
+   "yell",
+   "claim",
+   "outcry",
+   "visit",
+   "predict"
+  ]
+ },
+ {
+  "word": "head",
+  "type": "synonym",
+  "answers": [
+   "lead",
+   "direct",
+   "point",
+   "pass",
+   "maneuver",
+   "principal",
+   "mind",
+   "top",
+   "steer",
+   "question",
+   "brain",
+   "headway"
+  ]
+ },
+ {
+  "word": "head",
+  "type": "antonym",
+  "answers": [
+   "rear",
+   "foot"
+  ]
+ },
+ {
+  "word": "national",
+  "type": "synonym",
+  "answers": [
+   "subject",
+   "general",
+   "home",
+   "domestic",
+   "internal",
+   "public",
+   "federal",
+   "nationalistic",
+   "interior",
+   "nationalist"
+  ]
+ },
+ {
+  "word": "national",
+  "type": "antonym",
+  "answers": [
+   "local",
+   "international"
+  ]
+ },
+ {
+  "word": "white",
+  "type": "synonym",
+  "answers": [
+   "light",
+   "good",
+   "hot",
+   "pure",
+   "clad",
+   "clean",
+   "empty",
+   "blank",
+   "tweed",
+   "segregated",
+   "diluted",
+   "covered"
+  ]
+ },
+ {
+  "word": "white",
+  "type": "antonym",
+  "answers": [
+   "black",
+   "blackness",
+   "red"
+  ]
+ },
+ {
+  "word": "far",
+  "type": "synonym",
+  "answers": [
+   "cold",
+   "right",
+   "distant",
+   "utmost",
+   "further",
+   "long",
+   "remote",
+   "removed",
+   "farther",
+   "furthest",
+   "farthest"
+  ]
+ },
+ {
+  "word": "far",
+  "type": "antonym",
+  "answers": [
+   "close",
+   "near"
+  ]
+ },
+ {
+  "word": "job",
+  "type": "synonym",
+  "answers": [
+   "work",
+   "speculate",
+   "problem",
+   "task",
+   "chore",
+   "employment"
+  ]
+ },
+ {
+  "word": "side",
+  "type": "synonym",
+  "answers": [
+   "position",
+   "face",
+   "root",
+   "incline",
+   "bye",
+   "english",
+   "slope"
+  ]
+ },
+ {
+  "word": "try",
+  "type": "synonym",
+  "answers": [
+   "endeavor",
+   "render",
+   "assay",
+   "examine",
+   "strain",
+   "endeavour",
+   "stress",
+   "effort",
+   "attempt",
+   "seek",
+   "prove",
+   "test"
+  ]
+ },
+ {
+  "word": "later",
+  "type": "synonym",
+  "answers": [
+   "subsequently",
+   "last",
+   "after",
+   "future",
+   "afterwards",
+   "late",
+   "latter",
+   "afterward"
+  ]
+ },
+ {
+  "word": "less",
+  "type": "synonym",
+  "answers": [
+   "inferior",
+   "lower",
+   "fewer"
+  ]
+ },
+ {
+  "word": "line",
+  "type": "synonym",
+  "answers": [
+   "trace",
+   "strain",
+   "draw",
+   "outline",
+   "channel",
+   "stock",
+   "air",
+   "contrast",
+   "course",
+   "describe",
+   "descent",
+   "pedigree"
+  ]
+ },
+ {
+  "word": "order",
+  "type": "synonym",
+  "answers": [
+   "range",
+   "tell",
+   "society",
+   "rank",
+   "club",
+   "edict",
+   "decree",
+   "dictate",
+   "put",
+   "arrange",
+   "regulate",
+   "rate"
+  ]
+ },
+ {
+  "word": "order",
+  "type": "antonym",
+  "answers": [
+   "disarray",
+   "disorder"
+  ]
+ },
+ {
+  "word": "run",
+  "type": "synonym",
+  "answers": [
+   "work",
+   "lead",
+   "discharge",
+   "endure",
+   "flow",
+   "lean",
+   "range",
+   "drive",
+   "function",
+   "pass",
+   "carry",
+   "prevail"
+  ]
+ },
+ {
+  "word": "run",
+  "type": "antonym",
+  "answers": [
+   "malfunction",
+   "idle"
+  ]
+ },
+ {
+  "word": "service",
+  "type": "synonym",
+  "answers": [
+   "avail",
+   "serve",
+   "overhaul",
+   "serving",
+   "servicing",
+   "help"
+  ]
+ },
+ {
+  "word": "country",
+  "type": "synonym",
+  "answers": [
+   "state",
+   "area",
+   "land",
+   "nation",
+   "nationality",
+   "commonwealth",
+   "folk",
+   "western"
+  ]
+ },
+ {
+  "word": "season",
+  "type": "synonym",
+  "answers": [
+   "temper",
+   "flavor",
+   "flavour",
+   "harden"
+  ]
+ },
+ {
+  "word": "general",
+  "type": "synonym",
+  "answers": [
+   "comprehensive",
+   "pervasive",
+   "broad",
+   "common",
+   "plain",
+   "mass",
+   "universal",
+   "gross",
+   "cosmopolitan",
+   "overall",
+   "generic",
+   "popular"
+  ]
+ },
+ {
+  "word": "general",
+  "type": "antonym",
+  "answers": [
+   "particular",
+   "specific",
+   "local"
+  ]
+ },
+ {
+  "word": "united",
+  "type": "synonym",
+  "answers": [
+   "incorporate",
+   "joint",
+   "cohesive",
+   "integrated",
+   "cooperative",
+   "unified",
+   "consolidated",
+   "merged",
+   "incorporated",
+   "concerted",
+   "fused",
+   "combined"
+  ]
+ },
+ {
+  "word": "area",
+  "type": "synonym",
+  "answers": [
+   "domain",
+   "field",
+   "region",
+   "sphere",
+   "expanse",
+   "orbit",
+   "country",
+   "arena"
+  ]
+ },
+ {
+  "word": "black",
+  "type": "synonym",
+  "answers": [
+   "grim",
+   "bleak",
+   "evil",
+   "wicked",
+   "sinister",
+   "dark",
+   "dim",
+   "dirty",
+   "hopeless",
+   "unfortunate",
+   "sarcastic",
+   "clad"
+  ]
+ },
+ {
+  "word": "black",
+  "type": "antonym",
+  "answers": [
+   "white",
+   "whiteness"
+  ]
+ },
+ {
+  "word": "following",
+  "type": "synonym",
+  "answers": [
+   "pursuit",
+   "chase",
+   "next",
+   "stalking",
+   "pursuing",
+   "followers"
+  ]
+ },
+ {
+  "word": "together",
+  "type": "synonym",
+  "answers": [
+   "assembled",
+   "jointly",
+   "collectively"
+  ]
+ },
+ {
+  "word": "whole",
+  "type": "synonym",
+  "answers": [
+   "full",
+   "unit",
+   "all",
+   "total",
+   "wholly",
+   "intact",
+   "totally",
+   "healthy",
+   "altogether",
+   "entirely",
+   "entire",
+   "completely"
+  ]
+ },
+ {
+  "word": "whole",
+  "type": "antonym",
+  "answers": [
+   "part",
+   "half",
+   "fractional",
+   "partly",
+   "partially"
+  ]
+ },
+ {
+  "word": "car",
+  "type": "synonym",
+  "answers": [
+   "automobile",
+   "machine",
+   "auto"
+  ]
+ },
+ {
+  "word": "face",
+  "type": "synonym",
+  "answers": [
+   "aspect",
+   "present",
+   "look",
+   "front",
+   "expression",
+   "brass",
+   "overlook",
+   "side",
+   "confront",
+   "cheek",
+   "nerve",
+   "facing"
+  ]
+ },
+ {
+  "word": "face",
+  "type": "antonym",
+  "answers": [
+   "avoid",
+   "back"
+  ]
+ },
+ {
+  "word": "five",
+  "type": "synonym",
+  "answers": [
+   "cardinal",
+   "fin",
+   "phoebe"
+  ]
+ },
+ {
+  "word": "president",
+  "type": "synonym",
+  "answers": [
+   "chairman",
+   "chair",
+   "chairperson"
+  ]
+ },
+ {
+  "word": "story",
+  "type": "synonym",
+  "answers": [
+   "narrative",
+   "level",
+   "chronicle",
+   "report",
+   "account",
+   "recital",
+   "yarn",
+   "tale",
+   "history",
+   "floor",
+   "narration",
+   "storey"
+  ]
+ },
+ {
+  "word": "working",
+  "type": "synonym",
+  "answers": [
+   "operative",
+   "practical",
+   "functional",
+   "running",
+   "workings"
+  ]
+ },
+ {
+  "word": "course",
+  "type": "synonym",
+  "answers": [
+   "line",
+   "flow",
+   "run",
+   "track",
+   "naturally",
+   "class",
+   "path",
+   "row",
+   "trend"
+  ]
+ },
+ {
+  "word": "hope",
+  "type": "synonym",
+  "answers": [
+   "desire",
+   "trust",
+   "promise"
+  ]
+ },
+ {
+  "word": "least",
+  "type": "synonym",
+  "answers": [
+   "little",
+   "small",
+   "minimal",
+   "minimum",
+   "lowest",
+   "smallest"
+  ]
+ },
+ {
+  "word": "means",
+  "type": "synonym",
+  "answers": [
+   "substance",
+   "agency",
+   "way"
+  ]
+ },
+ {
+  "word": "able",
+  "type": "synonym",
+  "answers": [
+   "competent",
+   "fit",
+   "capable",
+   "healthy"
+  ]
+ },
+ {
+  "word": "book",
+  "type": "synonym",
+  "answers": [
+   "hold",
+   "script",
+   "volume",
+   "ledger",
+   "record",
+   "reserve"
+  ]
+ },
+ {
+  "word": "early",
+  "type": "synonym",
+  "answers": [
+   "crude",
+   "archaic",
+   "primitive",
+   "old",
+   "immature",
+   "primordial",
+   "primal",
+   "new",
+   "other",
+   "former",
+   "baby",
+   "future"
+  ]
+ },
+ {
+  "word": "early",
+  "type": "antonym",
+  "answers": [
+   "late",
+   "middle"
+  ]
+ },
+ {
+  "word": "information",
+  "type": "synonym",
+  "answers": [
+   "entropy",
+   "info",
+   "data"
+  ]
+ },
+ {
+  "word": "local",
+  "type": "synonym",
+  "answers": [
+   "community",
+   "topical",
+   "native",
+   "localized",
+   "homegrown",
+   "district"
+  ]
+ },
+ {
+  "word": "local",
+  "type": "antonym",
+  "answers": [
+   "express",
+   "general",
+   "central",
+   "national"
+  ]
+ },
+ {
+  "word": "post",
+  "type": "synonym",
+  "answers": [
+   "base",
+   "position",
+   "berth",
+   "office",
+   "brand",
+   "spot",
+   "station",
+   "situation",
+   "stake",
+   "slot",
+   "send",
+   "mail"
+  ]
+ },
+ {
+  "word": "social",
+  "type": "synonym",
+  "answers": [
+   "friendly",
+   "interpersonal",
+   "societal",
+   "swarming",
+   "cultural",
+   "ethnic",
+   "mixer"
+  ]
+ },
+ {
+  "word": "talk",
+  "type": "synonym",
+  "answers": [
+   "peach",
+   "mouth",
+   "lecture",
+   "speak",
+   "sing",
+   "talking",
+   "utter"
+  ]
+ },
+ {
+  "word": "court",
+  "type": "synonym",
+  "answers": [
+   "solicit",
+   "homage",
+   "tribunal",
+   "courtyard",
+   "woo",
+   "courtroom",
+   "motel",
+   "romance"
+  ]
+ },
+ {
+  "word": "given",
+  "type": "synonym",
+  "answers": [
+   "presumption",
+   "acknowledged",
+   "conferred",
+   "bestowed",
+   "fixed",
+   "tending",
+   "disposed",
+   "presented",
+   "granted",
+   "minded",
+   "donated",
+   "apt"
+  ]
+ },
+ {
+  "word": "hand",
+  "type": "synonym",
+  "answers": [
+   "give",
+   "pass",
+   "reach",
+   "deal",
+   "hook",
+   "script",
+   "paw",
+   "mitt",
+   "handwriting"
+  ]
+ },
+ {
+  "word": "level",
+  "type": "synonym",
+  "answers": [
+   "charge",
+   "point",
+   "unwavering",
+   "flat",
+   "steady",
+   "even",
+   "stage",
+   "dismantle",
+   "story",
+   "plane",
+   "tier",
+   "floor"
+  ]
+ },
+ {
+  "word": "level",
+  "type": "antonym",
+  "answers": [
+   "raise",
+   "erect",
+   "rear"
+  ]
+ },
+ {
+  "word": "mind",
+  "type": "synonym",
+  "answers": [
+   "idea",
+   "head",
+   "judgment",
+   "heed",
+   "worry",
+   "brain",
+   "intellect",
+   "judgement",
+   "listen",
+   "thinker",
+   "beware",
+   "psyche"
+  ]
+ },
+ {
+  "word": "often",
+  "type": "synonym",
+  "answers": [
+   "frequently",
+   "oftentimes",
+   "much",
+   "oft"
+  ]
+ },
+ {
+  "word": "often",
+  "type": "antonym",
+  "answers": [
+   "seldom",
+   "rarely",
+   "infrequently"
+  ]
+ },
+ {
+  "word": "single",
+  "type": "synonym",
+  "answers": [
+   "ace",
+   "individual",
+   "separate",
+   "exclusive",
+   "one",
+   "undivided",
+   "divorced",
+   "unmarried",
+   "widowed",
+   "unity"
+  ]
+ },
+ {
+  "word": "single",
+  "type": "antonym",
+  "answers": [
+   "double",
+   "married"
+  ]
+ },
+ {
+  "word": "become",
+  "type": "synonym",
+  "answers": [
+   "turn",
+   "get",
+   "suit"
+  ]
+ },
+ {
+  "word": "body",
+  "type": "synonym",
+  "answers": [
+   "consistency",
+   "trunk",
+   "torso"
+  ]
+ },
+ {
+  "word": "control",
+  "type": "synonym",
+  "answers": [
+   "ascertain",
+   "assure",
+   "hold",
+   "command",
+   "moderate",
+   "see",
+   "check",
+   "master",
+   "dominance",
+   "ensure",
+   "operate",
+   "curb"
+  ]
+ },
+ {
+  "word": "death",
+  "type": "synonym",
+  "answers": [
+   "demise",
+   "last",
+   "end",
+   "destruction",
+   "dying"
+  ]
+ },
+ {
+  "word": "death",
+  "type": "antonym",
+  "answers": [
+   "birth",
+   "nativity"
+  ]
+ },
+ {
+  "word": "guy",
+  "type": "synonym",
+  "answers": [
+   "cat",
+   "ridicule",
+   "rib"
+  ]
+ },
+ {
+  "word": "office",
+  "type": "synonym",
+  "answers": [
+   "power",
+   "authority",
+   "position",
+   "function",
+   "berth",
+   "agency",
+   "part",
+   "post",
+   "spot",
+   "situation",
+   "slot",
+   "role"
+  ]
+ },
+ {
+  "word": "pay",
+  "type": "synonym",
+  "answers": [
+   "yield",
+   "give",
+   "compensate",
+   "remuneration",
+   "devote",
+   "wage",
+   "salary",
+   "earnings",
+   "bear"
+  ]
+ },
+ {
+  "word": "south",
+  "type": "synonym",
+  "answers": [
+   "southbound",
+   "southeast",
+   "southeastern",
+   "southwestern",
+   "confederacy",
+   "dixie"
+  ]
+ },
+ {
+  "word": "almost",
+  "type": "synonym",
+  "answers": [
+   "virtually",
+   "near",
+   "about",
+   "nearly",
+   "most",
+   "nigh"
+  ]
+ },
+ {
+  "word": "history",
+  "type": "synonym",
+  "answers": [
+   "chronicle",
+   "account",
+   "story"
+  ]
+ },
+ {
+  "word": "known",
+  "type": "synonym",
+  "answers": [
+   "illustrious",
+   "notable",
+   "renowned",
+   "identified",
+   "noted",
+   "legendary",
+   "celebrated",
+   "famous",
+   "proverbial",
+   "famed"
+  ]
+ },
+ {
+  "word": "lost",
+  "type": "synonym",
+  "answers": [
+   "perplexed",
+   "bewildered",
+   "baffled",
+   "incomprehensible",
+   "hopeless",
+   "confused",
+   "preoccupied",
+   "forfeit",
+   "doomed",
+   "cursed",
+   "destroyed",
+   "wasted"
+  ]
+ },
+ {
+  "word": "lost",
+  "type": "antonym",
+  "answers": [
+   "found",
+   "won",
+   "saved"
+  ]
+ },
+ {
+  "word": "research",
+  "type": "synonym",
+  "answers": [
+   "inquiry",
+   "enquiry",
+   "explore",
+   "search"
+  ]
+ },
+ {
+  "word": "wrong",
+  "type": "synonym",
+  "answers": [
+   "base",
+   "erroneous",
+   "deplorable",
+   "immoral",
+   "improper",
+   "misguided",
+   "unsuitable",
+   "inappropriate",
+   "damage",
+   "false",
+   "criminal",
+   "unethical"
+  ]
+ },
+ {
+  "word": "wrong",
+  "type": "antonym",
+  "answers": [
+   "right",
+   "correct",
+   "redress",
+   "compensate",
+   "correctly"
+  ]
+ },
+ {
+  "word": "girl",
+  "type": "synonym",
+  "answers": [
+   "miss",
+   "child",
+   "girlfriend",
+   "daughter",
+   "missy"
+  ]
+ },
+ {
+  "word": "girl",
+  "type": "antonym",
+  "answers": [
+   "child",
+   "boy",
+   "son"
+  ]
+ },
+ {
+  "word": "matter",
+  "type": "synonym",
+  "answers": [
+   "subject",
+   "issue",
+   "affair",
+   "substance",
+   "thing",
+   "count",
+   "material",
+   "topic",
+   "weigh"
+  ]
+ },
+ {
+  "word": "pretty",
+  "type": "synonym",
+  "answers": [
+   "beautiful",
+   "fine",
+   "bad",
+   "jolly"
+  ]
+ },
+ {
+  "word": "air",
+  "type": "synonym",
+  "answers": [
+   "strain",
+   "beam",
+   "line",
+   "bare",
+   "open",
+   "transmit",
+   "atmosphere",
+   "breeze",
+   "broadcast",
+   "send",
+   "tune",
+   "aviation"
+  ]
+ },
+ {
+  "word": "bit",
+  "type": "synonym",
+  "answers": [
+   "piece",
+   "act",
+   "spot",
+   "minute",
+   "turn",
+   "bite",
+   "routine",
+   "flake",
+   "injured",
+   "chip",
+   "second",
+   "stung"
+  ]
+ },
+ {
+  "word": "hit",
+  "type": "synonym",
+  "answers": [
+   "strike",
+   "attain",
+   "bang",
+   "stumble",
+   "reach",
+   "score",
+   "encounter",
+   "chance",
+   "striking",
+   "make",
+   "dispatch",
+   "smash"
+  ]
+ },
+ {
+  "word": "probably",
+  "type": "antonym",
+  "answers": [
+   "incredibly",
+   "unbelievably"
+  ]
+ },
+ {
+  "word": "understand",
+  "type": "synonym",
+  "answers": [
+   "infer",
+   "see",
+   "interpret",
+   "realize",
+   "sympathize",
+   "gather",
+   "read",
+   "translate"
+  ]
+ },
+ {
+  "word": "class",
+  "type": "synonym",
+  "answers": [
+   "form",
+   "separate",
+   "course",
+   "division",
+   "sort",
+   "family",
+   "grade",
+   "category",
+   "year",
+   "classify"
+  ]
+ },
+ {
+  "word": "international",
+  "type": "synonym",
+  "answers": [
+   "foreign",
+   "outside",
+   "external",
+   "global",
+   "multinational",
+   "planetary",
+   "worldwide"
+  ]
+ },
+ {
+  "word": "past",
+  "type": "synonym",
+  "answers": [
+   "preceding",
+   "old",
+   "ancient",
+   "medieval",
+   "historic",
+   "prehistoric",
+   "historical",
+   "departed",
+   "retiring"
+  ]
+ },
+ {
+  "word": "past",
+  "type": "antonym",
+  "answers": [
+   "hereafter",
+   "future"
+  ]
+ },
+ {
+  "word": "cause",
+  "type": "synonym",
+  "answers": [
+   "induce",
+   "case",
+   "drive",
+   "stimulate",
+   "have",
+   "effort",
+   "make",
+   "movement",
+   "campaign",
+   "get",
+   "grounds",
+   "suit"
+  ]
+ },
+ {
+  "word": "due",
+  "type": "synonym",
+  "answers": [
+   "appropriate",
+   "cod",
+   "delinquent",
+   "collect",
+   "anticipated",
+   "overdue",
+   "deserved",
+   "owed",
+   "collectible",
+   "payable"
+  ]
+ },
+ {
+  "word": "human",
+  "type": "synonym",
+  "answers": [
+   "frail",
+   "soul",
+   "weak",
+   "individual",
+   "mortal",
+   "man",
+   "imperfect",
+   "homo",
+   "somebody",
+   "someone"
+  ]
+ },
+ {
+  "word": "move",
+  "type": "synonym",
+  "answers": [
+   "prompt",
+   "incite",
+   "strike",
+   "propel",
+   "affect",
+   "run",
+   "act",
+   "impress",
+   "movement",
+   "proceed",
+   "travel",
+   "motivate"
+  ]
+ },
+ {
+  "word": "move",
+  "type": "antonym",
+  "answers": [
+   "rest",
+   "refrain",
+   "stick",
+   "stay"
+  ]
+ },
+ {
+  "word": "question",
+  "type": "synonym",
+  "answers": [
+   "inquiry",
+   "head",
+   "enquiry",
+   "doubt",
+   "interrogation",
+   "interview",
+   "motion",
+   "query",
+   "wonder"
+  ]
+ },
+ {
+  "word": "wait",
+  "type": "synonym",
+  "answers": [
+   "hold",
+   "look",
+   "await",
+   "expect",
+   "postponement",
+   "waiting",
+   "delay"
+  ]
+ },
+ {
+  "word": "community",
+  "type": "synonym",
+  "answers": [
+   "local",
+   "profession",
+   "public"
+  ]
+ },
+ {
+  "word": "late",
+  "type": "synonym",
+  "answers": [
+   "deep",
+   "new",
+   "modern",
+   "ripe",
+   "former",
+   "previous",
+   "advanced",
+   "recently",
+   "lately",
+   "later",
+   "belated",
+   "recent"
+  ]
+ },
+ {
+  "word": "late",
+  "type": "antonym",
+  "answers": [
+   "early",
+   "middle"
+  ]
+ },
+ {
+  "word": "leave",
+  "type": "synonym",
+  "answers": [
+   "impart",
+   "lead",
+   "give",
+   "allow",
+   "result",
+   "depart",
+   "exit",
+   "quit",
+   "parting",
+   "let"
+  ]
+ },
+ {
+  "word": "leave",
+  "type": "antonym",
+  "answers": [
+   "alter",
+   "change",
+   "get",
+   "come",
+   "participate",
+   "arrive",
+   "enter"
+  ]
+ },
+ {
+  "word": "north",
+  "type": "synonym",
+  "answers": [
+   "northwest",
+   "northwestern",
+   "northeastern",
+   "northbound"
+  ]
+ },
+ {
+  "word": "special",
+  "type": "synonym",
+  "answers": [
+   "peculiar",
+   "extraordinary",
+   "exceptional",
+   "particular",
+   "specific",
+   "primary",
+   "uncommon",
+   "extra",
+   "limited",
+   "specialized"
+  ]
+ },
+ {
+  "word": "watch",
+  "type": "synonym",
+  "answers": [
+   "ascertain",
+   "observe",
+   "sentry",
+   "see",
+   "view",
+   "check",
+   "determine",
+   "scout",
+   "picket",
+   "follow",
+   "catch",
+   "lookout"
+  ]
+ },
+ {
+  "word": "future",
+  "type": "synonym",
+  "answers": [
+   "forthcoming",
+   "prospective",
+   "succeeding",
+   "hereafter",
+   "approaching",
+   "rising",
+   "emerging",
+   "next",
+   "early",
+   "upcoming",
+   "later"
+  ]
+ },
+ {
+  "word": "morning",
+  "type": "synonym",
+  "answers": [
+   "sunrise",
+   "morn",
+   "aurora",
+   "dawn",
+   "daybreak"
+  ]
+ },
+ {
+  "word": "morning",
+  "type": "antonym",
+  "answers": [
+   "sundown",
+   "sunset"
+  ]
+ },
+ {
+  "word": "short",
+  "type": "synonym",
+  "answers": [
+   "tender",
+   "light",
+   "close",
+   "direct",
+   "dead",
+   "inadequate",
+   "deficient",
+   "scant",
+   "abruptly",
+   "brief",
+   "fleeting",
+   "little"
+  ]
+ },
+ {
+  "word": "short",
+  "type": "antonym",
+  "answers": [
+   "long",
+   "tall"
+  ]
+ },
+ {
+  "word": "stay",
+  "type": "synonym",
+  "answers": [
+   "abide",
+   "quell",
+   "appease",
+   "check",
+   "persist",
+   "hitch",
+   "rest",
+   "arrest",
+   "stick",
+   "remain",
+   "stop",
+   "detain"
+  ]
+ },
+ {
+  "word": "stay",
+  "type": "antonym",
+  "answers": [
+   "change",
+   "move",
+   "depart",
+   "quit"
+  ]
+ },
+ {
+  "word": "deal",
+  "type": "synonym",
+  "answers": [
+   "contend",
+   "address",
+   "work",
+   "slew",
+   "conduct",
+   "consider",
+   "manage",
+   "cover",
+   "handle",
+   "grapple",
+   "take",
+   "mass"
+  ]
+ },
+ {
+  "word": "rather",
+  "type": "synonym",
+  "answers": [
+   "quite",
+   "instead",
+   "kinda",
+   "sooner",
+   "preferably"
+  ]
+ },
+ {
+  "word": "reason",
+  "type": "synonym",
+  "answers": [
+   "understanding",
+   "ground",
+   "cause",
+   "intellect",
+   "conclude",
+   "rationality",
+   "grounds",
+   "argue"
+  ]
+ },
+ {
+  "word": "red",
+  "type": "synonym",
+  "answers": [
+   "ruddy",
+   "crimson",
+   "violent",
+   "cherry",
+   "scarlet",
+   "bloody",
+   "ruby",
+   "flushed",
+   "colorful"
+  ]
+ },
+ {
+  "word": "report",
+  "type": "synonym",
+  "answers": [
+   "composition",
+   "cover",
+   "study",
+   "account",
+   "theme",
+   "describe",
+   "story",
+   "paper",
+   "reputation"
+  ]
+ },
+ {
+  "word": "turn",
+  "type": "synonym",
+  "answers": [
+   "convert",
+   "play",
+   "twist",
+   "bit",
+   "act",
+   "release",
+   "round",
+   "bend",
+   "sour",
+   "routine",
+   "spell",
+   "convince"
+  ]
+ },
+ {
+  "word": "check",
+  "type": "synonym",
+  "answers": [
+   "ascertain",
+   "rebuke",
+   "control",
+   "assay",
+   "break",
+   "crack",
+   "assure",
+   "mark",
+   "hold",
+   "moderate",
+   "fit",
+   "see"
+  ]
+ },
+ {
+  "word": "check",
+  "type": "antonym",
+  "answers": [
+   "disagree",
+   "discord"
+  ]
+ },
+ {
+  "word": "development",
+  "type": "synonym",
+  "answers": [
+   "growth",
+   "exploitation",
+   "evolution",
+   "developing",
+   "growing"
+  ]
+ },
+ {
+  "word": "form",
+  "type": "synonym",
+  "answers": [
+   "constitute",
+   "strain",
+   "cast",
+   "soma",
+   "kind",
+   "shape",
+   "spring",
+   "physique",
+   "build",
+   "frame",
+   "figure",
+   "variety"
+  ]
+ },
+ {
+  "word": "further",
+  "type": "synonym",
+  "answers": [
+   "advance",
+   "encourage",
+   "promote",
+   "boost",
+   "additional",
+   "farther",
+   "far",
+   "foster",
+   "more"
+  ]
+ },
+ {
+  "word": "heart",
+  "type": "synonym",
+  "answers": [
+   "essence",
+   "core",
+   "affection",
+   "spirit",
+   "bosom",
+   "substance",
+   "marrow",
+   "fondness",
+   "tenderness",
+   "eye",
+   "pump",
+   "nerve"
+  ]
+ },
+ {
+  "word": "act",
+  "type": "synonym",
+  "answers": [
+   "work",
+   "process",
+   "play",
+   "represent",
+   "bit",
+   "operation",
+   "move",
+   "turn",
+   "routine",
+   "pretend",
+   "enactment",
+   "behave"
+  ]
+ },
+ {
+  "word": "child",
+  "type": "synonym",
+  "answers": [
+   "minor",
+   "girl",
+   "baby",
+   "fry",
+   "kid",
+   "youngster",
+   "boy"
+  ]
+ },
+ {
+  "word": "child",
+  "type": "antonym",
+  "answers": [
+   "girl",
+   "boy",
+   "parent"
+  ]
+ },
+ {
+  "word": "fire",
+  "type": "synonym",
+  "answers": [
+   "fervor",
+   "elicit",
+   "evoke",
+   "discharge",
+   "provoke",
+   "blast",
+   "dismiss",
+   "raise",
+   "terminate",
+   "flame",
+   "attack",
+   "flak"
+  ]
+ },
+ {
+  "word": "fire",
+  "type": "antonym",
+  "answers": [
+   "engage",
+   "employ",
+   "hire"
+  ]
+ },
+ {
+  "word": "fun",
+  "type": "synonym",
+  "answers": [
+   "play",
+   "amusing",
+   "sport",
+   "diverting"
+  ]
+ },
+ {
+  "word": "living",
+  "type": "synonym",
+  "answers": [
+   "support",
+   "extant",
+   "life",
+   "keep",
+   "live",
+   "realistic",
+   "livelihood",
+   "animation",
+   "surviving",
+   "absolute"
+  ]
+ },
+ {
+  "word": "major",
+  "type": "synonym",
+  "answers": [
+   "great",
+   "better",
+   "outstanding"
+  ]
+ },
+ {
+  "word": "major",
+  "type": "antonym",
+  "answers": [
+   "minor",
+   "underage"
+  ]
+ },
+ {
+  "word": "phone",
+  "type": "synonym",
+  "answers": [
+   "ring",
+   "call",
+   "sound",
+   "telephone",
+   "headphone"
+  ]
+ },
+ {
+  "word": "art",
+  "type": "synonym",
+  "answers": [
+   "prowess",
+   "artistry",
+   "artwork",
+   "graphics"
+  ]
+ },
+ {
+  "word": "behind",
+  "type": "synonym",
+  "answers": [
+   "stern",
+   "butt",
+   "ass",
+   "bum",
+   "bottom",
+   "tail",
+   "slow",
+   "arse",
+   "rear",
+   "rump",
+   "backside",
+   "posterior"
+  ]
+ },
+ {
+  "word": "near",
+  "type": "synonym",
+  "answers": [
+   "good",
+   "close",
+   "warm",
+   "approach",
+   "hot",
+   "adjacent",
+   "unreal",
+   "artificial",
+   "virtually",
+   "about",
+   "stingy",
+   "nearly"
+  ]
+ },
+ {
+  "word": "plan",
+  "type": "synonym",
+  "answers": [
+   "project",
+   "program",
+   "design",
+   "programme"
+  ]
+ },
+ {
+  "word": "west",
+  "type": "synonym",
+  "answers": [
+   "westbound",
+   "westerly",
+   "western",
+   "westward"
+  ]
+ },
+ {
+  "word": "available",
+  "type": "synonym",
+  "answers": [
+   "free",
+   "open",
+   "forthcoming",
+   "easy",
+   "accessible",
+   "disposable",
+   "usable",
+   "obtainable"
+  ]
+ },
+ {
+  "word": "education",
+  "type": "synonym",
+  "answers": [
+   "pedagogy",
+   "teaching",
+   "instruction",
+   "training",
+   "breeding"
+  ]
+ },
+ {
+  "word": "final",
+  "type": "synonym",
+  "answers": [
+   "terminal",
+   "ultimate",
+   "last",
+   "net",
+   "closing",
+   "concluding"
+  ]
+ },
+ {
+  "word": "former",
+  "type": "synonym",
+  "answers": [
+   "other",
+   "previous",
+   "early",
+   "late",
+   "once",
+   "sometime"
+  ]
+ },
+ {
+  "word": "front",
+  "type": "synonym",
+  "answers": [
+   "look",
+   "presence",
+   "face",
+   "movement",
+   "breast",
+   "fore"
+  ]
+ },
+ {
+  "word": "front",
+  "type": "antonym",
+  "answers": [
+   "back",
+   "rear",
+   "backside"
+  ]
+ },
+ {
+  "word": "list",
+  "type": "synonym",
+  "answers": [
+   "inclination",
+   "lean",
+   "tilt",
+   "name",
+   "leaning",
+   "listing",
+   "number"
+  ]
+ },
+ {
+  "word": "ready",
+  "type": "synonym",
+  "answers": [
+   "prompt",
+   "set",
+   "intelligent",
+   "make",
+   "prepare",
+   "fix",
+   "prepared",
+   "quick",
+   "willing",
+   "waiting",
+   "cook"
+  ]
+ },
+ {
+  "word": "son",
+  "type": "synonym",
+  "answers": [
+   "word",
+   "boy",
+   "logos"
+  ]
+ },
+ {
+  "word": "son",
+  "type": "antonym",
+  "answers": [
+   "girl",
+   "daughter"
+  ]
+ },
+ {
+  "word": "bring",
+  "type": "synonym",
+  "answers": [
+   "convey",
+   "impart",
+   "work",
+   "play",
+   "institute",
+   "take",
+   "fetch",
+   "land",
+   "contribute",
+   "get",
+   "lend",
+   "add"
+  ]
+ },
+ {
+  "word": "current",
+  "type": "synonym",
+  "answers": [
+   "contemporary",
+   "rife",
+   "flow",
+   "prevalent",
+   "stream",
+   "incumbent",
+   "live",
+   "prevailing",
+   "ongoing",
+   "topical",
+   "actual",
+   "latest"
+  ]
+ },
+ {
+  "word": "example",
+  "type": "synonym",
+  "answers": [
+   "case",
+   "model",
+   "representative",
+   "instance",
+   "illustration",
+   "exercise",
+   "lesson"
+  ]
+ },
+ {
+  "word": "experience",
+  "type": "synonym",
+  "answers": [
+   "have",
+   "feel",
+   "live",
+   "get",
+   "undergo",
+   "know",
+   "receive"
+  ]
+ },
+ {
+  "word": "meet",
+  "type": "synonym",
+  "answers": [
+   "touch",
+   "just",
+   "fit",
+   "see",
+   "play",
+   "encounter",
+   "converge",
+   "assemble",
+   "match",
+   "gather",
+   "receive",
+   "satisfy"
+  ]
+ },
+ {
+  "word": "program",
+  "type": "synonym",
+  "answers": [
+   "platform",
+   "broadcast",
+   "curriculum",
+   "syllabus",
+   "programme",
+   "plan"
+  ]
+ },
+ {
+  "word": "type",
+  "type": "synonym",
+  "answers": [
+   "eccentric",
+   "case",
+   "character"
+  ]
+ },
+ {
+  "word": "baby",
+  "type": "synonym",
+  "answers": [
+   "indulge",
+   "new",
+   "babe",
+   "child",
+   "spoil",
+   "early",
+   "young",
+   "sister",
+   "infant"
+  ]
+ },
+ {
+  "word": "chance",
+  "type": "synonym",
+  "answers": [
+   "casual",
+   "encounter",
+   "hit",
+   "opportunity",
+   "adventure",
+   "find",
+   "happen",
+   "accidental",
+   "luck",
+   "probability",
+   "bump",
+   "fortune"
+  ]
+ },
+ {
+  "word": "father",
+  "type": "synonym",
+  "answers": [
+   "generate",
+   "sire",
+   "get",
+   "founder",
+   "beginner",
+   "mother",
+   "padre"
+  ]
+ },
+ {
+  "word": "march",
+  "type": "synonym",
+  "answers": [
+   "exhibit",
+   "demonstrate",
+   "stride",
+   "process",
+   "parade",
+   "marching",
+   "mar"
+  ]
+ },
+ {
+  "word": "process",
+  "type": "synonym",
+  "answers": [
+   "work",
+   "procedure",
+   "act",
+   "operation",
+   "serve",
+   "treat",
+   "summons",
+   "sue",
+   "march"
+  ]
+ },
+ {
+  "word": "study",
+  "type": "synonym",
+  "answers": [
+   "contemplate",
+   "subject",
+   "work",
+   "examine",
+   "consider",
+   "analyze",
+   "discipline",
+   "field",
+   "take",
+   "report",
+   "survey",
+   "sketch"
+  ]
+ },
+ {
+  "word": "word",
+  "type": "synonym",
+  "answers": [
+   "articulate",
+   "formulate",
+   "discussion",
+   "intelligence",
+   "phrase",
+   "news",
+   "scripture",
+   "parole",
+   "bible",
+   "password",
+   "logos",
+   "son"
+  ]
+ },
+ {
+  "word": "action",
+  "type": "antonym",
+  "answers": [
+   "inaction",
+   "inactivity"
+  ]
+ },
+ {
+  "word": "clear",
+  "type": "synonym",
+  "answers": [
+   "light",
+   "distinct",
+   "free",
+   "bright",
+   "broad",
+   "discerning",
+   "discharge",
+   "vivid",
+   "open",
+   "pass",
+   "fair",
+   "pure"
+  ]
+ },
+ {
+  "word": "clear",
+  "type": "antonym",
+  "answers": [
+   "obscure",
+   "opaque",
+   "overcast",
+   "bounce",
+   "blur",
+   "cloudy",
+   "unclear",
+   "confuse",
+   "cloud",
+   "clutter",
+   "convict"
+  ]
+ },
+ {
+  "word": "outside",
+  "type": "synonym",
+  "answers": [
+   "extra",
+   "remote",
+   "exterior",
+   "maximum",
+   "external",
+   "away",
+   "maximal",
+   "unlikely",
+   "inaccurate",
+   "outdoor",
+   "outdoors"
+  ]
+ },
+ {
+  "word": "outside",
+  "type": "antonym",
+  "answers": [
+   "within",
+   "inside",
+   "indoors",
+   "interior"
+  ]
+ },
+ {
+  "word": "board",
+  "type": "synonym",
+  "answers": [
+   "room",
+   "table",
+   "panel",
+   "card",
+   "plank"
+  ]
+ },
+ {
+  "word": "cut",
+  "type": "synonym",
+  "answers": [
+   "disregard",
+   "slew",
+   "issue",
+   "reduce",
+   "hack",
+   "contract",
+   "split",
+   "curve",
+   "thin",
+   "trim",
+   "ignore",
+   "down"
+  ]
+ },
+ {
+  "word": "cut",
+  "type": "antonym",
+  "answers": [
+   "rough",
+   "uncut"
+  ]
+ },
+ {
+  "word": "field",
+  "type": "synonym",
+  "answers": [
+   "subject",
+   "plain",
+   "domain",
+   "discipline",
+   "area",
+   "study",
+   "sphere",
+   "orbit",
+   "battlefield",
+   "battleground",
+   "airfield"
+  ]
+ },
+ {
+  "word": "main",
+  "type": "synonym",
+  "answers": [
+   "principal",
+   "independent",
+   "primary",
+   "chief"
+  ]
+ },
+ {
+  "word": "moment",
+  "type": "synonym",
+  "answers": [
+   "consequence",
+   "bit",
+   "minute",
+   "instant",
+   "import",
+   "second"
+  ]
+ },
+ {
+  "word": "mother",
+  "type": "synonym",
+  "answers": [
+   "generate",
+   "sire",
+   "fuss",
+   "get",
+   "father"
+  ]
+ },
+ {
+  "word": "road",
+  "type": "synonym",
+  "answers": [
+   "moving",
+   "route",
+   "traveling",
+   "touring"
+  ]
+ },
+ {
+  "word": "energy",
+  "type": "synonym",
+  "answers": [
+   "vitality",
+   "vigor",
+   "push"
+  ]
+ },
+ {
+  "word": "fight",
+  "type": "synonym",
+  "answers": [
+   "conflict",
+   "struggle",
+   "engagement",
+   "push",
+   "battle",
+   "oppose",
+   "campaign",
+   "combat",
+   "defend",
+   "competitiveness",
+   "fighting",
+   "bout"
+  ]
+ },
+ {
+  "word": "fine",
+  "type": "synonym",
+  "answers": [
+   "delicate",
+   "exquisite",
+   "beautiful",
+   "good",
+   "tenuous",
+   "close",
+   "discerning",
+   "elegant",
+   "dainty",
+   "delicately",
+   "prime",
+   "skilled"
+  ]
+ },
+ {
+  "word": "force",
+  "type": "synonym",
+  "answers": [
+   "power",
+   "thrust",
+   "draw",
+   "effect",
+   "drive",
+   "run",
+   "push",
+   "strength",
+   "storm",
+   "squeeze",
+   "ram",
+   "pull"
+  ]
+ },
+ {
+  "word": "force",
+  "type": "antonym",
+  "answers": [
+   "draw",
+   "push",
+   "pull"
+  ]
+ },
+ {
+  "word": "hear",
+  "type": "synonym",
+  "answers": [
+   "see",
+   "try",
+   "listen",
+   "discover",
+   "learn"
+  ]
+ },
+ {
+  "word": "issue",
+  "type": "synonym",
+  "answers": [
+   "yield",
+   "subject",
+   "consequence",
+   "effect",
+   "progeny",
+   "return",
+   "release",
+   "take",
+   "emerge",
+   "emergence",
+   "outcome",
+   "supply"
+  ]
+ },
+ {
+  "word": "price",
+  "type": "synonym",
+  "answers": [
+   "damage",
+   "terms",
+   "cost",
+   "toll"
+  ]
+ },
+ {
+  "word": "rest",
+  "type": "synonym",
+  "answers": [
+   "respite",
+   "lie",
+   "ease",
+   "perch",
+   "relief",
+   "roost",
+   "remain",
+   "breathe",
+   "stay",
+   "sleep",
+   "relaxation",
+   "remainder"
+  ]
+ },
+ {
+  "word": "rest",
+  "type": "antonym",
+  "answers": [
+   "change",
+   "move"
+  ]
+ },
+ {
+  "word": "running",
+  "type": "synonym",
+  "answers": [
+   "operative",
+   "run",
+   "track",
+   "functional",
+   "fleeing",
+   "working",
+   "linear"
+  ]
+ },
+ {
+  "word": "space",
+  "type": "synonym",
+  "answers": [
+   "blank",
+   "quad",
+   "distance",
+   "place"
+  ]
+ },
+ {
+  "word": "wife",
+  "type": "antonym",
+  "answers": [
+   "husband",
+   "hubby"
+  ]
+ },
+ {
+  "word": "date",
+  "type": "synonym",
+  "answers": [
+   "see",
+   "engagement",
+   "escort",
+   "appointment"
+  ]
+ },
+ {
+  "word": "land",
+  "type": "synonym",
+  "answers": [
+   "state",
+   "domain",
+   "realm",
+   "ground",
+   "estate",
+   "soil",
+   "down",
+   "earth",
+   "bring",
+   "nation",
+   "kingdom",
+   "farming"
+  ]
+ },
+ {
+  "word": "miss",
+  "type": "synonym",
+  "answers": [
+   "neglect",
+   "overlook",
+   "drop",
+   "escape",
+   "omit",
+   "girl",
+   "lack",
+   "missy",
+   "lose"
+  ]
+ },
+ {
+  "word": "miss",
+  "type": "antonym",
+  "answers": [
+   "strike",
+   "have",
+   "attend",
+   "hit",
+   "feature"
+  ]
+ },
+ {
+  "word": "project",
+  "type": "synonym",
+  "answers": [
+   "cast",
+   "fancy",
+   "see",
+   "figure",
+   "throw",
+   "task",
+   "image",
+   "design",
+   "undertaking",
+   "picture",
+   "envision",
+   "propose"
+  ]
+ },
+ {
+  "word": "sex",
+  "type": "synonym",
+  "answers": [
+   "excite",
+   "gender",
+   "sexuality"
+  ]
+ },
+ {
+  "word": "shot",
+  "type": "synonym",
+  "answers": [
+   "crack",
+   "stroke",
+   "scene",
+   "dig",
+   "slam",
+   "barb",
+   "snapshot",
+   "colorful",
+   "shooter",
+   "pellet",
+   "guess",
+   "shooting"
+  ]
+ },
+ {
+  "word": "site",
+  "type": "synonym",
+  "answers": [
+   "situation",
+   "locate",
+   "place"
+  ]
+ },
+ {
+  "word": "account",
+  "type": "synonym",
+  "answers": [
+   "chronicle",
+   "score",
+   "report",
+   "explanation",
+   "history",
+   "story",
+   "calculate",
+   "bill",
+   "accounting",
+   "invoice"
+  ]
+ },
+ {
+  "word": "include",
+  "type": "antonym",
+  "answers": [
+   "omit",
+   "exclude",
+   "shut",
+   "except"
+  ]
+ },
+ {
+  "word": "period",
+  "type": "synonym",
+  "answers": [
+   "point",
+   "flow",
+   "stop"
+  ]
+ },
+ {
+  "word": "position",
+  "type": "synonym",
+  "answers": [
+   "set",
+   "perspective",
+   "view",
+   "pose",
+   "berth",
+   "posture",
+   "post",
+   "office",
+   "spot",
+   "attitude",
+   "location",
+   "side"
+  ]
+ },
+ {
+  "word": "record",
+  "type": "synonym",
+  "answers": [
+   "show",
+   "register",
+   "book",
+   "read",
+   "commemorate",
+   "disc",
+   "disk",
+   "tape",
+   "platter",
+   "enter"
+  ]
+ },
+ {
+  "word": "record",
+  "type": "antonym",
+  "answers": [
+   "erase",
+   "delete"
+  ]
+ },
+ {
+  "word": "similar",
+  "type": "synonym",
+  "answers": [
+   "analogous",
+   "corresponding",
+   "like",
+   "synonymous",
+   "related",
+   "alike",
+   "correspondent",
+   "twin",
+   "semi",
+   "standardized",
+   "interchangeable",
+   "kindred"
+  ]
+ },
+ {
+  "word": "similar",
+  "type": "antonym",
+  "answers": [
+   "different",
+   "dissimilar",
+   "unlike"
+  ]
+ },
+ {
+  "word": "total",
+  "type": "synonym",
+  "answers": [
+   "aggregate",
+   "complete",
+   "full",
+   "gross",
+   "come",
+   "overall",
+   "tally",
+   "whole",
+   "amount",
+   "add",
+   "entire",
+   "tot"
+  ]
+ },
+ {
+  "word": "above",
+  "type": "antonym",
+  "answers": [
+   "beneath",
+   "below"
+  ]
+ },
+ {
+  "word": "club",
+  "type": "synonym",
+  "answers": [
+   "order",
+   "society",
+   "nine",
+   "clubhouse",
+   "guild",
+   "lodge"
+  ]
+ },
+ {
+  "word": "film",
+  "type": "synonym",
+  "answers": [
+   "take",
+   "flick",
+   "picture",
+   "shoot",
+   "cinema",
+   "movie"
+  ]
+ },
+ {
+  "word": "lead",
+  "type": "synonym",
+  "answers": [
+   "conduct",
+   "direct",
+   "head",
+   "moderate",
+   "pass",
+   "run",
+   "principal",
+   "track",
+   "take",
+   "steer",
+   "contribute",
+   "extend"
+  ]
+ },
+ {
+  "word": "likely",
+  "type": "synonym",
+  "answers": [
+   "prospective",
+   "plausible",
+   "potential",
+   "promising",
+   "probable",
+   "credible",
+   "expected",
+   "probably",
+   "believable"
+  ]
+ },
+ {
+  "word": "likely",
+  "type": "antonym",
+  "answers": [
+   "improbable",
+   "unlikely"
+  ]
+ },
+ {
+  "word": "personal",
+  "type": "synonym",
+  "answers": [
+   "intimate",
+   "subjective",
+   "private",
+   "physical",
+   "individualized",
+   "personalized",
+   "ain"
+  ]
+ },
+ {
+  "word": "security",
+  "type": "antonym",
+  "answers": [
+   "insecurity",
+   "crowded"
+  ]
+ },
+ {
+  "word": "share",
+  "type": "synonym",
+  "answers": [
+   "part",
+   "deal",
+   "contribution",
+   "portion",
+   "parcel",
+   "partake",
+   "percentage"
+  ]
+ },
+ {
+  "word": "center",
+  "type": "synonym",
+  "answers": [
+   "essence",
+   "core",
+   "focus",
+   "substance",
+   "marrow",
+   "heart",
+   "concentrate",
+   "eye",
+   "meat",
+   "centre",
+   "kernel",
+   "pore"
+  ]
+ },
+ {
+  "word": "center",
+  "type": "antonym",
+  "answers": [
+   "right",
+   "left"
+  ]
+ },
+ {
+  "word": "couple",
+  "type": "synonym",
+  "answers": [
+   "span",
+   "yoke",
+   "mate",
+   "brace",
+   "match",
+   "pair",
+   "twin",
+   "duet",
+   "duo"
+  ]
+ },
+ {
+  "word": "dead",
+  "type": "synonym",
+  "answers": [
+   "cold",
+   "short",
+   "barren",
+   "abruptly",
+   "precise",
+   "stagnant",
+   "defunct",
+   "beat",
+   "absolutely",
+   "numb",
+   "utterly",
+   "doomed"
+  ]
+ },
+ {
+  "word": "dead",
+  "type": "antonym",
+  "answers": [
+   "animate",
+   "live",
+   "living"
+  ]
+ },
+ {
+  "word": "happen",
+  "type": "synonym",
+  "answers": [
+   "pass",
+   "encounter",
+   "chance",
+   "hit",
+   "find",
+   "occur",
+   "hap",
+   "bump"
+  ]
+ },
+ {
+  "word": "hold",
+  "type": "synonym",
+  "answers": [
+   "sustain",
+   "support",
+   "control",
+   "clutch",
+   "retain",
+   "accommodate",
+   "give",
+   "moderate",
+   "clasp",
+   "declare",
+   "apply",
+   "carry"
+  ]
+ },
+ {
+  "word": "industry",
+  "type": "synonym",
+  "answers": [
+   "diligence",
+   "manufacture",
+   "manufacturing"
+  ]
+ },
+ {
+  "word": "inside",
+  "type": "synonym",
+  "answers": [
+   "exclusive",
+   "wrong",
+   "privileged",
+   "within",
+   "internal",
+   "inner",
+   "indoors",
+   "indoor",
+   "interior"
+  ]
+ },
+ {
+  "word": "inside",
+  "type": "antonym",
+  "answers": [
+   "outside",
+   "exterior",
+   "outwardly",
+   "outdoors"
+  ]
+ },
+ {
+  "word": "player",
+  "type": "synonym",
+  "answers": [
+   "actor",
+   "participant",
+   "musician"
+  ]
+ },
+ {
+  "word": "private",
+  "type": "synonym",
+  "answers": [
+   "close",
+   "individual",
+   "privy",
+   "personal",
+   "secret",
+   "secluded",
+   "insular",
+   "confidential",
+   "inward",
+   "backstage"
+  ]
+ },
+ {
+  "word": "return",
+  "type": "synonym",
+  "answers": [
+   "yield",
+   "render",
+   "issue",
+   "give",
+   "pass",
+   "restitution",
+   "recall",
+   "deliver",
+   "take",
+   "fall",
+   "generate",
+   "revert"
+  ]
+ },
+ {
+  "word": "sense",
+  "type": "synonym",
+  "answers": [
+   "substance",
+   "sensation",
+   "feel",
+   "meaning"
+  ]
+ },
+ {
+  "word": "star",
+  "type": "synonym",
+  "answers": [
+   "adept",
+   "stellar",
+   "lead",
+   "sensation",
+   "ace",
+   "principal",
+   "genius",
+   "wizard",
+   "asterisk",
+   "leading",
+   "wiz",
+   "prima"
+  ]
+ },
+ {
+  "word": "test",
+  "type": "synonym",
+  "answers": [
+   "assay",
+   "examine",
+   "model",
+   "run",
+   "check",
+   "prove",
+   "trial",
+   "examination",
+   "pilot",
+   "screen",
+   "try",
+   "essay"
+  ]
+ },
+ {
+  "word": "view",
+  "type": "synonym",
+  "answers": [
+   "aspect",
+   "regard",
+   "prospect",
+   "perspective",
+   "consider",
+   "sentiment",
+   "position",
+   "see",
+   "reckon",
+   "thought",
+   "survey",
+   "scene"
+  ]
+ },
+ {
+  "word": "middle",
+  "type": "synonym",
+  "answers": [
+   "intermediate",
+   "heart",
+   "eye",
+   "centre",
+   "mediate",
+   "midway",
+   "intervening",
+   "center",
+   "halfway"
+  ]
+ },
+ {
+  "word": "middle",
+  "type": "antonym",
+  "answers": [
+   "high",
+   "offset",
+   "start",
+   "commencement",
+   "first",
+   "end",
+   "beginning",
+   "outset",
+   "early",
+   "kickoff",
+   "late",
+   "ending"
+  ]
+ },
+ {
+  "word": "present",
+  "type": "synonym",
+  "answers": [
+   "ubiquitous",
+   "exhibit",
+   "demonstrate",
+   "show",
+   "give",
+   "pose",
+   "face",
+   "portray",
+   "deliver",
+   "stage",
+   "submit",
+   "confront"
+  ]
+ },
+ {
+  "word": "result",
+  "type": "synonym",
+  "answers": [
+   "issue",
+   "lead",
+   "consequence",
+   "resolution",
+   "effect",
+   "outcome",
+   "answer",
+   "solution",
+   "leave"
+  ]
+ },
+ {
+  "word": "sorry",
+  "type": "synonym",
+  "answers": [
+   "compassionate",
+   "dismal",
+   "deplorable",
+   "drab",
+   "gloomy",
+   "pitiful",
+   "sad",
+   "bad",
+   "dreary",
+   "distressing",
+   "unhappy"
+  ]
+ },
+ {
+  "word": "training",
+  "type": "synonym",
+  "answers": [
+   "preparation",
+   "grooming",
+   "education",
+   "breeding"
+  ]
+ },
+ {
+  "word": "wish",
+  "type": "synonym",
+  "answers": [
+   "regard",
+   "want",
+   "like",
+   "bid",
+   "compliments",
+   "care",
+   "will",
+   "wishing"
+  ]
+ },
+ {
+  "word": "boy",
+  "type": "antonym",
+  "answers": [
+   "girl",
+   "child",
+   "daughter"
+  ]
+ },
+ {
+  "word": "design",
+  "type": "synonym",
+  "answers": [
+   "project",
+   "conception",
+   "purpose",
+   "figure",
+   "pattern",
+   "intention",
+   "innovation",
+   "blueprint",
+   "intent",
+   "invention",
+   "designing",
+   "aim"
+  ]
+ },
+ {
+  "word": "finally",
+  "type": "synonym",
+  "answers": [
+   "ultimately",
+   "last",
+   "eventually",
+   "lastly"
+  ]
+ },
+ {
+  "word": "gold",
+  "type": "synonym",
+  "answers": [
+   "gilded",
+   "amber",
+   "gilt",
+   "golden",
+   "metallic",
+   "colored"
+  ]
+ },
+ {
+  "word": "guess",
+  "type": "synonym",
+  "answers": [
+   "conjecture",
+   "infer",
+   "venture",
+   "reckon",
+   "gauge",
+   "hypothesis",
+   "think",
+   "speculation",
+   "suppose",
+   "judge",
+   "shot",
+   "estimate"
+  ]
+ },
+ {
+  "word": "interest",
+  "type": "synonym",
+  "answers": [
+   "concern",
+   "worry",
+   "occupy",
+   "stake",
+   "involvement",
+   "sake",
+   "pastime"
+  ]
+ },
+ {
+  "word": "interest",
+  "type": "antonym",
+  "answers": [
+   "bore",
+   "tire"
+  ]
+ },
+ {
+  "word": "king",
+  "type": "synonym",
+  "answers": [
+   "power",
+   "magnate",
+   "mogul",
+   "baron",
+   "tycoon"
+  ]
+ },
+ {
+  "word": "society",
+  "type": "synonym",
+  "answers": [
+   "order",
+   "fellowship",
+   "club",
+   "companionship",
+   "company",
+   "guild",
+   "lodge"
+  ]
+ },
+ {
+  "word": "alone",
+  "type": "synonym",
+  "answers": [
+   "solitary",
+   "unique",
+   "unparalleled",
+   "only",
+   "lonely",
+   "solely",
+   "lone",
+   "entirely",
+   "exclusively"
+  ]
+ },
+ {
+  "word": "average",
+  "type": "synonym",
+  "answers": [
+   "mean",
+   "common",
+   "moderate",
+   "ordinary",
+   "fair",
+   "medium",
+   "intermediate",
+   "normal",
+   "modal",
+   "norm",
+   "mediocre",
+   "median"
+  ]
+ },
+ {
+  "word": "bank",
+  "type": "synonym",
+  "answers": [
+   "cant",
+   "trust",
+   "deposit",
+   "swear",
+   "rely"
+  ]
+ },
+ {
+  "word": "bank",
+  "type": "antonym",
+  "answers": [
+   "draw",
+   "withdraw",
+   "distrust",
+   "mistrust",
+   "suspect"
+  ]
+ },
+ {
+  "word": "certain",
+  "type": "synonym",
+  "answers": [
+   "reliable",
+   "careful",
+   "sure",
+   "dependable",
+   "doomed",
+   "sealed",
+   "destined",
+   "fated"
+  ]
+ },
+ {
+  "word": "east",
+  "type": "synonym",
+  "answers": [
+   "eastward",
+   "eastbound",
+   "eastern",
+   "orient"
+  ]
+ },
+ {
+  "word": "medical",
+  "type": "antonym",
+  "answers": [
+   "operative",
+   "surgical"
+  ]
+ },
+ {
+  "word": "movie",
+  "type": "synonym",
+  "answers": [
+   "flick",
+   "picture",
+   "film"
+  ]
+ },
+ {
+  "word": "original",
+  "type": "synonym",
+  "answers": [
+   "free",
+   "novel",
+   "innovative",
+   "simple",
+   "master",
+   "fresh",
+   "primary",
+   "seminal",
+   "daring",
+   "new",
+   "pilot",
+   "first"
+  ]
+ },
+ {
+  "word": "park",
+  "type": "synonym",
+  "answers": [
+   "common",
+   "commons",
+   "ballpark",
+   "green"
+  ]
+ },
+ {
+  "word": "performance",
+  "type": "synonym",
+  "answers": [
+   "execution",
+   "operation",
+   "functioning",
+   "doing"
+  ]
+ },
+ {
+  "word": "press",
+  "type": "synonym",
+  "answers": [
+   "urge",
+   "compact",
+   "push",
+   "crush",
+   "contract",
+   "squeeze",
+   "bid",
+   "jam",
+   "pressing",
+   "pressure",
+   "compress",
+   "insistence"
+  ]
+ },
+ {
+  "word": "role",
+  "type": "synonym",
+  "answers": [
+   "persona",
+   "function",
+   "character",
+   "purpose",
+   "use",
+   "part",
+   "office"
+  ]
+ },
+ {
+  "word": "bill",
+  "type": "synonym",
+  "answers": [
+   "charge",
+   "account",
+   "peak",
+   "measure",
+   "note",
+   "notice",
+   "flyer",
+   "card",
+   "beak",
+   "nib",
+   "poster",
+   "circular"
+  ]
+ },
+ {
+  "word": "cool",
+  "type": "synonym",
+  "answers": [
+   "keen",
+   "good",
+   "cold",
+   "objective",
+   "poise",
+   "composed",
+   "great",
+   "skilled",
+   "swell",
+   "dandy",
+   "bully",
+   "nifty"
+  ]
+ },
+ {
+  "word": "cool",
+  "type": "antonym",
+  "answers": [
+   "warm",
+   "hot",
+   "heat"
+  ]
+ },
+ {
+  "word": "ground",
+  "type": "synonym",
+  "answers": [
+   "base",
+   "establish",
+   "prime",
+   "anchor",
+   "land",
+   "soil",
+   "basis",
+   "background",
+   "earth",
+   "broken",
+   "found",
+   "crushed"
+  ]
+ },
+ {
+  "word": "meeting",
+  "type": "synonym",
+  "answers": [
+   "confluence",
+   "encounter",
+   "merging",
+   "junction"
+  ]
+ },
+ {
+  "word": "provide",
+  "type": "synonym",
+  "answers": [
+   "render",
+   "supply",
+   "ply",
+   "offer",
+   "cater",
+   "furnish"
+  ]
+ },
+ {
+  "word": "sound",
+  "type": "synonym",
+  "answers": [
+   "profound",
+   "substantial",
+   "good",
+   "sensible",
+   "heavy",
+   "strong",
+   "secure",
+   "intelligent",
+   "deep",
+   "complete",
+   "channel",
+   "solid"
+  ]
+ },
+ {
+  "word": "sound",
+  "type": "antonym",
+  "answers": [
+   "quiet",
+   "silence"
+  ]
+ },
+ {
+  "word": "source",
+  "type": "synonym",
+  "answers": [
+   "channel",
+   "reference",
+   "root",
+   "seed",
+   "author",
+   "beginning",
+   "generator",
+   "informant",
+   "germ",
+   "origin"
+  ]
+ },
+ {
+  "word": "usually",
+  "type": "synonym",
+  "answers": [
+   "ordinarily",
+   "normally",
+   "commonly"
+  ]
+ },
+ {
+  "word": "usually",
+  "type": "antonym",
+  "answers": [
+   "remarkably",
+   "unusually"
+  ]
+ },
+ {
+  "word": "value",
+  "type": "synonym",
+  "answers": [
+   "esteem",
+   "assess",
+   "evaluate",
+   "appreciate",
+   "respect",
+   "measure",
+   "treasure",
+   "rate",
+   "prize"
+  ]
+ },
+ {
+  "word": "evidence",
+  "type": "synonym",
+  "answers": [
+   "ascertain",
+   "manifest",
+   "demonstrate",
+   "show",
+   "tell",
+   "prove",
+   "attest",
+   "certify",
+   "grounds",
+   "testify"
+  ]
+ },
+ {
+  "word": "follow",
+  "type": "synonym",
+  "answers": [
+   "trace",
+   "observe",
+   "work",
+   "pursue",
+   "comply",
+   "accompany",
+   "survey",
+   "succeed",
+   "adopt",
+   "watch",
+   "come"
+  ]
+ },
+ {
+  "word": "follow",
+  "type": "antonym",
+  "answers": [
+   "lead",
+   "precede",
+   "forego"
+  ]
+ },
+ {
+  "word": "official",
+  "type": "synonym",
+  "answers": [
+   "established",
+   "regular",
+   "authoritative",
+   "formal",
+   "confirmed",
+   "authorized",
+   "prescribed"
+  ]
+ },
+ {
+  "word": "rate",
+  "type": "synonym",
+  "answers": [
+   "order",
+   "merit",
+   "range",
+   "pace",
+   "value",
+   "rank",
+   "grade",
+   "deserve",
+   "place"
+  ]
+ },
+ {
+  "word": "reading",
+  "type": "synonym",
+  "answers": [
+   "interpretation",
+   "recital",
+   "version"
+  ]
+ },
+ {
+  "word": "round",
+  "type": "synonym",
+  "answers": [
+   "ring",
+   "assault",
+   "full",
+   "snipe",
+   "beat",
+   "circuit",
+   "circle",
+   "turn",
+   "attack",
+   "cycle",
+   "rhythm",
+   "polish"
+  ]
+ },
+ {
+  "word": "stand",
+  "type": "synonym",
+  "answers": [
+   "base",
+   "support",
+   "abide",
+   "endure",
+   "stall",
+   "rack",
+   "viewpoint",
+   "resist",
+   "stomach",
+   "suffer",
+   "tolerate",
+   "standpoint"
+  ]
+ },
+ {
+  "word": "stand",
+  "type": "antonym",
+  "answers": [
+   "yield",
+   "lie",
+   "soften",
+   "sit"
+  ]
+ },
+ {
+  "word": "stuff",
+  "type": "synonym",
+  "answers": [
+   "thrust",
+   "gorge",
+   "squeeze",
+   "block",
+   "cram",
+   "shove",
+   "jam",
+   "material",
+   "fill",
+   "lug"
+  ]
+ },
+ {
+  "word": "stuff",
+  "type": "antonym",
+  "answers": [
+   "munch",
+   "nibble"
+  ]
+ },
+ {
+  "word": "tax",
+  "type": "synonym",
+  "answers": [
+   "assess",
+   "task",
+   "taxation"
+  ]
+ },
+ {
+  "word": "amount",
+  "type": "synonym",
+  "answers": [
+   "measure",
+   "come",
+   "total",
+   "quantity",
+   "quantum",
+   "number",
+   "sum"
+  ]
+ },
+ {
+  "word": "blue",
+  "type": "synonym",
+  "answers": [
+   "grim",
+   "dismal",
+   "sexy",
+   "gloomy",
+   "dark",
+   "noble",
+   "dirty",
+   "low",
+   "naughty",
+   "down",
+   "spicy"
+  ]
+ },
+ {
+  "word": "drive",
+  "type": "synonym",
+  "answers": [
+   "thrust",
+   "run",
+   "push",
+   "cause",
+   "tool",
+   "effort",
+   "movement",
+   "ram",
+   "ride",
+   "campaign",
+   "pull",
+   "get"
+  ]
+ },
+ {
+  "word": "drive",
+  "type": "antonym",
+  "answers": [
+   "pull",
+   "attract"
+  ]
+ },
+ {
+  "word": "eat",
+  "type": "synonym",
+  "answers": [
+   "consume",
+   "rust",
+   "exhaust",
+   "feed"
+  ]
+ },
+ {
+  "word": "federal",
+  "type": "synonym",
+  "answers": [
+   "fed",
+   "national",
+   "northern",
+   "union"
+  ]
+ },
+ {
+  "word": "feeling",
+  "type": "synonym",
+  "answers": [
+   "notion",
+   "spirit",
+   "touch",
+   "look",
+   "belief",
+   "tone",
+   "impression",
+   "feel",
+   "flavor",
+   "smell"
+  ]
+ },
+ {
+  "word": "green",
+  "type": "synonym",
+  "answers": [
+   "naive",
+   "common",
+   "raw",
+   "immature",
+   "gullible",
+   "new",
+   "inexperienced",
+   "park",
+   "commons",
+   "greens"
+  ]
+ },
+ {
+  "word": "green",
+  "type": "antonym",
+  "answers": [
+   "mature",
+   "ripe"
+  ]
+ },
+ {
+  "word": "match",
+  "type": "synonym",
+  "answers": [
+   "touch",
+   "peer",
+   "fit",
+   "check",
+   "mate",
+   "oppose",
+   "meet",
+   "catch",
+   "tally",
+   "couple",
+   "lucifer",
+   "rival"
+  ]
+ },
+ {
+  "word": "match",
+  "type": "antonym",
+  "answers": [
+   "disagree",
+   "discord"
+  ]
+ },
+ {
+  "word": "model",
+  "type": "synonym",
+  "answers": [
+   "framework",
+   "pose",
+   "posture",
+   "exemplary",
+   "mold",
+   "pattern",
+   "trial",
+   "test",
+   "pilot",
+   "simulate",
+   "mannequin",
+   "example"
+  ]
+ },
+ {
+  "word": "picture",
+  "type": "synonym",
+  "answers": [
+   "depict",
+   "fancy",
+   "project",
+   "show",
+   "see",
+   "figure",
+   "impression",
+   "depiction",
+   "image",
+   "scene",
+   "flick",
+   "envision"
+  ]
+ },
+ {
+  "word": "step",
+  "type": "synonym",
+  "answers": [
+   "stride",
+   "pace",
+   "tread",
+   "tone",
+   "measure",
+   "stair",
+   "footprint"
+  ]
+ },
+ {
+  "word": "trust",
+  "type": "synonym",
+  "answers": [
+   "desire",
+   "confidence",
+   "believe",
+   "bank",
+   "commit",
+   "cartel",
+   "reliance",
+   "hope",
+   "swear",
+   "rely",
+   "combine",
+   "faith"
+  ]
+ },
+ {
+  "word": "trust",
+  "type": "antonym",
+  "answers": [
+   "distrust",
+   "mistrust",
+   "suspect"
+  ]
+ },
+ {
+  "word": "central",
+  "type": "synonym",
+  "answers": [
+   "cardinal",
+   "fundamental",
+   "important",
+   "key",
+   "home",
+   "primal",
+   "exchange",
+   "focal",
+   "centered",
+   "medial",
+   "midway",
+   "centric"
+  ]
+ },
+ {
+  "word": "central",
+  "type": "antonym",
+  "answers": [
+   "peripheral",
+   "local"
+  ]
+ },
+ {
+  "word": "forward",
+  "type": "synonym",
+  "answers": [
+   "familiar",
+   "low",
+   "fresh",
+   "cheeky",
+   "smart",
+   "first",
+   "fore",
+   "ahead",
+   "second",
+   "advancing"
+  ]
+ },
+ {
+  "word": "forward",
+  "type": "antonym",
+  "answers": [
+   "back",
+   "reverse",
+   "aft",
+   "backward",
+   "backwards"
+  ]
+ },
+ {
+  "word": "key",
+  "type": "synonym",
+  "answers": [
+   "significant",
+   "cardinal",
+   "fundamental",
+   "important",
+   "operative",
+   "identify",
+   "describe",
+   "primal",
+   "distinguish",
+   "name",
+   "kilo",
+   "kilogram"
+  ]
+ },
+ {
+  "word": "mom",
+  "type": "synonym",
+  "answers": [
+   "mama",
+   "mater",
+   "mum",
+   "mamma",
+   "momma",
+   "mommy",
+   "mummy"
+  ]
+ },
+ {
+  "word": "paid",
+  "type": "synonym",
+  "answers": [
+   "professional",
+   "profitable",
+   "compensated",
+   "cashed",
+   "prepaid",
+   "paying"
+  ]
+ },
+ {
+  "word": "range",
+  "type": "synonym",
+  "answers": [
+   "order",
+   "cast",
+   "drift",
+   "scope",
+   "reach",
+   "run",
+   "graze",
+   "rank",
+   "array",
+   "crop",
+   "roam",
+   "stray"
+  ]
+ },
+ {
+  "word": "review",
+  "type": "synonym",
+  "answers": [
+   "survey",
+   "critique",
+   "inspection",
+   "retrospect",
+   "recap",
+   "refresh",
+   "revue"
+  ]
+ },
+ {
+  "word": "trade",
+  "type": "synonym",
+  "answers": [
+   "craft",
+   "patronage",
+   "deal",
+   "switch",
+   "sell",
+   "barter",
+   "merchandise",
+   "swap"
+  ]
+ },
+ {
+  "word": "various",
+  "type": "synonym",
+  "answers": [
+   "diverse",
+   "versatile",
+   "different",
+   "varied",
+   "several",
+   "assorted",
+   "respective"
+  ]
+ },
+ {
+  "word": "attention",
+  "type": "synonym",
+  "answers": [
+   "tending",
+   "attending",
+   "aid",
+   "care"
+  ]
+ }
+]

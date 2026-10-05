@@ -1,0 +1,139 @@
+services:
+  app:
+    build: .
+    container_name: speakup-api
+    env_file: .env
+    # Telegram pin: this RU-hosted box has flaky/partial routing to
+    # Telegram. DNS often returns an unreachable IPv6, or the resolver
+    # picks the blocked 149.154.166.0/24 range, which made tele.NewBot()'s
+    # getMe call time out at boot and left the bot dead (webhook returns
+    # 200 but no replies are ever sent). Pin api.telegram.org to a
+    # consistently-reachable IPv4 so boot-time init is deterministic.
+    extra_hosts:
+      - "api.telegram.org:149.154.167.220"
+    ports:
+      - "127.0.0.1:8082:8082"
+    # Partner-centre logos. MUST be a named volume: these files are
+    # uploaded by partners and are not in the image, so without this a
+    # rebuild would silently blank every banner on the platform.
+    volumes:
+      - speakup_uploads:/data/uploads
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    restart: unless-stopped
+    # CRITICAL for scale: each WebSocket connection = 1 file
+    # descriptor. Default docker ulimit is 1024, so without this
+    # the Go process would refuse new connections around 900-1000
+    # concurrent users - exactly the scale you care about.
+    ulimits:
+      nofile:
+        soft: 65536
+        hard: 65536
+    # Cap RAM so a runaway can never kill the host. speakup-api
+    # normally uses <30 MB even under load; 512 MB is a 15x
+    # headroom that still leaves room for other apps on this box.
+    mem_limit: 512m
+    mem_reservation: 128m
+    # Docker logs can balloon fast under chatty prod traffic.
+    # 10 MB × 3 = 30 MB max per container.
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  postgres:
+    image: postgres:16-alpine
+    container_name: speakup-postgres
+    environment:
+      POSTGRES_USER: speakup
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?.env da POSTGRES_PASSWORD aniqlanmagan}
+      POSTGRES_DB: speakup_db
+    volumes:
+      - speakup_pg_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U speakup -d speakup_db"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+    # 512 MB is generous for ~1k users - the working set for this
+    # schema is small, most queries hit shared_buffers.
+    mem_limit: 512m
+    # max_connections=100 is the default; keep it, Go pool uses 20.
+    # shared_buffers=128MB is a sensible prod default.
+    command:
+      - postgres
+      - -c
+      - shared_buffers=128MB
+      - -c
+      - effective_cache_size=384MB
+      - -c
+      - work_mem=4MB
+      - -c
+      - maintenance_work_mem=64MB
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  redis:
+    image: redis:7-alpine
+    container_name: speakup-redis
+    # maxmemory caps Redis so rate-limit keys + leaderboard cache
+    # + matching queue can never OOM the box. allkeys-lru means
+    # when full, the least-recently-used key is evicted - safe
+    # for a cache-heavy workload where all keys have TTLs anyway.
+    command:
+      - redis-server
+      - --appendonly
+      - "yes"
+      - --maxmemory
+      - "256mb"
+      - --maxmemory-policy
+      - "allkeys-lru"
+    volumes:
+      - speakup_redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+    restart: unless-stopped
+    mem_limit: 320m
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  # TURN/STUN relay for WebRTC voice calls. Runs on host networking so the
+  # 49152-65535 UDP relay range and 3478 are reachable directly. Migrated
+  # from the old server's manual `docker run`; external-ip in
+  # turnserver.conf is pinned to THIS server's public IP.
+  coturn:
+    image: coturn/coturn:latest
+    container_name: speakup-coturn
+    network_mode: host
+    restart: unless-stopped
+    volumes:
+      - ./turnserver.conf:/etc/coturn/turnserver.conf:ro
+      - speakup_coturn_data:/var/lib/coturn
+    command:
+      - -c
+      - /etc/coturn/turnserver.conf
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+volumes:
+  speakup_uploads:
+  speakup_pg_data:
+  speakup_redis_data:
+  speakup_coturn_data:

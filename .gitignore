@@ -1,0 +1,36 @@
+# ============================================
+#  SIRLAR — bular hech qachon repoga tushmaydi
+# ============================================
+.env
+.env.*
+!.env.example
+turnserver.conf
+*.pem
+*.key
+*.p12
+
+# Qo'lbola zaxiralar (serverda qoladi)
+*.bak
+*.before_*
+*.old_ip_bak
+*.DISABLED
+*.with_telegram_offsite
+backups/
+
+# --- Go ---
+vendor/
+*.exe
+*.test
+*.out
+/speakup
+cmd/server/server
+
+# --- Docker ---
+docker-compose.override.yml
+
+# --- Muhit axlati ---
+._*
+.DS_Store
+*~
+.idea/
+.vscode/
