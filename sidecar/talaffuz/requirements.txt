@@ -1,0 +1,13 @@
+# Pinned so a rebuild on the server cannot pull a new major version that
+# changes model output or breaks the ONNX graph.
+fastapi==0.120.4
+uvicorn==0.38.0
+anyio==4.11.0
+numpy==2.3.4
+soundfile==0.13.1
+librosa==0.11.0
+onnxruntime==1.30.0
+kaldi-native-fbank==1.21.2
+huggingface_hub==0.36.0
+g2p_en==2.1.0
+kokoro-onnx==0.4.9

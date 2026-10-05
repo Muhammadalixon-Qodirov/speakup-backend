@@ -1,0 +1,279 @@
+[
+ {
+  "sample": "l2_0.wav",
+  "text": "MARK IS GOING TO SEE ELEPHANT",
+  "human_sentence_accuracy": 9,
+  "words": [
+   {
+    "soz": "MARK",
+    "holat": "ok",
+    "kutilgan": "m ɑ ɹ k",
+    "eshitilgan": "m ɑ ɹ k",
+    "almashtirishlar": [],
+    "human_ok": true
+   },
+   {
+    "soz": "IS",
+    "holat": "ok",
+    "kutilgan": "ɪ z",
+    "eshitilgan": "ɪ z",
+    "almashtirishlar": [],
+    "human_ok": true
+   },
+   {
+    "soz": "GOING",
+    "holat": "ok",
+    "kutilgan": "ɡ oʊ ɪ ŋ",
+    "eshitilgan": "ɡ oʊ ɪ ŋ",
+    "almashtirishlar": [],
+    "human_ok": true
+   },
+   {
+    "soz": "TO",
+    "holat": "ok",
+    "kutilgan": "t u",
+    "eshitilgan": "t u",
+    "almashtirishlar": [],
+    "human_ok": true
+   },
+   {
+    "soz": "SEE",
+    "holat": "ok",
+    "kutilgan": "s i",
+    "eshitilgan": "s i",
+    "almashtirishlar": [],
+    "human_ok": true
+   },
+   {
+    "soz": "ELEPHANT",
+    "holat": "ok",
+    "kutilgan": "ɛ l ə f ə n t",
+    "eshitilgan": "ɛ l ə f ə n t",
+    "almashtirishlar": [],
+    "human_ok": true
+   }
+  ]
+ },
+ {
+  "sample": "l2_1500.wav",
+  "text": "IT'S DO OR DIE FOR THEM",
+  "human_sentence_accuracy": 8,
+  "words": [
+   {
+    "soz": "IT'S",
+    "holat": "ok",
+    "kutilgan": "ɪ t s",
+    "eshitilgan": "ɪ t s",
+    "almashtirishlar": [],
+    "human_ok": true
+   },
+   {
+    "soz": "DO",
+    "holat": "xato",
+    "kutilgan": "d u",
+    "eshitilgan": "t u",
+    "almashtirishlar": [
+     {
+      "kutilgan": "d",
+      "eshitilgan": "t",
+      "oxirida": false
+     }
+    ],
+    "human_ok": true
+   },
+   {
+    "soz": "OR",
+    "holat": "ok",
+    "kutilgan": "ɔ ɹ",
+    "eshitilgan": "ɔ ɹ",
+    "almashtirishlar": [],
+    "human_ok": true
+   },
+   {
+    "soz": "DIE",
+    "holat": "ok",
+    "kutilgan": "d aɪ",
+    "eshitilgan": "d aɪ",
+    "almashtirishlar": [],
+    "human_ok": true
+   },
+   {
+    "soz": "FOR",
+    "holat": "ok",
+    "kutilgan": "f ɔ ɹ",
+    "eshitilgan": "f ɔ ɹ",
+    "almashtirishlar": [],
+    "human_ok": true
+   },
+   {
+    "soz": "THEM",
+    "holat": "ok",
+    "kutilgan": "ð ɛ m",
+    "eshitilgan": "ð ɛ m",
+    "almashtirishlar": [],
+    "human_ok": true
+   }
+  ]
+ },
+ {
+  "sample": "l2_2100.wav",
+  "text": "THE LAST STAGE WAS REACHED",
+  "human_sentence_accuracy": 7,
+  "words": [
+   {
+    "soz": "THE",
+    "holat": "ok",
+    "kutilgan": "ð ə",
+    "eshitilgan": "ð ə",
+    "almashtirishlar": [],
+    "human_ok": true
+   },
+   {
+    "soz": "LAST",
+    "holat": "xato",
+    "kutilgan": "l æ s t",
+    "eshitilgan": "n æ s ə",
+    "almashtirishlar": [
+     {
+      "kutilgan": "l",
+      "eshitilgan": "n",
+      "oxirida": false
+     },
+     {
+      "kutilgan": "t",
+      "eshitilgan": "ə",
+      "oxirida": true
+     }
+    ],
+    "human_ok": true
+   },
+   {
+    "soz": "STAGE",
+    "holat": "ok",
+    "kutilgan": "s t eɪ dʒ",
+    "eshitilgan": "s t eɪ dʒ",
+    "almashtirishlar": [],
+    "human_ok": true
+   },
+   {
+    "soz": "WAS",
+    "holat": "ok",
+    "kutilgan": "w ɑ z",
+    "eshitilgan": "w ɑ z",
+    "almashtirishlar": [],
+    "human_ok": true
+   },
+   {
+    "soz": "REACHED",
+    "holat": "kichik",
+    "kutilgan": "ɹ i tʃ t",
+    "eshitilgan": "ɹ ɪ tʃ t",
+    "almashtirishlar": [
+     {
+      "kutilgan": "i",
+      "eshitilgan": "ɪ",
+      "oxirida": false
+     }
+    ],
+    "human_ok": true
+   }
+  ]
+ },
+ {
+  "sample": "l2_700.wav",
+  "text": "IT WAS AN IMPORTANT WIN",
+  "human_sentence_accuracy": 7,
+  "words": [
+   {
+    "soz": "IT",
+    "holat": "kichik",
+    "kutilgan": "ɪ t",
+    "eshitilgan": "i t",
+    "almashtirishlar": [
+     {
+      "kutilgan": "ɪ",
+      "eshitilgan": "i",
+      "oxirida": false
+     }
+    ],
+    "human_ok": true
+   },
+   {
+    "soz": "WAS",
+    "holat": "xato",
+    "kutilgan": "w ɑ z",
+    "eshitilgan": "w ɔ s",
+    "almashtirishlar": [
+     {
+      "kutilgan": "z",
+      "eshitilgan": "s",
+      "oxirida": true
+     }
+    ],
+    "human_ok": true
+   },
+   {
+    "soz": "AN",
+    "holat": "kichik",
+    "kutilgan": "æ n",
+    "eshitilgan": "ɑ n",
+    "almashtirishlar": [
+     {
+      "kutilgan": "æ",
+      "eshitilgan": "ɑ",
+      "oxirida": false
+     }
+    ],
+    "human_ok": true
+   },
+   {
+    "soz": "IMPORTANT",
+    "holat": "xato",
+    "kutilgan": "ɪ m p ɔ ɹ t ə n t",
+    "eshitilgan": "i n p ɔ ʊ t ɛ n t",
+    "almashtirishlar": [
+     {
+      "kutilgan": "ɪ",
+      "eshitilgan": "i",
+      "oxirida": false
+     },
+     {
+      "kutilgan": "m",
+      "eshitilgan": "n",
+      "oxirida": false
+     },
+     {
+      "kutilgan": "ɹ",
+      "eshitilgan": "ʊ",
+      "oxirida": false
+     },
+     {
+      "kutilgan": "ə",
+      "eshitilgan": "ɛ",
+      "oxirida": false
+     }
+    ],
+    "human_ok": true
+   },
+   {
+    "soz": "WIN",
+    "holat": "xato",
+    "kutilgan": "w ɪ n",
+    "eshitilgan": "u i n",
+    "almashtirishlar": [
+     {
+      "kutilgan": "w",
+      "eshitilgan": "u",
+      "oxirida": false
+     },
+     {
+      "kutilgan": "ɪ",
+      "eshitilgan": "i",
+      "oxirida": false
+     }
+    ],
+    "human_ok": true
+   }
+  ]
+ }
+]

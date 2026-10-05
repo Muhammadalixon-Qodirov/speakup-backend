@@ -100,6 +100,13 @@ func Start() {
 		safego.Run("cron/replenishPronunciation", services.ReplenishPronunciation)
 	})
 
+	// Hourly - render reference audio for passages that still lack it. Hourly
+	// rather than daily because it is capped per run, so a freshly filled pool
+	// needs several passes, and a passage without audio is half an exercise.
+	c.AddFunc("15 * * * *", func() {
+		safego.Run("cron/renderPronunciationAudio", services.RenderPendingReferences)
+	})
+
 	// Every minute - scheduled speaking appointments. A minute is the
 	// smallest unit a user can pick, so anything coarser would send the
 	// "starting now" ping after the window had already begun.

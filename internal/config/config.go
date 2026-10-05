@@ -82,6 +82,12 @@ type Config struct {
 	// otherwise every redeploy wipes the logos.
 	UploadDir string
 
+	// TalaffuzURL is the pronunciation sidecar (phoneme recogniser + TTS).
+	// It listens only on the internal Docker network - no host port - so the
+	// default is the compose service name. Empty disables the feature, which
+	// is what a dev box without the sidecar running wants.
+	TalaffuzURL string
+
 	// Operations: comma-separated Telegram chat IDs that should receive
 	// critical alerts (panics, scheduler failures, low disk, etc.). Set
 	// via ADMIN_ALERT_CHAT_IDS env var. The first ID can be your own
@@ -169,6 +175,8 @@ func Load() {
 
 		// Uploads
 		UploadDir: getEnv("UPLOAD_DIR", "/data/uploads"),
+
+		TalaffuzURL: getEnv("TALAFFUZ_URL", "http://talaffuz:7880"),
 
 		// Ops
 		AdminAlertChatIDs: getEnvInt64List("ADMIN_ALERT_CHAT_IDS"),

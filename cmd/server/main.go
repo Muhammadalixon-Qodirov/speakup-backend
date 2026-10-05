@@ -571,6 +571,15 @@ func setupRoutes(app *fiber.App) {
 	ai.Get("/full-test/:id", handlers.GetFullTest)
 	ai.Get("/full-tests", handlers.ListFullTests)
 
+	// Read-aloud pronunciation practice. Separate from /ai because the text is
+	// known in advance, which is what makes per-sound feedback reliable enough
+	// to show; /ai/check stays the free-speech path.
+	pron := api.Group("/pronunciation")
+	pron.Get("/options", handlers.GetPronunciationOptions)
+	pron.Get("/passage", handlers.GetPronunciationPassage)
+	pron.Post("/attempt", handlers.SubmitPronunciationAttempt)
+	pron.Get("/passage/:id/reference", handlers.GetPronunciationReference)
+
 	// ── Admin routes (auth + admin required) ──
 	adm := api.Group("/admin", middleware.AdminRequired())
 

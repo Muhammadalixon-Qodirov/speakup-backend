@@ -23,6 +23,12 @@ services:
         condition: service_healthy
       redis:
         condition: service_healthy
+      # started, NOT service_healthy: the sidecar spends a couple of minutes
+      # fetching 1.5 GB of models the first time it ever runs, and the rest of
+      # the app must not wait for that. Pronunciation endpoints report
+      # "unavailable" until /health goes green.
+      talaffuz:
+        condition: service_started
     restart: unless-stopped
     # CRITICAL for scale: each WebSocket connection = 1 file
     # descriptor. Default docker ulimit is 1024, so without this
@@ -111,6 +117,38 @@ services:
         max-size: "10m"
         max-file: "3"
 
+  # Pronunciation sidecar: ZIPA phoneme recogniser + Kokoro TTS, CPU only.
+  #
+  # Deliberately NOT published to the host: only speakup-api talks to it, over
+  # the compose network, so there is no route to it from the internet.
+  talaffuz:
+    build: ./sidecar/talaffuz
+    container_name: speakup-talaffuz
+    environment:
+      HOST: 0.0.0.0
+      PORT: 7880
+      # Measured, not guessed: on a 4-core box 4 threads did 20 s of audio in
+      # 1.85 s while 8 threads took 3.13 s. Oversubscribing the cores costs
+      # about half the speed.
+      ZIPA_THREADS: 4
+    volumes:
+      # The ~1.5 GB of model files live here so they survive the
+      # `up -d --build` that every deploy runs.
+      - speakup_talaffuz_models:/models
+    # Two of the four cores. coturn relays live voice rooms on this same box
+    # and is latency-sensitive, so the recogniser must never be able to take
+    # every core: a pronunciation check is worth less than a dropped call.
+    cpus: 2
+    # Measured peak resident set was 2.06 GB on a 30 s clip (1.5 GB of that is
+    # the loaded model). 2.5 GB leaves headroom without risking the host.
+    mem_limit: 2560m
+    restart: unless-stopped
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+
   # TURN/STUN relay for WebRTC voice calls. Runs on host networking so the
   # 49152-65535 UDP relay range and 3478 are reachable directly. Migrated
   # from the old server's manual `docker run`; external-ip in
@@ -134,6 +172,7 @@ services:
 
 volumes:
   speakup_uploads:
+  speakup_talaffuz_models:
   speakup_pg_data:
   speakup_redis_data:
   speakup_coturn_data:

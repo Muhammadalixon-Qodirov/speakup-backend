@@ -34,3 +34,10 @@ docker-compose.override.yml
 *~
 .idea/
 .vscode/
+
+# --- Python (sidecar) ---
+__pycache__/
+*.pyc
+venv/
+scripts/.cmudict.cache
+sidecar/talaffuz/tts_models/
