@@ -34,15 +34,25 @@ func GetPronunciationOptions(c *fiber.Ctx) error {
 		level = *user.Level
 	}
 
+	// Admins ride along with premium for every limit here.
+	premium := user.IsPremium || user.IsAdmin
+	usage := services.GetPronunciationUsage(user.ID, premium)
+
 	return utils.Success(c, fiber.Map{
 		"topics": models.PronunciationTopics,
 		// 1-4 sentences is about 6 to 20 seconds of speech. The cap is not
 		// arbitrary: past ~30 s the phoneme alignment drifts and the verdict
-		// gets noticeably less reliable.
+		// gets noticeably less reliable. The frontend shows all four and marks
+		// the ones above max_sentences as premium-only.
 		"sentence_counts": []int{1, 2, 3, 4},
 		"level":           level,
 		"available":       services.TalaffuzEnabled(),
 		"ready":           services.TalaffuzReady(),
+		// Premium surface: how long a passage this tier may request and how
+		// many checks remain in the rolling 24h window (null = unlimited).
+		"is_premium":    premium,
+		"max_sentences": usage.MaxSentences,
+		"usage":         usage,
 	})
 }
 
@@ -58,6 +68,14 @@ func GetPronunciationPassage(c *fiber.Ctx) error {
 	sentences, err := strconv.Atoi(c.Query("sentences", "2"))
 	if err != nil || sentences < 1 || sentences > 4 {
 		return utils.BadRequest(c, "sentences 1 dan 4 gacha bo'lishi kerak")
+	}
+
+	// Longer passages cost more sidecar time, so they are a premium lever.
+	// Clamp rather than reject: the picker already hides locked lengths, so a
+	// larger value here is a stale client or a direct call, and silently
+	// giving the tier's longest passage is friendlier than a 4xx.
+	if maxSentences := services.PronMaxSentencesFor(user.IsPremium || user.IsAdmin); sentences > maxSentences {
+		sentences = maxSentences
 	}
 
 	level := strings.ToUpper(strings.TrimSpace(c.Query("level")))
@@ -101,6 +119,15 @@ func SubmitPronunciationAttempt(c *fiber.Ctx) error {
 	if !services.TalaffuzEnabled() {
 		return utils.Error(c, fiber.StatusServiceUnavailable,
 			"Talaffuz tekshiruvi hozir ishlamayapti")
+	}
+
+	// Free-tier daily cap (premium and admins bypass). Checked before any
+	// sidecar work so a throttled user spends nothing; the slot itself is
+	// only recorded once the analysis succeeds, below.
+	premium := user.IsPremium || user.IsAdmin
+	if !services.PronunciationAttemptAllowed(user.ID, premium) {
+		return utils.ErrorWithCode(c, fiber.StatusTooManyRequests, "pron_daily_limit",
+			"Bugungi bepul tekshiruvlar tugadi. Premium bilan cheksiz mashq qiling yoki ertaga davom eting.")
 	}
 
 	passageID, err := uuid.Parse(c.FormValue("passage_id"))
@@ -149,6 +176,10 @@ func SubmitPronunciationAttempt(c *fiber.Ctx) error {
 	// back in later passages; this is the part that makes practice targeted
 	// rather than random.
 	services.RecordWordResults(user.ID, services.WordResultsFrom(check))
+
+	// Count the attempt against the free-tier window now that it produced a
+	// real result. A no-op for premium/admins.
+	services.RecordPronunciationAttempt(user.ID, premium)
 
 	wrong := 0
 	for _, w := range check.Words {
@@ -224,6 +255,15 @@ func GetPronunciationReference(c *fiber.Ctx) error {
 	c.Set("Content-Type", "audio/wav")
 	c.Set("Cache-Control", "public, max-age=604800, immutable")
 	return c.Send(wav)
+}
+
+// GetPronunciationUsage handles GET /pronunciation/usage
+// The caller's rolling-24h check quota plus the max passage length for their
+// tier, so the picker can show remaining checks and lock premium lengths.
+func GetPronunciationUsage(c *fiber.Ctx) error {
+	user := middleware.GetCurrentUser(c)
+	premium := user.IsPremium || user.IsAdmin
+	return utils.Success(c, services.GetPronunciationUsage(user.ID, premium))
 }
 
 func validPronTopic(topic string) bool {

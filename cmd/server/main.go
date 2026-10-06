@@ -576,6 +576,7 @@ func setupRoutes(app *fiber.App) {
 	// to show; /ai/check stays the free-speech path.
 	pron := api.Group("/pronunciation")
 	pron.Get("/options", handlers.GetPronunciationOptions)
+	pron.Get("/usage", handlers.GetPronunciationUsage)
 	pron.Get("/passage", handlers.GetPronunciationPassage)
 	pron.Post("/attempt", handlers.SubmitPronunciationAttempt)
 	pron.Get("/passage/:id/reference", handlers.GetPronunciationReference)

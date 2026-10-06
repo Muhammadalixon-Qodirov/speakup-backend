@@ -46,6 +46,15 @@ type Config struct {
 	// Daily Limit
 	FreeDailyLimitMinutes int
 
+	// Pronunciation trainer, free-tier limits. The sidecar runs on 2 CPU
+	// cores it shares with live voice rooms, so free usage is capped to keep
+	// those cores free - this is also what premium unlocks.
+	//   PronFreeDailyAttempts: checks per rolling 24h for a free user.
+	//   PronFreeMaxSentences:  longest passage a free user may request (1-4).
+	// Premium users bypass both. 0 attempts means "no limit even for free".
+	PronFreeDailyAttempts int
+	PronFreeMaxSentences  int
+
 	// Payments - Payme
 	PaymeMerchantID    string
 	PaymeSecretKey     string
@@ -133,6 +142,10 @@ func Load() {
 
 		// Daily Limit
 		FreeDailyLimitMinutes: getEnvInt("FREE_DAILY_LIMIT_MINUTES", 10),
+
+		// Pronunciation trainer free-tier caps (premium bypasses both).
+		PronFreeDailyAttempts: getEnvInt("PRON_FREE_DAILY_ATTEMPTS", 10),
+		PronFreeMaxSentences:  getEnvInt("PRON_FREE_MAX_SENTENCES", 2),
 
 		// Mandatory channel subscription gate. Set CHANNEL_GATE_ENABLED=false
 		// to switch the whole gate off without a redeploy.
